@@ -1,0 +1,99 @@
+1. What is HTML?
+Hypertext Markup Language(HTML) is standard markup language for creating web pages and web applications.
+
+#Characteristics of HTML
+1.Cornerstone technology used by most websites
+2.Enables media files to be embedded
+3.Semantically defines web page.
+4.Allows developers to embed JavaScript.
+5.Elements/tags have attributes.
+
+#HTML5
+1.The 5th iteration of the HTML standard.
+2.Adds support for embedded multimedia content,relying less on javascript
+3.Introduces markup and application programming interfaces(APIs)
+4.Enables cross-platform implementation for low-powered devices.
+6.Enriches the semantic content of documents by introducing new page structure elements.
+7.Accommodates the use of multiple and outdated browsers.        
+
+#Defining an HTML documents
+<!DOCTYPE html>   -----> Defines/declares document type as documents as HTML
+<html>		  ----->Opening tag for HTML content
+    <head>         ----->Data about data. Data about HTML document i.e CSS and character set
+	<title>Page Title</title>     ----->Declares page's title found in Client UI
+    </head>
+    <body>          ---->Main Content
+	<h1>My First Heading</h1>      ----->The largest default text that stands out
+	<p>My First paragraph</p>    ---->Defines a paragraph
+     </body>
+</html>
+
+
+#HTML tags and elements
+1.Tags
+	Tags are the starting and ending parts of an HTML element.
+          <p> </p>
+What is an HTML Tag?
+An HTML tag is a keyword written inside angle brackets < > that tells the browser what type of content it is.
+
+Example:
+<p> → opening tag
+</p> → closing tag
+
+2.Elements
+	Elements enclose the contents in between the tags. 
+	<p>This is some text</p>
+	->NOTE:some elements actually have only opening tags.
+
+What is an HTML Element?
+An HTML element is the complete structure that includes:
+*an opening tag
+*content
+*a closing tag
+Example:
+<p>This is a paragraph</p>
+Here, <p>...</p> is an HTML element
+
+#Common HTML Tags
+1.<a> </a>
+An anchor element used to create links. It uses the HREF attribute, whose value is a URI (for example, an internet address).
+
+2.<div> </div>
+A dummy container element that holds block-level elements. Commonly used with CSS for styling and layout.
+
+3.<h1> </h1> to <h6> </h6>
+Heading elements. There are 6 levels of headings, where <h1> is the largest and <h6> is the smallest. For example, <h3> is a subheading under <h2>.
+
+4.<img>
+Used to display images. It must include the SRC (source) and ALT (alternate text) attributes.
+
+5.<li> </li>
+List item element. Used inside ordered lists (<ol>) or unordered lists (<ul>).
+
+6.<span> </span>
+A dummy inline element used to group inline content, mainly for styling purposes.
+
+##Common HTML Tags (Semantic Tags)
+1. <header>
+Specifies a header for a document or a section. It is used for large text, headings, or introductory content.
+
+2.<nav>
+Defines navigation links. Commonly used with list items to create menus.
+
+3.<section>
+Defines a section in a document.
+
+4.<article>
+Defines an independent, self-contained article.
+
+5.<aside>
+Defines content that is separate from the main page content, such as sidebars.
+
+6.<footer>
+Defines a footer for a document or a section. Usually found at the bottom of a webpage or post.
+
+7.<main>
+Specifies the main content of a document.
+
+8.<figure>
+Specifies self-contained content such as illustrations, diagrams, photos, or code listings.
