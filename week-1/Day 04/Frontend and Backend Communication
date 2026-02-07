@@ -1,0 +1,24 @@
+🔗 Frontend ↔ Backend Communication (Simple)
+
+🖥️ Frontend
+1. What the user sees
+2. HTML, CSS, JavaScript, React
+3. Sends HTTP requests
+
+
+🗄️ Backend
+1. Runs on server
+2. Java, Python, PHP, Node
+3. Processes request & sends response
+
+
+🔄 How They Communicate
+Frontend (Browser)
+     |
+     |  HTTP Request (GET / POST)
+     ↓
+Backend (Server)
+     |
+     |  HTTP Response (JSON / HTML)
+     ↓
+Frontend (Browser)
