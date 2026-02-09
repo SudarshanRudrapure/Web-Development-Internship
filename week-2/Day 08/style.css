@@ -1,0 +1,28 @@
+#heading_1{
+    background-color: antiquewhite;
+    font-size: 20px;
+}
+ 
+#heading_2{
+    background-color: rgb(180, 194, 208);
+    font-size: 30px;
+}
+
+#heading_3{
+    background-color: brown;
+    font-size: 40px;
+}
+
+.custom_p_1{
+    background-color: aqua;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 25px;
+}
+
+.custom_p_2{
+    background-color: bisque;
+    font-family:Arial, Helvetica, sans-serif;
+    font-size: 30px;
+    text-transform:uppercase;
+
+}

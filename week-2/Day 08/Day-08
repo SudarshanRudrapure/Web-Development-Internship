@@ -1,0 +1,66 @@
+#Attributes 
+Used Attributes to control the behaviour of elements.
+And also act as a modifier for HTML element types.
+
+->HTML attributes provide extra information about HTML elements.
+->Attributes names and values are case sensitive
+->Attributes comprise of two parts a name and a value
+They are always written inside the opening tag and usually come in name="value" pairs.
+
+Basic syntax:
+<tagname attribute="value">Content</tagname>
+
+Example:
+<p align="left">This is left aligned</p>
+<p align="center">This is right aligned</p>
+<p align="right">This is right aligned</p>
+
+
+Common HTML Attributes with Examples
+1. href (used in links)
+Specifies the URL of a link.
+
+<a href="https://www.google.com">Visit Google</a>
+
+2. src (used in images, videos, etc.)
+Specifies the path to the media file.
+
+<img src="image.jpg" alt="A sample image">
+
+3. alt (alternative text for images)
+Provides text if the image cannot load.
+
+<img src="cat.jpg" alt="Cute cat">
+
+4. title
+Shows extra information when you hover over the element.
+
+<p title="This is a tooltip">Hover over this text</p>
+
+5. style
+Applies inline CSS styles.
+<p style="color: blue;">This text is blue.</p>
+
+6. id
+Gives a unique identifier to an element.
+
+<p id="intro">Welcome to my website</p>
+
+7. class
+Used to group elements for CSS or JavaScript.
+
+<p class="highlight">Important text</p>
+
+8. target (used in links)(_blank, _self, _parent)
+Specifies where to open the link.
+
+<a href="https://example.com" target="_blank">Open in new tab</a>
+
+9.width and height in an Image
+They define the display size of the image in pixels.
+
+<img src="cat.jpg" width="200" height="150" alt="Cute cat">
+
+example:
+width="200" → image width is 200 pixels
+height="150" → image height is 150 pixels
