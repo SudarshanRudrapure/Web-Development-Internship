@@ -1,0 +1,169 @@
+
+## Navigating web pages
+Navigating the web is all about hyper text as well as hyperlinking in HTML.
+
+Hypertext in HTML
+Hypertext is created using the <a> tag in combination with the href="url" attribute, where URL is the address or location users are redirected to, usually to another web page.
+
+#Navigating and Hyperlinking 
+A navigation system is a section of a graphical user interface intended to aid visitors in accessing information. Navigation uses hyperlinking to allow users to navigate between web pages.
+
+Navigation and hyperlinking
+<nav>
+    <ul>
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#">Learn Code</a></li> 
+       <li><a href="#">Register</a></li>
+    </ul>
+</nav>
+
+*The <nav> tag defines a set of navigation links.
+*Often used with an unordered list <ul> and href attribute.
+
+-->Navigating Web Pages in HTML
+Navigation in HTML means moving from:
+1.one page to another
+2.one section to another
+3.an external website using links.
+
+Navigation is mainly done using the <a> (anchor) tag.
+🔗 Basic Page Navigation
+
+1. Navigate to another web page
+<a href="about.html">About Us</a>
+➡️ Opens about.html
+
+2. Navigate to another website
+<a href="https://www.google.com">Google</a>
+
+3. Open link in a new tab
+<a href="https://www.google.com" target="_blank">Google</a>
+
+#Internal Page Navigation (Same Page)
+Used to jump to a section on the same page.
+
+<a href="#contact">Go to Contact</a>
+
+<h2 id="contact">Contact Us</h2>
+✔ #id is used
+✔ Common in long pages
+
+📁 Navigation Between Folders
+<a href="pages/login.html">Login</a>
+<a href="../index.html">Home</a>
+
+../ → one folder back
+
+/ → root directory
+
+🧭 Navigation Menu Example
+<nav>
+  <a href="index.html">Home</a> |
+  <a href="about.html">About</a> |
+  <a href="contact.html">Contact</a>
+</nav>
+✔ <nav> is a semantic tag
+✔ Used for menus
+
+📱 Other Navigation Types
+📧 Email navigation
+<a href="mailto:admin@example.com">Email Us</a>
+
+📞 Phone navigation
+<a href="tel:9876543210">Call Us</a>
+
+🧠 Important Points
+
+Navigation is done using <a> tag
+href defines destination
+<nav> groups navigation links
+id helps in internal navigation
+
+
+##Adding comments in HTML
+A comment is a descriptive text added to the HTML document that does not render in the browser.
+*Used to insert comments in source code.
+*Enables developers to explain code.
+*To include comments in source code use the following notation.
+	<!---comment here-->
+e.g., 
+<nav>
+    <ul>
+      <!--This is a navigation system with 4 hyperlinks-->
+       <li><a href="index.html">Home</a></li>
+       <li><a href="#">Learn Code</a></li> 
+       <li><a href="#">Excercises</a></li>
+       <li><a href="#">Register</a></li>
+    </ul>
+</nav>
+
+
+##HTML Attribute
+An HTML attribute gives extra information about an HTML element.
+Attributes are written inside the opening tag and usually come in name="value" format.
+
+🧪 Basic Syntax
+<tagname attribute="value">Content</tagname>
+
+
+Example:
+
+<a href="https://www.google.com">Google</a>
+Here:
+href → attribute
+"https://www.google.com" → value
+
+⭐ Common HTML Attributes
+1. href
+Used in links.
+<a href="about.html">About</a>
+
+2. src
+Used for images, videos.
+<img src="image.jpg">
+
+3. alt
+Alternate text for images.
+<img src="logo.png" alt="Company Logo">
+
+4. id
+Gives a unique identity.
+<p id="para1">Hello</p>
+
+5. class
+Used to group elements (CSS).
+<p class="text">Welcome</p>
+
+6. style
+Inline CSS styling.
+<p style="color:red;">Red text</p>
+
+7. title
+Tooltip text on hover.
+<p title="This is a paragraph">Hover me</p>
+
+8. target
+Where to open link.
+<a href="https://google.com" target="_blank">Google</a>
+
+9. disabled
+Disable input or button.
+<button disabled>Submit</button>
+
+10. placeholder
+Hint inside input box.
+<input type="text" placeholder="Enter name">
+
+🧠 Types of HTML Attributes
+🔹 1. Global Attributes (work with any tag)
+id
+class
+style
+title
+hidden
+
+🔹 2. Specific Attributes (work with some tags)
+href → <a>
+src → <img>
+type → <input>
+value → <input>
