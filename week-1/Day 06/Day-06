@@ -1,0 +1,121 @@
+Day - 06
+1.Working with HTML elements
+2.Navigating web pages
+3.Web Development practical session
+
+1.Working with HTML elements
+--> Text-level elements in HTML
+
+Text-level elements (also called inline elements) are used inside text to style or give meaning to words, phrases, or small parts of content.
+They do not start on a new line and only take as much space as needed.
+
+⭐ Common Text-Level Elements
+1.<a> -Anchor Tag - Marks content that acts as hyperlink
+       eg., <a href="URL">Link Text</a>
+	    <a href="tel:9876543210">Call Now</a>
+	    <a href="mailto:example@gmail.com">Send Email</a>
+
+2.<b> -> Bold text - Makes text bold (no extra importance).
+	eg., <p>This is <b>bold</b> text</p>
+
+3.<strong> -> Important text - Shows strong importance (also bold by default).
+	eg., <p>This is <strong>important</strong> text</p>
+
+4.<i> -> Italic text - Used for alternate voice or style.
+	eg., <p>This is <i>italic</i> text</p>
+
+5.<em> -> Emphasized text - Adds emphasis (usually italic).
+	eg., <p>This is <em>emphasized</em> text</p>
+
+6.<u> -> Underlined text
+	eg., <p>This is <u>underlined</u> text</p>
+
+7.<mark> -> Highlighted text
+	eg., <p>This is <mark>highlighted</mark> text</p>
+
+8.<small> -> Smaller text
+	eg., <p>This is <small>small text</small></p>
+
+9.<sup> -> Superscript - Used for powers, references.
+	eg., <p>10<sup>2</sup></p>
+
+10.<sub> -> Subscript - Used in chemical formulas.
+	eg., <p>H<sub>2</sub>O</p>
+
+11.<code> -> Code text - Shows programming code.
+	eg., <p>Use <code>printf()</code> function</p>
+
+12.<span> -> Generic inline container - Used for styling with CSS.
+	eg., <p>This is <span style="color:red;">red</span> text</p>
+
+#Grouping Elements in HTML
+Grouping elements are used to group multiple HTML elements together so we can:
+1.Structure the webpage
+2.Apply CSS styles easily
+3.Manage layout and content clearly
+
+They do not add meaning by themselves, they just group content.
+1.<blockquote> - Adds quotation marks and indentation to content
+2.<div> - Contains a generic grouping of elements within the document
+3.<hr> - Adds a line break by adding horizontal line between content
+4.<ol> - Contains ordered list of items
+5.<ul> - Contains unordered list of items
+6.<li> - Contains a single item from a list
+7.<nav> - Marks a list of hypertext or navigation links
+
+🔑 Main Grouping Elements
+1. <div> -> Block-level grouping element
+Used to group large sections of content.
+
+<div>
+  <h2>Login</h2>
+  <p>Enter your details</p>
+</div>
+
+
+✔ Block-level
+✔ Starts on a new line
+✔ Most commonly used
+
+2. <span> -> Inline grouping element
+
+Used to group small parts of text.
+
+<p>This is <span style="color:red;">important</span> text</p>
+
+
+✔ Inline
+✔ Does not start new line
+✔ Used inside text
+
+**Difference Between <div> and <span>
+Feature		<div>			<span>
+Type		Block-level		Inline
+New line	Yes			No
+Usage		Layout / sections	Text styling
+Content		Large blocks		Small text
+
+## Semantic Grouping Elements (HTML5)
+These also group content, but with meaning.
+
+<header> -> Top section
+
+<nav> -> Navigation links
+
+<section> -> Related content
+
+<article> -> Independent content
+
+<aside> -> Side content
+
+<footer> -> Bottom section
+
+<main> -> Main content
+
+Example:
+
+<section>
+  <h2>About Us</h2>
+  <p>We build web apps</p>
+</section>
+
