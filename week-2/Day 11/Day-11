@@ -1,0 +1,104 @@
+##HTML input
+Using input elements enables developers to create interactive websites. To create an input element, we use the <input> tag and specify the type of input using the "type" attribute.
+
+#Why use HTML input elements?
+1.Captures data from user for processing.
+2.Used to parse data to the back-end.
+3.Shape the client and server response.
+
+##Basic HTML Input Types
+
+1. text – single line text input
+syntax:
+<input type="text" placeholder="Enter name">
+
+2.password – hides typed characters
+syntax:
+<input type="password" placeholder="Enter password">
+
+
+3.email – validates email format or A text field that accepts a single line of text. The text is treated as an email address and uses validation parameters.
+syntax:
+<input type="email" placeholder="Enter email">
+
+
+4.number – only numeric input allowed
+syntax:
+<input type="number" min="1" max="100">
+
+
+5.tel – for phone numbers
+syntax:
+<input type="tel" placeholder="Phone number">
+
+6.url – accepts website links
+syntax:
+<input type="url" placeholder="Enter website">
+
+-->Date & Time Inputs=>(Generates a simple UI which allows users to select a time and date.
+
+1.date – calendar date picker
+syntax:
+<input type="date">
+
+syntax:
+time – time picker
+<input type="time">
+
+2.datetime-local – date + time
+<input type="datetime-local">
+
+
+3.month – select month & year
+syntax:
+<input type="month">
+
+4.week – select week number
+syntax:
+<input type="week">
+
+-->Selection Inputs
+
+1.radio – choose one option
+syntax:
+<input type="radio" name="gender"> Male
+<input type="radio" name="gender"> Female
+
+
+2.checkbox – select multiple options
+syntax:
+<input type="checkbox"> Java
+<input type="checkbox"> Python
+
+3.file – upload file
+syntax:
+<input type="file">
+
+4.color – color picker
+syntax:
+<input type="color">
+
+-->Button Inputs
+
+1.submit – submits form or A clickable button that submits form data.
+syntax:
+<input type="submit" value="Send">
+
+2.reset – resets form values
+syntax:
+<input type="reset">
+
+2.button – clickable button (JS use)
+syntax:
+<input type="button" value="Click">
+
+-->Range & Hidden
+
+1.range – Enables users to select between a maximum and minimum range.
+syntax:
+<input type="range" min="0" max="100">
+
+
+2.hidden – invisible field (stores data)
+syntax:
+<input type="hidden" value="userID123">
