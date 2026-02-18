@@ -32,3 +32,11 @@ Examples:
 ->To comment in CSS, we use the following notation:
     /*comment*/
 
+## ##Linking the style sheet
+-> In order to link an externally created style sheet, use the <link> tag between the <head> withing the HTML document.
+
+<head>
+<link rel="stylesheet" type="text/css" href="mystyle.css">
+</head>
+
+rel-> Specifies the relationship between the current document and the linked document.
