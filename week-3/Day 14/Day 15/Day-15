@@ -1,0 +1,33 @@
+
+Approaches to styling
+1.External
+2.Internal
+3.Inline
+
+1) External styling
+->Considered best practice for most web development projects. Allows developers to change the styling of an entire website from a single style sheet.
+Examples:
+<link rel="stylesheet" href="style.css">
+
+
+2) Internal styling
+->Embedded between the <head> tags of an HTML document.
+Styles all elements within a single document. Uses the <style> tag.
+Examples:
+<style>
+h1 { color: blue; }
+</style>
+
+
+2) Inline styling
+->Embeds styling withing HTML elements, usually in the same instance in which elements are created.
+Examples:
+
+<h1 style="color:red;">Hello</h1>
+
+##commenting in CSS
+-> Developers usually insert comments to specify the purpose of the style sheet or to include author details.
+
+->To comment in CSS, we use the following notation:
+    /*comment*/
+
