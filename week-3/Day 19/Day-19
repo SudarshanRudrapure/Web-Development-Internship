@@ -1,0 +1,56 @@
+1.styling the navigation bar
+->Formatting lists
+	By default, unordered lists are displayed with a solid disc, while ordered lists are displayed with numerals. To alter the list marker property, use the list-style-type property.
+
+->Using images for list markers
+	Instead of using the predefined list markers, developers can also opt for using custom graphics.
+
+->A navigation bar is one of the key elements used in websites.A navigation bar needs an HTML base which is transformed with CSS.
+
+=>Styling the navigation bar
+1.A navigation bar is basically styled unordered list
+2.To remove list markers, use list-style-type:none;
+3.The display: inline; property aligns list items horizontal
+4.To create a vertical navigation bar, use diplay:block;
+5.To space list items, use the "padding" and "margin" properties.
+
+##Examples of styled navigation bars
+1.Horizontal
+ HOME NEWS CONTACT         ABOUT
+ HOME NEWS CONTACT         ABOUT
+
+2.Vertical
+ HOME
+ NEWS
+ CONTACT
+ ABOUT
+
+##List style properties
+   value                          Details
+list-style             Specifies all the list properties in one declaration
+list-style-position    Specifies where to place the list-item marker.
+list-style-image       Specifies the type of list-item marker.
+list-style-type        Specifies the type of list-item marker
+
+
+##Types of elements
+1.Block level elements
+-Can appear in the body of an HTML page.
+-Can contain other block level as well as inline elements
+-Block level elements bein on new lines
+-Block level elements create larger structure.
+
+
+2.Inline level elements
+-Can appear in the body of an HTML page.
+-Can contain data and other inline elements.
+-Inline elements do not begin on new lines.
+-Inline elements create shorter structures.
+
+CSS box model
+->The CSS box model is essentially a box that wraps around every HTML element. 
+->It consists of
+	*Padding
+	*borders
+	*margins
+	*content
