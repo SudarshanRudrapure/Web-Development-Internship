@@ -12,8 +12,16 @@ body{
     font-weight:bold;
 }
 
+/* .box{
+    width: 150px;
+    height: 150px;
+    margin: 20px auto;  
+    color: white;
+    line-height: 150px;
+} */
 
-/*Animation*/
+
+/*Animations*/
 
 /* Fade Animation */
 .fade{
