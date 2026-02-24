@@ -1,0 +1,13 @@
+## Animations in CSS
+CSS animations allow dynamic changes of most HTML elements without using JavaScript. An animation lets an element gradually change from one style or state to another.
+
+To use animations we must call @keyframes in css.
+
+Animation properties:
+1.animation-name -> Specifies the name of the keyframe you want to bind to the selector
+2.animation-duration ->Specifies how many seconds or milliseconds an animation takes to complete.
+3.animaiton-delay -> Specific a delay before the animation will start.
+4.animation-iteration-count -> Specifies how many times an animation should be played.
+5.animation-direction -> Specifies whether or not the animation should play in reverse on alternate cycles.
+6.animation-fill-mode -> Specifies what values are applied by the animation outside the time it is executing.
+7.animation-play-state -> Specifies whether the animation is running or paused.

@@ -1,0 +1,52 @@
+body{
+    font-family: Arial;
+    text-align: center;
+}
+
+.box{
+    width:150px;
+    height:150px;
+    margin:20px auto;
+    color:white;
+    line-height:150px;
+    font-weight:bold;
+}
+
+
+/*Animation*/
+
+/* Fade Animation */
+.fade{
+    background: teal;
+    animation: fadeEffect 3s infinite;
+}
+
+@keyframes fadeEffect{
+    from{opacity:0;}
+    to{opacity:1;}
+}
+
+
+/* Move Animation */
+.move{
+    background: crimson;
+    position: relative;
+    animation: moveBox 4s infinite alternate;
+}
+
+@keyframes moveBox{
+    from{left:0;}
+    to{left:200px;}
+}
+
+
+/* Rotate Animation */
+.rotate{
+    background: orange;
+    animation: rotateBox 3s infinite linear;
+}
+
+@keyframes rotateBox{
+    from{transform:rotate(0deg);}
+    to{transform:rotate(360deg);}
+}
