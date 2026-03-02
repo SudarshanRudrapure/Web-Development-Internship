@@ -1,0 +1,42 @@
+## JavaScript
+
+What is JavaScript?
+While HTML deals with the structure/content, CSS with the look/presentation, JS is used to manage the behaviour/interactivity of the website and all its elements. 
+
+JavaScript is a scripting language used to make webpages interactive.
+
+HTML → structure
+
+CSS → design
+
+JavaScript → behaviour
+
+It allows developers to change webpage content dynamically, respond to user actions, and control elements displayed on the screen.
+
+Key Parts of Front-End Architecture
+
+1. Structure Layer (HTML)
+
+Defines layout and content of the webpage
+Includes headings, sections, forms, navigation, etc.
+
+2. Presentation Layer (CSS)
+
+Controls design, colors, spacing, layout, and responsiveness
+Includes animations, positioning, flexbox/grid, etc.
+
+3. Behaviour Layer (JavaScript)
+
+Adds interactivity and dynamic updates
+Handles events, form validation, API calls, DOM manipulation
+
+Pros and cons of JavaScript
+Pros                                                    Cons
+Client-side processing                          Security concerns
+Cross-platform                                  Browser compatibility
+Easy to learn
+
+What can we do with JavaScript?
+JavaScript controls the behaviour of the browser window/DOM (Document Object Model) which
+basically means it allows you to manipulate what the user sees on their device. 
+
