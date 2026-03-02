@@ -1,0 +1,29 @@
+The HTML DOM and JavaScript 
+The HTML DOM (Document Object Model) is a structured representation of a web page created by the browser. It allows JavaScript to access, modify, add, or delete HTML elements dynamically, making webpages interactive.
+
+What is the DOM?
+
+DOM represents the webpage as a tree of objects
+Each HTML element becomes a node/object
+JavaScript can interact with these objects
+
+<html>
+ ├── <head>
+ └── <body>
+      ├── <h1>
+      └── <p>
+
+Why DOM is Important
+Enables dynamic webpage updates
+Allows user interaction handling
+Helps create responsive interfaces
+Makes websites behave like applications
+
+How JavaScript Uses the DOM
+
+JavaScript can:
+
+✔ Change text content
+✔ Change styles
+✔ Add/remove elements
+✔ Respond to user events (click, input, hover)
