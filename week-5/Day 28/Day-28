@@ -1,0 +1,11 @@
+Comments in JavaScript are used to explain code and make it easier to understand. Comments are not executed by the browser, so they do not affect the program’s output. They are mainly used by developers to add notes, explanations, or temporarily disable some code during testing.
+
+JavaScript supports two types of comments:
+
+1. Single-line Comment ( // )
+Two forward slashes // are used to write a comment for a single line. Everything written after // on that line will be ignored by JavaScript.
+
+2. Multi-line / Block Comment ( / / )
+A block comment starts with /* and ends with */. Anything written between these symbols will not be executed. This type is useful when writing longer explanations or commenting multiple lines of code.
+
+Using comments makes the code more readable and easier to maintain, especially when working on large programs or projects.
