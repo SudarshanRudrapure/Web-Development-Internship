@@ -1,0 +1,9 @@
+JavaScript syntax refers to the set of rules that define how JavaScript programs are written and interpreted by the browser. These rules help developers write code that the JavaScript engine can understand and execute correctly.
+
+In JavaScript, every instruction is called a statement. Statements are executed from top to bottom in the order they appear in the code. Most statements usually end with a semicolon ( ; ), which indicates the end of the instruction.
+
+JavaScript is also case sensitive, meaning uppercase and lowercase letters are treated differently. For example, alert() is a valid function, but Alert() will not work because JavaScript treats them as two different words.
+
+When naming variables, developers commonly use camelCase. In camelCase, the first word starts with a lowercase letter and the next words start with uppercase letters (example: userName, totalPrice). This makes the code easier to read and follow.
+
+Another important concept is reserved words. Reserved words are special keywords used by JavaScript for specific purposes, such as let, if, while, and return. These words cannot be used as variable names because they already have predefined meanings in the language.
