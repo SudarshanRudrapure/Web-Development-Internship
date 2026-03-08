@@ -23,7 +23,6 @@ var container2 = 2+"Johnson"+3    //String    //Outputs 2Johnson3
 var boolean1 = true;    //Boolean
 var boolean2 = false;   //Boolean
 
-
 ## Checking data types
 Using the typeof operator you can request the data type of a variable.
 
