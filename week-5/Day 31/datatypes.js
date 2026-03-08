@@ -2,7 +2,6 @@
 var x = "Hello";
 alert(typeof x); // string
 
-
 var x = "JavaScript";
 alert(typeof x); // string
 
