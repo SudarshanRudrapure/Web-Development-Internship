@@ -1,0 +1,37 @@
+## JavaScript
+JavaScript is a high-level programming language.
+
+## Data types
+In programming, data types are important. 
+Knowing which data type is stored in a variable, enables us to perform specific computational operations.
+
+## Data types
+    *String
+    *Integer and float
+    *Boolean
+    *Null
+    *Undefined
+
+### Data type examples
+var number1 = 16      //Integer
+var number2 = 12.2    //Float
+var lastName = "Johnson";          //String
+var empty;              //undefined
+var empty2 = null;      //Null
+var container1 = 2+3+"Johnson"     //String      //Outputs 5Johnson
+var container2 = 2+"Johnson"+3    //String    //Outputs 2Johnson3
+var boolean1 = true;    //Boolean
+var boolean2 = false;   //Boolean
+
+
+## Checking data types
+Using the typeof operator you can request the data type of a variable.
+
+Type                    Result
+var x = "al";
+alert (typeof x);       “string”
+var x = 121;
+alert (typeof x);       “number”
+var x = true;
+alert (typeof x);       “boolean”
+alert (typeof x);       “undefined”
