@@ -17,7 +17,7 @@ var b = 3;
 var sum = a + b;
 alert(sum);
 
-Key Points
+## Key Points
 Variables store information.
 Use var to declare a variable.
 A variable can hold different types of data like numbers, strings, or booleans.
