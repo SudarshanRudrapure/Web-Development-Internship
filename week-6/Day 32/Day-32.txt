@@ -1,0 +1,24 @@
+## JavaScript Variables
+Variables are used to store data values.
+
+The value stored in a variable can change, which is why it is called a variable.
+In JavaScript, a variable is declared using the var keyword.
+Declaring a Variable
+var myVariable;
+
+Assigning a Value
+var myVariable = 10;
+
+Using Variables in Expressions
+Variables can be used in mathematical operations or expressions.
+
+var a = 5;
+var b = 3;
+var sum = a + b;
+alert(sum);
+
+Key Points
+Variables store information.
+Use var to declare a variable.
+A variable can hold different types of data like numbers, strings, or booleans.
+Variables can be used in calculations and expressions
