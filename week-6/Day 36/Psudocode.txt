@@ -1,0 +1,12 @@
+## Pseudocode
+Pseudocode is a text-base design tool that helps software developers with writing informal code based
+on logic.
+
+Pseudocode example
+IF it’s RAINING,
+    CARRY an UMBRELLA
+IF it‘s SUNNY,
+    GO for a SWIM
+IF it‘s SNOWING,
+    GRAB a SHOVEL
+ELSE GO ABOUT OUR DAY
