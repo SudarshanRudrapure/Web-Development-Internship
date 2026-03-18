@@ -23,7 +23,6 @@ while (i < fruits.length) {
   i++;
 }
 
-
 // 4. Keep asking user until they enter correct password
 let password;
 

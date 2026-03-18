@@ -16,7 +16,6 @@ for (i = 1; i <= 20; i++) {
   }
 }
 
-
 // loops through an array and prints all indexes
 
 var myArray = ["Apple", "Orange", "Grape", "Lemon"];
