@@ -1,0 +1,135 @@
+
+## `return` Statement in JavaScript
+
+## 🔹 What is `return`?
+
+* The `return` statement is used to:
+  ✅ Send a value back from a function
+  ✅ Stop function execution
+
+
+## 🔹 Basic Example
+
+function add(a, b) {
+  return a + b;
+}
+
+let result = add(2, 3);
+console.log(result); // 5
+
+
+### 1. Stops execution
+function test() {
+  return "Hello";
+  console.log("World"); // ❌ never runs
+}
+
+### 2. Without return → undefined
+function test() {
+  console.log("Hi");
+}
+
+let x = test();
+console.log(x); // undefined
+
+### 3. Return multiple values (using object/array)
+
+function getUser() {
+  return {
+    name: "Sam",
+    age: 25
+  };
+}
+
+
+## JavaScript Objects & Properties
+
+## JavaScript objects and properties
+An object is a collection of properties, and a property is an associationbetween a name (or key) and a value. 
+
+
+## 🔹 What is an Object?
+
+> An object is a collection of **key-value pairs**
+
+
+## 🔹 Example
+
+const person = {
+  name: "John",
+  age: 30,
+  isStudent: false
+};
+
+* `name`, `age`, `isStudent` → **properties**
+* `"John"`, `30`, `false` → **values**
+
+## 🔹 Accessing Properties
+## 1. Dot notation
+
+console.log(person.name); // John
+
+## 2. Bracket notation
+
+console.log(person["age"]); // 30
+
+## 🔹 Adding / Updating Properties
+
+person.city = "Bangalore";   // add
+person.age = 31;             // update
+
+## 🔹 Deleting Property
+delete person.isStudent;
+
+## Creating Objects with Functions
+
+## 🔹 Constructor Function
+
+function Student(name, marks) {
+  this.name = name;
+  this.marks = marks;
+}
+
+## Creating Objects
+
+const s1 = new Student("Sudarshan", 80);
+const s2 = new Student("Preeti", 90);
+
+console.log(s1.name); // Sudarshan
+
+
+## How it Works
+
+* `new Student()` creates a new object
+* `this` refers to that object
+* Properties are assigned dynamically
+
+## 🔹 Adding Methods
+
+function Student(name, marks) {
+  this.name = name;
+  this.marks = marks;
+
+  this.getResult = function () {
+    return this.marks >= 40 ? "Pass" : "Fail";
+  };
+}
+
+## 🔹 Example
+const s1 = new Student("Sudarshan", 35);
+console.log(s1.getResult()); // Fail
+
+
+## Summary
+* `return` → sends value + stops function
+* Object → collection of properties (key-value pairs)
+* Property → key + value
+* Constructor function → used to create multiple objects
+
+
+
+-->Objects are used everywhere:
+* API responses
+* JSON data
+* State in React
+* AI datasets (like your Copilot project)
