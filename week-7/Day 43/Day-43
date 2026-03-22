@@ -1,4 +1,11 @@
+## retun Statement
+#syntax:
 
+function myFunction(){
+    //code to be executed
+    
+    return //some value is returned after executing the function
+}
 ## `return` Statement in JavaScript
 
 ## 🔹 What is `return`?
