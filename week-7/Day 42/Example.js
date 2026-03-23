@@ -9,4 +9,4 @@ function bakeCake(flour,milk){
 function foodOrder(name){
     console.log(name + "would like");
 }
-foodOrder("Sudarshan ");
+foodOrder("Sudarshan ");   //Sudarshan would like

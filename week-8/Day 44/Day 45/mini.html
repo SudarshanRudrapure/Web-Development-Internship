@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Simple Mini-Project</title>
+    <link rel="stylesheet" href="mini.css">
+</head>
+<body>
+  <div class="container">
+    <h1>🍔 Burger Mart</h1>
+
+    <!-- Burger -->
+    <div class="menu">
+      <h2>Burgers</h2>
+      <select id="burger">
+        <option value="1">Large Dusty - $3</option>
+        <option value="2">Small Dusty - $2</option>
+        <option value="3">Big Chief - $7</option>
+      </select>
+    </div>
+
+    <!-- Fries -->
+    <div class="menu">
+      <h2>Fries</h2>
+      <select id="fries">
+        <option value="1">Small Fries - $1</option>
+        <option value="2">Large Fries - $2</option>
+      </select>
+    </div>
+
+    <!-- Soda -->
+    <div class="menu">
+      <h2>Soda</h2>
+      <select id="soda">
+        <option value="1">Small Soda - $1</option>
+        <option value="2">Large Soda - $1.5</option>
+      </select>
+    </div>
+
+    <!-- Delivery -->
+    <div class="menu">
+      <label>
+        <input type="checkbox" id="delivery"> Delivery (+$5)
+      </label>
+    </div>
+
+    <!-- Button -->
+    <button onclick="placeOrder()">Place Order</button>
+
+    <!-- Result -->
+    <div id="result"></div>
+  </div>
+
+  <script src="mini.js"></script>
+</body>
+</html>

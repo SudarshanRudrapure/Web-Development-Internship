@@ -14,3 +14,5 @@ if (found) {
 } else {
   console.log(searchItem + " not found");
 }
+
+//Output: Mango found in array
