@@ -1,226 +1,179 @@
-ogin-body{
- background: #333;
- margin:0;
- padding: 0;
- font-family: "Montsrerrat", sans-serif;
+/* ===== BODY ===== */
+.login-body {
+  margin: 0;
+  padding: 0;
+  font-family: "Montserrat", sans-serif;
+  background: #333;
 }
 
-.bg-container{
- position: relative;
+/* ===== BACKGROUND ===== */
+.bg-container {
+  position: relative;
+  width: 100%;
+  height: 100vh;
+  overflow: hidden;
 }
 
-.bg-img{
- width: 100%;
- height:100%;
+.bg-img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
 }
 
-.container{
- width: 360px;
- height: 600px;
- background: url("../img/login-bg.png");
- background-repeat: no-repeat;
- position: absolute;
- top: 50%;
- left: 50%;
- transform: translate(-50%,-50%);
- color: white;
- text-align: center;
- border-radius: 14px;
- border-style: solid;
- border-color: white;
- opacity: 1;
+/* ===== LOGIN CARD ===== */
+.container {
+  width: 360px;
+  height: 550px;
+  background: url("../img/login-bg.png") no-repeat center;
+  background-size: cover;
+
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+
+  text-align: center;
+  border-radius: 14px;
+  border: 2px solid white;
+  padding: 20px;
 }
 
-.container h1{
- font-size: 40px;
- margin-top: 12px;
- margin-bottom: 60px;
- color: black;
+/* ===== TITLE ===== */
+.container h1 {
+  font-size: 36px;
+  margin: 20px 0 40px;
+  color: black;
 }
 
-.tbox{
- width:260px;
- height: 40px;
- background: #f1f1f1b3;
- border-radius: 10px;
- border-style: solid;
- margin: 10px auto;
- transition: .25s;
+/* ===== INPUT BOX ===== */
+.tbox {
+  width: 260px;
+  height: 40px;
+  margin: 12px auto;
+  background: rgba(255, 255, 255, 0.7);
+  border-radius: 10px;
+  border: 2px solid transparent;
+  transition: 0.3s;
 }
 
-.tbox input{
- background: none;
- border: none;
- outline: none;
- text-align: center;
- width:90%;
- line-height:37px;
- font-family: "Montsrerrat", sans-serif;
- font-size: 14px;
- color: #333;
+.tbox:hover {
+  border-color: #42d4f5;
 }
 
-.tbox:hover{
- border-color: #42d4f5;
+.tbox input {
+  width: 100%;
+  height: 100%;
+  border: none;
+  outline: none;
+  background: transparent;
+  text-align: center;
+  font-size: 14px;
+  color: #333;
 }
 
-.btn{
- width: 260px;
- height: 40px;
- background: #42d4f5;
- border-radius: 10px;
- margin: 14px auto;
- font-family: "Montsrerrat", sans-serif;
- font-size: 16px;
- border: none;
- color: white;
- cursor: pointer;
- transition: 0.4s all;
-
+/* ===== BUTTON ===== */
+.btn {
+  width: 260px;
+  height: 40px;
+  margin: 16px auto;
+  border: none;
+  border-radius: 10px;
+  background: #42d4f5;
+  color: white;
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s;
 }
 
-.btn:hover{
- background: #525354;
+.btn:hover {
+  background: #2b2c2c;
 }
 
-.b1{
- display: block;
- width: 260px;
- padding: 10px, 0;
- text-decoration: none;
- color: white;
- text-align: center;
- margin:auto;
- transition: 0.4s all;
+/* ===== LINKS ===== */
+.b1, .b2 {
+  display: block;
+  width: 260px;
+  margin: 10px auto;
+  text-decoration: none;
+  text-align: center;
+  transition: 0.3s;
 }
 
-.b1:hover{
- background: #525354;
- padding: 12px 2px;
- border-radius: 10px;
+.b1 {
+  color: white;
 }
 
-.b2{
- position: absolute;
- bottom: 80px;
- left: 50%;
- transform: translateX(-50%);
- width: 260px;
- padding: 10px,0px;
- text-decoration: none;
- text-align: center;
- transition: 0.4s all;
- color:#42d4f5;
+.b2 {
+  position: absolute;
+  bottom: 40px;
+  left: 50%;
+  transform: translateX(-50%);
+  color: #42d4f5;
 }
 
-.b2:hover{
- background: #525354;
- padding: 12px 2px;
- border-radius: 10px;
+.b1:hover, .b2:hover {
+  background: #525354;
+  padding: 10px;
+  border-radius: 10px;
 }
 
+/* ================= MODAL ================= */
 
-/* css for modal container */
-.modal{
- background-color: white;
- position: absolute;
- top: 33%;
- left: 37.5%;
- text-align: center;
- padding: 2% 4%;
+/* BACKDROP */
+.modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+  background: rgba(0, 0, 0, 0.6);
+
+  opacity: 0;
+  visibility: hidden;
+  transform: scale(0.8);
+
+  transition: 0.3s ease;
 }
 
-.home-body{
- background-color: #f1f1f1;
- margin: auto;
+/* SHOW MODAL */
+.modal.show {
+  opacity: 1;
+  visibility: visible;
+  transform: scale(1);
 }
 
-.nav-main {
- position: fixed;
- top:0;
- width: 100%;
- height: 60px;
- background-color: #fff;
- display: flex;
- flex-wrap: wrap;
- z-index:1000;
+/* MODAL BOX */
+.modal-box {
+  background: #fff;
+  padding: 20px;
+  border-radius: 12px;
+  text-align: center;
+  animation: popup 0.3s ease;
 }
 
-.btn-toggle-nav{
- width: 60px;
- height: 100%;
- background-color:#f98f39;
- background-image: url("../img/menu.png");
- background-repeat: no-repeat;
- background-size: 40%;
- background-position: center;
- cursor: pointer;
- transition-duration: 0.25s;
+/* IMAGE */
+#cs {
+  width: 250px;
+  border-radius: 10px;
 }
 
-.btn-toggle-nav:hover{
- background-color: #42d4f5;
- background-size: 50%;
+/* TEXT */
+.modal-box p {
+  color: black;
+  margin: 10px 0;
 }
 
-.nav-main ul{
- display: flex;
- flex-wrap: wrap;
- padding-left: 15px;
+/* ANIMATION */
+@keyframes popup {
+  from {
+    transform: scale(0.5);
+  }
+  to {
+    transform: scale(1);
+  }
 }
-
-
-.nav-main ul li{
- list-style: none;
- line-height: 60px;
-}
-
-.nav-main ul li a{
- display: block;
- height: 100%;
- padding: 0 10px;
- text-transform: uppercase;
- text-decoration: none;
- color: #111;
- font-family: inherit;
- font-size: 16px;
-}
-.nav-sidebar{
- position: fixed;
- left: 0;
- bottom: 0;
- width: 50px;
- padding: 0 5px;
- height: calc(100vh - 60px);
- background-color: #1b1b1b;
- z-index: 1000;
- transition: all 0.5s ease-in-out;
-}
-
-.nav-sidebar ul{
- padding-top: 15px;
- overflow: hidden;
- visibility: hidden;
-}
-
-.nav-sidebar ul li {
- line-height: 60px;
- list-style: none;
-}
-
-.nav-bar ul li span, .nav-sidebar ul li a{
- display: block;
- height: 60px;
- padding: 0 10px;
- text-decoration: none;
- text-transform: uppercase;
- color: #fff;
- font-size:16px;
- font-family: inherit;
- white-space: nowrap;
- transition: all 0.5s ease-in-out;
-}
-
-.nav-sidebar ul li a:hover{
- background-color: #525354;
-} 

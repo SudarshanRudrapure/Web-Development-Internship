@@ -1,24 +1,20 @@
-var modal = document.querySelector(".modal");
-modal.style.display = "none";
+const modal = document.querySelector(".modal");
+const form = document.querySelector("#login-form");
 
-var loginForm = document.querySelector("#login-form");
-
-loginForm.addEventListener("submit", function (e) {
+form.addEventListener("submit", function (e) {
   e.preventDefault();
-});
 
-function validateLogin() {
-  var unameField = document.querySelector("#uname");
-  var pwdField = document.querySelector("#pwd");
+  const uname = document.querySelector("#uname").value;
+  const pwd = document.querySelector("#pwd").value;
 
-  if (uname.value != "Admin" || pwdField.value != "123456") {
-    modal.style.display = "block";
-  } else if (uname.value == "Admin" || pwdField.value == "123456") {
+  if (uname === "Admin" && pwd === "123456") {
     alert("You are now logged in!");
     window.location.href = "index.html";
+  } else {
+    modal.classList.add("show");
   }
-}
+});
 
 function dismissModal() {
-  modal.style.display = "none";
+  modal.classList.remove("show");
 }
