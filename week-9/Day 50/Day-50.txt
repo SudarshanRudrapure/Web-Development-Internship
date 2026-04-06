@@ -1,0 +1,49 @@
+Started working on a core project (HR Dashboard Web App)
+This project is based on a real-world case study (Joe’s Coaches)
+
+## Goal is to build a single page application (SPA)
+
+Key Concepts
+1. Single Page Application (SPA)
+Entire app works on one page
+No need to reload pages again and again
+Data updates dynamically using JavaScript
+
+2. Real-world System Design
+Application used for HR management
+Stores employee details
+Manages interviews
+
+3. Features of the Project
+✔ Add employee details
+First name & last name
+Position
+Department
+Email
+Salary
+
+✔ Manage interviews
+Add interview details
+Accept or reject interview
+
+✔ UI Features
+Navigation bar
+Employee cards
+Modal (popup forms)
+Buttons for actions
+
+4. Technologies Used
+HTML → Structure (forms, lists, layout)
+CSS → Styling (cards, navbar, layout)
+JavaScript → Functionality (add data, show modal, handle events)
+
+5. Important UI Concepts
+Responsive design → Works on different devices
+Cards layout → Display employee data
+Modal popup → Input forms
+Buttons & events → User interaction
+
+Learnings / Outcomes
+Understood how to build a real-world project structure
+Learned how to combine HTML, CSS, and JavaScript into one system
+Blockers / Risks
