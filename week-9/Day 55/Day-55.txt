@@ -1,0 +1,36 @@
+## Creating a PHP script
+A PHP script is executed on the server, and the plain HTML result is sent back to the client. 
+A PHP script starts with <?php and ends with ?>. 
+
+
+
+<?php
+//codd
+?>
+
+
+Case sensitivity
+In PHP, NO keywords (e.g. if, else, while, echo, etc.),
+classes, functions, and userdefined functions are casesensitive. 
+However, all variable names are casesensitive.
+
+
+<?php
+ECHO"Hello World!<br>";         //output:Hello World
+echo"Hello World!<br>";         //output:Hello World
+ECHo"Hello World!<br>";         //output:Hello World
+
+
+Case sensitivity
+In the example below, only the first statement will display the value of the $color variable while the others will throw an error.
+
+<?php
+$color = "red";
+echo "My car is ". $color . "<br>";
+echo "My house is " . $COLOR . "<br>";
+echo "My boat is " . $coLOR . "<br>";
+?>
+
+//output
+My car is red
+
