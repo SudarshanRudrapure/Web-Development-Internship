@@ -1,0 +1,24 @@
+## PHP variables
+All variables in PHP are denoted with a dollar sign ($).
+Variables are assigned with the = operator, with the variable on the left-hand side and the expression to be evaluated on the right
+
+<?php
+$myVar = "Hello World!"
+$num = 10;
+
+?>
+
+## PHP output
+To output data to the screen, we use the built in echo
+function. 
+PHP also has a function called print.
+However, the echo function is more widely adopted because it is faster than print. 
+
+<?php 
+
+$myVar = "I am a string";
+echo $myVar;
+
+?>
+
+//output : I am a string
