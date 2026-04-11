@@ -1,0 +1,107 @@
+
+## Conditional Statements
+--> Conditional statements are used to execute different code based on conditions.
+
+## Types of Conditions
+
+1) if Statement
+--> Runs code only if condition is true
+
+php id="e5n2yt"
+<?php
+$x = 10;
+
+if ($x > 5) {
+    echo "x is greater than 5";
+}
+?>
+
+2) if...else Statement
+--> Two possible outputs
+
+```php id="f8q1ws"
+<?php
+$x = 3;
+
+if ($x > 5) {
+    echo "Greater";
+} else {
+    echo "Smaller";
+}
+?>
+```
+
+---
+
+### 3) **else if Statement**
+
+* Used for multiple conditions
+
+```php id="g7k3op"
+<?php
+$marks = 75;
+
+if ($marks >= 90) {
+    echo "Grade A";
+}
+else if ($marks >= 70) {
+    echo "Grade B";
+}
+else {
+    echo "Grade C";
+}
+?>
+```
+
+---
+
+### 4) **switch Statement**
+
+* Used to avoid long if...else chains
+
+```php id="h6z9lm"
+<?php
+$day = "Monday";
+
+switch($day) {
+    case "Monday":
+        echo "Start of week";
+        break;
+    case "Friday":
+        echo "Weekend coming";
+        break;
+    default:
+        echo "Normal day";
+}
+?>
+```
+
+---
+
+# 📊 **Final Summary (Important Points)**
+
+* Operators → Perform operations
+
+  * Arithmetic → Math
+  * Assignment → Assign values
+  * Comparison → Compare values
+  * Logical → Combine conditions
+
+* Conditions → Control program flow
+
+  * if → Single condition
+  * if...else → Two conditions
+  * else if → Multiple conditions
+  * switch → Multiple fixed cases
+
+---
+
+# 🎯 **Overall Outcome (Day 58)**
+
+* Learned how to **perform operations using operators**
+* Understood how to **control program flow using conditions**
+* Built strong base for **decision-making logic in PHP**
+
+---
+
+If you want next, I can give **Day 59 (Forms + GET/POST – very important 🔥)**
