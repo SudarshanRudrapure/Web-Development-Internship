@@ -1,0 +1,29 @@
+## PHP Data Types
+
+PHP supports different types of data to store values.
+
+## Types of Data
+
+String  → Text
+Integer → Numbers without decimal
+Float   → Decimal numbers
+Boolean → true / false
+Array   → Multiple values
+Null    → No value
+Object  → Complex data
+
+
+### Example
+
+<?php
+$name = "Sdr";           // String
+$age = 21;               // Integer
+$price = 10.5;           // Float
+$isStudent = true;       // Boolean
+
+var_dump($name);
+var_dump($age);
+var_dump($price);
+var_dump($isStudent);
+?>
+

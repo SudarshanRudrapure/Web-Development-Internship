@@ -1,0 +1,35 @@
+
+## 🔹 **4. PHP Constants**
+
+Constants are fixed values
+Cannot be changed once created
+Defined using `define()`
+No `$` symbol used
+
+
+### Example
+
+<?php
+define("SITE_NAME", "My Website");
+
+echo SITE_NAME;
+?>
+
+## PHP Concatenation
+
+Used to join strings
+Operator used → `.`
+
+### Example
+
+<?php
+$name = "Sdr";
+echo "Hello " . $name;
+?>
+
+
+* Scope → Global, Local, Static
+* Data Types → String, Integer, Float, Boolean, Array, Null
+* Arrays → Indexed & Associative
+* Constants → Fixed values using `define()`
+* Concatenation → Join strings using `.`

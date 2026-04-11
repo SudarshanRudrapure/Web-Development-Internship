@@ -1,0 +1,23 @@
+
+## PHP Arrays (Indexed & Associative)
+
+1) Indexed Array
+--> Uses numbers (0,1,2...)
+--> Stores values in order
+
+2) Associative Array
+
+--> Uses key → value pairs
+--> Custom keys instead of index
+
+## Example
+
+<?php
+// Indexed Array
+$fruits = array("Apple", "Mango", "Banana");
+echo $fruits[1];        // Mango
+
+// Associative Array
+$marks = array("Maths"=>90, "Science"=>80);
+echo $marks["Maths"];           // 90
+?

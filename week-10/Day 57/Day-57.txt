@@ -1,0 +1,46 @@
+
+## 1. PHP Variable Scope
+Variable scope defines where a variable can be accessed in a program.
+
+## Types of Scope
+
+1. Global Scope
+
+* Declared outside any function
+* Can be used anywhere
+* Inside functions → use `global` keyword
+
+2. Local Scope
+
+* Declared inside a function
+* Can be used **only inside that function**
+
+3. Static Scope
+
+* Declared using `static` keyword
+* Value is **not reset** when function runs again
+
+## Example
+
+<?php
+$x = 10; // Global
+
+function test() {
+    global $x;
+    $y = 5;                 // Local
+    echo $x + $y;
+}
+test();
+
+
+
+// Static example
+function counter() {
+    static $count = 0;
+    $count++;
+    echo $count . "<br>";
+}
+
+counter();
+counter();
+?>
