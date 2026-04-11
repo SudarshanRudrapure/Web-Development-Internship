@@ -27,7 +27,7 @@ $name = "Sdr";
 echo "Hello " . $name;
 ?>
 
-
+Summary 
 * Scope → Global, Local, Static
 * Data Types → String, Integer, Float, Boolean, Array, Null
 * Arrays → Indexed & Associative
