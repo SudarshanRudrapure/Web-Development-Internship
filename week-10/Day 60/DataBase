@@ -1,0 +1,31 @@
+## DataBase
+## What is a database?
+A database is best described as a collection of information and data that is often stored in tables,
+columns and rows. Databases are frequently stored on a server which can be queried for data
+management. Create, read, update and delete (CRUD) operations are common uses for relational
+databases.
+
+
+## Importance of databases
+-> Enables organisations to manage and store important data.
+-> Provides organisations with meaningful insight.
+-> Allows organisations to formulate enhanced business strategy.
+-> Enhances the efficiency of existing organisational processes.
+
+
+Types of common databases
+1. Relational database 
+->Adopts the relational model in that rows, fields, tables and columns are
+related to one another by using constraints such as primary and foreign keys. Relational
+databases are often used to manage structured data.
+
+2. NoSQL database 
+–> Frequently used to manage unstructured data. Unlike relational databases
+where there tends to be some apparent order and structure, a NoSQL database stores data in
+files, documents and collections instead of tables.
+
+
+3. Cloud database 
+–> These types of databases can be either structured or unstructured, the
+distinguishing characteristic is that this type of database is accessible via the cloud and is hosted by third-party services.
+
