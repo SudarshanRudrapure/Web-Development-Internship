@@ -1,0 +1,22 @@
+## FUNCTIONS
+
+# What is a function?
+A function is a block of code
+Takes input (parameters)
+Processes it
+Returns output
+
+## In simple terms:
+takes input → processes → returns value
+
+Functions are like: 
+Can be reused multiple times
+Does NOT run automatically
+Runs only when called
+
+* Function Parameters
+Inputs given to function
+
+* Return
+Sends value back
+Stops execution
