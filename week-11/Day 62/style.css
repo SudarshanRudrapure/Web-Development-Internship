@@ -1,4 +1,4 @@
-{
+body {
  margin:auto;
 }
 
@@ -125,11 +125,7 @@
  display: inline-block;
  font-size: 16px;
  cursor: pointer;
- margin:
-1%
-2%
-0%
-0%;
+ margin: 1% 2% 0% 0%;
 }
 
 #employeeModal{
