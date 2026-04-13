@@ -1,0 +1,234 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8"/>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Frontend Integration Lab</title>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Serif+Display&family=DM+Mono:wght@400;500&family=DM+Sans:wght@400;500;700&display=swap" rel="stylesheet"/>
+  <link rel="stylesheet" href="style.css"/>
+</head>
+<body>
+
+
+<div class="page-header">
+  <h1 class="page-title">Frontend<br><em>Integration</em> Lab</h1>
+  <span class="lab-badge">ASSIGNMENT</span>
+</div>
+
+<div class="layout">
+
+  <div class="card">
+    <div class="card-header">
+      <div class="card-icon">📋</div>
+      <div>
+        <div class="card-title">Internship Registration Form</div>
+        <div class="card-subtitle">HTML + CSS + JS · Client-side Validation</div>
+      </div>
+    </div>
+
+    <div class="card-body">
+
+      <div class="form-group">
+        <label for="name">
+          Full Name <span class="req">* required</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">👤</span>
+          <input type="text" id="name" placeholder="e.g. Arjun Sharma" oninput="validateName()"/>
+        </div>
+        <span class="hint" id="name-hint"></span>
+      </div>
+      <div class="form-group">
+        <label for="email">
+          Email Address <span class="req">* required</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">✉️</span>
+          <input type="email" id="email" placeholder="you@example.com" oninput="validateEmail()"/>
+        </div>
+        <span class="hint" id="email-hint"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="password">
+          Password <span class="req">* required</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">🔒</span>
+          <input type="password" id="password" placeholder="Minimum 8 characters" oninput="validatePassword()"/>
+        </div>
+        <div class="strength-bar">
+          <div class="strength-fill" id="strength-fill"></div>
+        </div>
+        <div class="strength-label">
+          <span id="strength-label">Strength</span>
+          <span id="strength-score"></span>
+        </div>
+        <span class="hint" id="password-hint"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="phone">
+          Phone Number <span class="req">* required</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">📞</span>
+          <input type="text" id="phone" placeholder="10-digit mobile number" maxlength="10" oninput="validatePhone()"/>
+        </div>
+        <span class="hint" id="phone-hint"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="domain">
+          Internship Domain <span class="req">* required</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">💼</span>
+          <select id="domain" onchange="validateDomain()">
+            <option value="">— Select a domain —</option>
+            <option>Frontend Development</option>
+            <option>Backend Development</option>
+            <option>Full-Stack Development</option>
+            <option>Data Science / ML</option>
+            <option>UI/UX Design</option>
+            <option>DevOps / Cloud</option>
+          </select>
+        </div>
+        <span class="hint" id="domain-hint"></span>
+      </div>
+
+      <div class="form-group">
+        <label for="college">
+          College / Institution <span class="opt">optional</span>
+        </label>
+        <div class="input-wrap">
+          <span class="input-icon">🏫</span>
+          <input type="text" id="college" placeholder="Your institution name" oninput="updatePreview()"/>
+        </div>
+      </div>
+
+      <div class="form-group">
+        <label for="bio">
+          Short Bio <span class="opt">optional · max 200 chars</span>
+        </label>
+        <textarea id="bio" placeholder="Tell us about yourself..." maxlength="200" oninput="countBio()"></textarea>
+        <div class="hint show" id="bio-count" style="color:var(--muted);">0 / 200 characters</div>
+      </div>
+
+      <label class="check-row" for="terms">
+        <input type="checkbox" id="terms" onchange="checkTerms()"/>
+        I agree to the Terms of Service and Privacy Policy for this internship programme.
+      </label>
+      <span class="hint" id="terms-hint"></span>
+
+      <button class="btn-submit" id="submit-btn" onclick="submitForm()">
+        Submit Registration →
+      </button>
+
+      <div class="toast" id="success-toast">
+        <div class="toast-icon">✅</div>
+        <div>
+          <div class="toast-title">Registration Successful!</div>
+          <div class="toast-data" id="toast-data"></div>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+  <div class="sidebar">
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">📊</div>
+        <div class="card-title">Form Completion</div>
+      </div>
+      <div class="card-body" style="padding: 1rem 1.5rem;">
+        <div class="progress-ring">
+          <div class="circle-wrap">
+            <svg width="80" height="80" viewBox="0 0 80 80">
+              <circle class="circle-bg"   cx="40" cy="40" r="35"/>
+              <circle class="circle-prog" id="circle-prog" cx="40" cy="40" r="35"/>
+            </svg>
+            <div class="circle-text" id="progress-pct">0%</div>
+          </div>
+          <div class="progress-label" id="progress-label">Fill in required fields</div>
+        </div>
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">🛡️</div>
+        <div class="card-title">Validation Rules</div>
+      </div>
+      <div class="card-body" style="padding: 1rem 1.5rem;">
+
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-name">?</div>
+          <div class="rule-text">
+            <strong>Full Name</strong>
+            Min. 3 characters, letters only
+          </div>
+        </div>
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-email">?</div>
+          <div class="rule-text">
+            <strong>Email</strong>
+            Must include @ and valid domain
+          </div>
+        </div>
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-password">?</div>
+          <div class="rule-text">
+            <strong>Password</strong>
+            Min. 8 chars, 1 number, 1 uppercase
+          </div>
+        </div>
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-phone">?</div>
+          <div class="rule-text">
+            <strong>Phone</strong>
+            Exactly 10 digits
+          </div>
+        </div>
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-domain">?</div>
+          <div class="rule-text">
+            <strong>Domain</strong>
+            Must select an option
+          </div>
+        </div>
+        <div class="rule-item">
+          <div class="rule-dot pending" id="rdot-terms">?</div>
+          <div class="rule-text">
+            <strong>Terms</strong>
+            Must be agreed to
+          </div>
+        </div>
+
+      </div>
+    </div>
+
+    <div class="card">
+      <div class="card-header">
+        <div class="card-icon">👁️</div>
+        <div class="card-title">Live Preview</div>
+      </div>
+      <div class="card-body" style="padding: 1rem 1.5rem;">
+        <div class="preview-wrap">
+          <div class="preview-row"><span class="preview-key">name:</span>    <span class="preview-val" id="pv-name">—</span></div>
+          <div class="preview-row"><span class="preview-key">email:</span>   <span class="preview-val" id="pv-email">—</span></div>
+          <div class="preview-row"><span class="preview-key">phone:</span>   <span class="preview-val" id="pv-phone">—</span></div>
+          <div class="preview-row"><span class="preview-key">domain:</span>  <span class="preview-val" id="pv-domain">—</span></div>
+          <div class="preview-row"><span class="preview-key">college:</span> <span class="preview-val" id="pv-college">—</span></div>
+        </div>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
