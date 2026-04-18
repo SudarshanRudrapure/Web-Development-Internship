@@ -1,99 +1,197 @@
-<?php 
-include_once 'db-inc.php'; 
-?> 
+<?php
+include_once 'db-inc.php';
+
+ ?>
+
 
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" dir="ltr">
 <head>
-<meta name="viewport" content="width=device-width,initial-scale=1">
-<meta charset="utf-8">
-<title>Joe's Coaches</title>
-<link rel="stylesheet" href="css/style.css">
+ <meta name="viewport" content="width=device-width,initial-scale=1,maximum-scale=1,user-scalable=no">
+ <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+ <meta name="HandheldFriendly" content="true">
+ <meta charset="utf-8">
+ <title>Joe's Coaches</title>
+ <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
+ <div class="nav-wrapper">
+ <nav>
+ <ul class="nav-list">
+ <img id="icon" src="img/icon2.png" alt="">
+ <li class="nav-item"><a href="index.html">Account</a></li>
+ <li><a href="#">Logout</a></li>
+ </ul>
+ </nav>
+ </div>
+ <div class="employees">
+ <h2>Employees</h2>
+ <div class="employee-list">
 
-<div class="nav-wrapper">
-<nav>
-<ul class="nav-list">
-<img id="icon" src="img/icon2.png">
-<li><a href="index.html">Account</a></li>
-<li><a href="#">Logout</a></li>
-</ul>
-</nav>
-</div>
 
-<div class="employees">
-<h2>Employees</h2>
-<div class="employee-list">
+<?php
 
-<?php 
-$sqlStatement = "SELECT employees.firstName, employees.lastName, 
-employees.jobTitle, departments.departmentName, employees.email, employees.salary 
-FROM employees 
-JOIN departments 
-ON employees.departmentCode = departments.departmentCode;";
+
+$sqlStatement = 'select employees.firstName, employees.lastName,
+employees.jobTitle,departments.departmentName,employees.email,employees.salary from employees join
+departments on employees.departmentCode = departments.departmentCode;';
 
 $queryResult = mysqli_query($dbConnection,$sqlStatement);
 $resultCheck = mysqli_num_rows($queryResult);
 
 $currency = "£";
 
-if($resultCheck > 0){
-    while($row = mysqli_fetch_assoc($queryResult)){
-        echo "<li>
-        <div class='employee-card'>
-        <img class='user-img' src='img/default.png'>
-        <span>
-        <div class='employment-details'>
-        <span class='name-format'>".$row['firstName']."</span>
-        <span class='name-format'>".$row['lastName']."</span><br>
-        <span>".$row['jobTitle']."</span><br>
-        <span>".$row['departmentName']."</span><br>
-        <span>".$row['email']."</span><br>
-        <span>".$currency.$row['salary']."</span>
-        </div>
-        </span>
-        </div>
-        </li>";
-    }
+if($resultCheck>0){
+ while($row=mysqli_fetch_assoc($queryResult)){ 
+     echo "<li>
+ <div class='employee-card'>
+ <img class='user-img' src='img/default.png' alt=''>
+ <span>
+ <div class='employment-details'>
+ <span class='name-format'>".$row['firstName']."</span>
+ <span class='name-format'>".$row['lastName']."</span>
+ <br>
+ <span>".$row['jobTitle']."</span>
+ <br>
+ <span>".$row['departmentName']."</span>
+ <br>
+ <span>".$row['email']."</span>
+ <br>
+ <span>".$currency.$row['salary']."</span>
+ </div>
+ </span>
+ </div>
+ </li>";
+ }
 }
-?>
 
-</div>
-</div>
+ ?>
+ </div>
 
-<div class="interviews">
-<h2>Upcoming Interviews</h2>
 
-<li>
-<div class="list-item">
-<h3>Marketing</h3>
-<p>Social Media Content Specialist</p>
-<button class="accept-btn">Accept</button>
-<button class="reject-btn">Reject</button>
-</div>
+ </div>
+
+ <div class="interviews">
+ <h2>Upcoming Interviews</h2>
+
+ <li>
+ <div class="list-item">
+ <h3>Marketing</h3>
+ <p>Social Media Content Specialist</p>
+ <button class="accept-btn" type="button" name="button">Accept</button>
+ <button class="reject-btn" type="button" name="button">Reject</button>
+ </div>
+ </li>
+
+ <li>
+ <div class="list-item">
+ <h3>Driver</h3>
+ <p>Advanced Coach Driver</p>
+ <button class="accept-btn"type="button" name="button">Accept</button>
+ <button class="reject-btn" type="button" name="button">Reject</button>
+ </div>
+ </li>
+
+ <li>
+ <div class="list-item">
+ <h3>Sofware Developer</h3>
+ <p>Full-stack Developer</p>
+ <button class="accept-btn"type="button" name="button">Accept</button>
+ <button class="reject-btn" type="button" name="button">Reject</button>
+ </div>
 </li>
 
-</div>
+ </div>
 
-<!-- Employee Modal -->
-<div id="employeeModal">
+ <!-- MODAL -->
+ <div id="employeeModal" class="modal">
+ <div class="modal-content">
+ <header class="modal-header">
+
+ <div class="modal-header-content">
+  employee</span>
+ </div>
+
+ </header>
+ <div class="modal-container">
+
 <form action="submit.php" method="POST">
-<input type="text" name="employee-number" placeholder="Employee Number">
-<input type="text" name="first-name" placeholder="First Name">
-<input type="text" name="last-name" placeholder="Last Name">
-<input type="text" name="position" placeholder="Position">
-<input type="text" name="department" placeholder="Department">
-<input type="text" name="email" placeholder="Email">
-<input type="text" name="salary" placeholder="Salary">
-<button type="submit">Confirm</button>
+
+
+ <label for="empnum">Employee Number</label>
+ <input type="text" name="employee-number" id="name">
+ <br>
+ <label for="fname">First Name</label>
+ <input type="text" id="name" name="first-name">
+ <br>
+ <label for="fname">Last Name</label>
+ <input id="surname" type="text" name="last-name">
+ <br>
+ <label for="fname">Position</label>
+ <input id="position" type="text" name="position">
+ <br>
+ <label for="fname">Department</label>
+ <input id="department" type="text" name="department" >
+ <br>
+ <label for="fname">Email</label>
+ <input id="email" type="text" name="email">
+ <br>
+ <label for="fname">Salary</label>
+ <input id="salary" type="text" name="salary">
+ <br>
+
+ <button id="confirmBtn" type="submit" name="button" onclick="addEmployee()">Confirm</button>
+
 </form>
+
+
+ </div>
+ <footer class="modal-footer">
+
+ </footer>
+ </div>
+ </div>
+
+
+ <!-- MODAL -->
+<div id="interviewModal" class="modal">
+ <div class="modal-content">
+ <header class="modal-header">
+
+ <div class="modal-header-content">
+
+
+ <span>Add interview</span>
+ </div>
+
+ </header>
+ <div class="modal-container">
+
+
+ <label for="fname">Department</label>
+ <input type="text" id="int-department">
+ <br>
+ <label for="fname">Position</label>
+ <input id="int-position" type="text">
+ <br>
+
+
+ <button id="confirmIntBtn" type="button" name="button" onclick="addInterview()">Confirm</button>
+ </div>
+ <footer class="modal-footer">
+
+ </footer>
+ </div>
 </div>
 
-<button onclick="showAddEmpModal()">Add Employee</button>
 
-<script src="js/main.js"></script>
+ <button class="btn" type="button" name="button" onclick="showAddIntModal()">Add Interview</button>
+ <button class="btn" type="button" name="button" onclick="showAddEmpModal()">Add Employee</button>
 
+
+<script type="text/javascript" src="js/main.js">
+
+</script>
 </body>
+
 </html>

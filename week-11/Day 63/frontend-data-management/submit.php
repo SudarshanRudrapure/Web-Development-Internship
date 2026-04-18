@@ -1,4 +1,4 @@
-<?php 
+<?php
 include_once 'db-inc.php';
 
 $employeeNumber = $_POST["employee-number"];
@@ -9,11 +9,11 @@ $department = $_POST["department"];
 $email = $_POST["email"];
 $salary = $_POST["salary"];
 
-$sqlStatement = "INSERT INTO employees 
-(employeeNumber, firstName, lastName, jobTitle, departmentCode, email, salary)
-VALUES ('$employeeNumber','$firstName','$lastName','$position','$department','$email','$salary');";
+
+$sqlStatement = "INSERT INTO employees (employeeNumber,firstName, lastName,jobTitle,departmentCode, email,
+salary) values ('$employeeNumber','$firstName', '$lastName','$position','$department' ,'$email','$salary');";
 
 mysqli_query($dbConnection,$sqlStatement);
 
 header("Location:index.php?submission=success");
-?>
+ ?> 
