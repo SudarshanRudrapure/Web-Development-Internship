@@ -12,7 +12,7 @@ include_once 'db-inc.php';
  <meta name="HandheldFriendly" content="true">
  <meta charset="utf-8">
  <title>Joe's Coaches</title>
- <link rel="stylesheet" href="css/style.css">
+ <link rel="stylesheet" href="style.css">
 </head>
 <body>
  <div class="nav-wrapper">
@@ -188,10 +188,8 @@ if($resultCheck>0){
  <button class="btn" type="button" name="button" onclick="showAddIntModal()">Add Interview</button>
  <button class="btn" type="button" name="button" onclick="showAddEmpModal()">Add Employee</button>
 
-
-<script type="text/javascript" src="js/main.js">
+<script type="text/javascript" src="main.js">
 
 </script>
 </body>
-
 </html>
