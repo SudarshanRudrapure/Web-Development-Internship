@@ -1,0 +1,39 @@
+body{
+ margin:auto;
+}
+
+.nav-wrapper{
+ background:#fff;
+ padding:5px;
+ position:sticky;
+ top:0;
+}
+
+.nav-list{
+ list-style:none;
+ display:flex;
+ justify-content:space-around;
+}
+
+.employee-list{
+ display:flex;
+ flex-wrap:wrap;
+ background:#edeeef;
+}
+
+.employee-card{
+ background:white;
+ margin:20px;
+ padding:15px;
+ box-shadow:3px 3px 5px #ccc;
+}
+
+.accept-btn{
+ background:#36bc65;
+ color:white;
+}
+
+.reject-btn{
+ background:red;
+ color:white;
+}
