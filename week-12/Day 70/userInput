@@ -1,0 +1,27 @@
+## working with user input
+- In Python, you can use the input() function to get user input from the console.
+- The input() function takes an optional prompt string as an argument, which is displayed to the
+user before they enter their input. The function then waits for the user to enter some text and press the Enter key, and it returns the input as a string.
+- You can also use the input() function to get input from the user in a loop, allowing you to repeatedly prompt the user for input until they provide valid input or choose to exit the program.
+- When using the input() function, it's important to remember that it always returns a string, even if the user enters a number. If you want to convert the input to a different data type, such as an integer or a float, you can use the appropriate type conversion function, such as int() or float(), to convert the input string to the desired data type.
+- Here's an example of how to use the input() function to get user input and convert it to an integer:
+  
+age = input("Please enter your age: ")
+age = int(age)  # Convert the input string to an integer
+print("You are " + str(age) + " years old.")
+
+- In this example, the input() function prompts the user to enter their age, and the input is stored as a string in the variable age. The int() function is then used to convert the input string to an integer, which is stored back in the variable age. Finally, the program prints out a message that includes the user's age.
+- You can also use the input() function in a loop to repeatedly prompt the user for input until they provide valid input. Here's an example:
+
+while True:
+    try:
+        age = int(input("Please enter your age: "))
+        break
+    except ValueError:
+        print("Invalid input. Please enter a valid integer.")
+
+print("You are " + str(age) + " years old.")
+
+
+- In this example, the program uses a while loop to repeatedly prompt the user for their age until they provide valid input. The try block attempts to convert the input to an integer, and if the conversion fails (e.g., if the user enters a non-integer value), a ValueError is raised, which is caught by the except block. The except block then prints an error message and prompts the user to try again. Once the user provides valid input, the loop breaks and the program continues to print out the user's age.
+
