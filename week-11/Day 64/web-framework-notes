@@ -1,0 +1,47 @@
+## Frameworks for web development 
+## What are frameworks?
+-> Web development frameworks are much like packaged libraries that provide developers with
+management and build capabilities. These frameworks are stand-alone packages with built-in predefined services which can be used to build robust web applications.
+
+Advantages of frameworks
+1. Allows for rapid application development.
+2. Existing services can easily be integrated with the build environment.
+3. More lean code base.
+
+Disadvantages of frameworks
+1. Build environment is prone to major updates, which forces developers to maintain code base.
+2. Includes a learning curve in instances where new programming languages are required.
+3. Integration is not guaranteed with all platforms. 
+
+### Front-end frameworks
+## Vue.js
+-> Vue.js is one of the newest web development frameworks to be adopted among web developers. Its
+open source architecture is highly favoured. The framework is extremely robust in that the design of
+user-interfaces can easily reflect changes in real-time data that is often served on the back-end.
+Components in Vue.js are self-contained and highly reusable throughout the application lifecycle.
+
+## Angular
+Angular was developed and is maintained by Google, it is one of the most popular web development
+frameworks among developers. Angular uses TypeScript instead of JavaScript as an object-orientated
+programming language, however being familiar with JavaScript does make it a lot easier to learn
+TypeScript from the ground up. Angular projects are neatly packaged and structured into components,
+services and modules. If web based applications require really good performance, Angular is certainly worth considering as a framework.
+
+## React JS
+React is a framework developed by Facebook. It is widely popular for its use in building responsive user-interfaces. React elements are the building blocks of creating web applications much like the DOM model is the essence of HTML. The framework adopts JavaScript XML to create elements which is an
+extension of JavaScript. 
+
+### Back-end frameworks
+## Firebase
+Firebase is back-end platform developed by Google, for both mobile and web applications. It provides
+an array of back-end services which includes storage, real-time databases and machine learning
+capabilities. Firebase is a very affordable solution for developers who require a back-end service that is scalable for small and medium sized projects. Unlike a SQL database, Firebase makes use of an unstructured database, also known as a NoSQL database.
+
+## MongoDB
+MongoDB is an open source NoSQL database that uses documents to store data. Much like Firebase,
+MongoDB is ideal for unstructured data sets that can be queried using key-value pairs. MongoDB also
+offers developers real-time data analytics and visualisation.
+## AWS
+AWS offers a wide variety of digital services for developers. One notable back-end service for web
+developers include the Amazon Relational Database Service (RDS). For developers who prefer to use a
+SQL database hosted on the cloud, RDS is a great alternative.
