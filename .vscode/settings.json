@@ -1,3 +1,9 @@
 {
-    "liveServer.settings.port": 5502
+    "liveServer.settings.port": 5502,
+    "python-envs.defaultEnvManager": "ms-python.python:conda",
+    "python-envs.defaultPackageManager": "ms-python.python:conda",
+    "markdown.validate.enabled": true,
+    "github.copilot.chat.agent.autoFix": true,
+    "chat.agent.networkFilter": false,
+    "chat.agent.sandbox.enabled": "on"
 }
