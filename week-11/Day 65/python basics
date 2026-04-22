@@ -1,0 +1,27 @@
+### Python
+## What is Python?
+-> Python was first developed by Guido van Rossum, a Dutch programmer, and was first released in 1991. 
+-> It is now maintained and developed by the Python Software Foundation. Python I considered to be a high-level programming language
+
+## Characteristics of Python
+• Human readable – Based on its syntax, Python resembles the English language quite closely.
+• Object-orientated programming – Also called OOP for short, Python is based on the concept of objects which can store data and code.
+• Strong and dynamic – In Python, all variables have types which are crucial, although the language is dynamic enough to alter the value of variables during runtime.
+
+## Applications and usage
+• Data science
+• Robotics
+• Internet of Things (IoT)
+• Artificial Intelligence (AI)
+• Software development
+
+## Why learn Python?
+• Very easy language to learn for beginner programmers.
+• Widely adopted among software developers.
+• Most popular programming language based on the PYPL index.
+• Supported by an array of software stacks
+
+## Example of Python code
+carlist = ["Toyota", "Jaguar", "Tesla" ]
+for car in carlist:
+    print(car)  

@@ -1,0 +1,16 @@
+## Lists
+Used to store multiple data items in a single variable.
+
+## Dictionaries
+Used to store data values in key:value pairs.
+
+# List properties
+ - Ordered 
+ - Mutable
+ - Allows duplicates 
+ - Indexed
+
+# Dictionary properties
+ - Ordered
+ - Mutable
+ - Duplicates are not allowed
