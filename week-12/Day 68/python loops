@@ -1,0 +1,23 @@
+## Working with loops
+
+# What is iteration?
+In programming, iteration refers to the repetition of instructions or a block of code. Iterative control structures are used to carry out a block of code until some condition changes. As an example, if your objective is to flip a coin and achieve three heads in a row, you will continue to flip the coin until your objective is satisfied so that you can move onto the next task. 
+
+In programming, iteration refers to the repetition of instructions or a block of code
+
+
+## Types of loops
+- For
+- While
+- Nested
+
+## For loop example
+i = 0
+for i in range(10):
+    print("Hello, World!")
+
+## While loop example
+i = 0
+while i < 10:
+    print("Hello, World!")
+    i = i + 1
