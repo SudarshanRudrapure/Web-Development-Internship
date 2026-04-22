@@ -25,3 +25,24 @@ print("You are " + str(age) + " years old.")
 
 - In this example, the program uses a while loop to repeatedly prompt the user for their age until they provide valid input. The try block attempts to convert the input to an integer, and if the conversion fails (e.g., if the user enters a non-integer value), a ValueError is raised, which is caught by the except block. The except block then prints an error message and prompts the user to try again. Once the user provides valid input, the loop breaks and the program continues to print out the user's age.
 
+
+## advantages of user input
+Allows for customised user experience
+Shapes the program response
+Data can be stored 
+
+## User input syntax
+# Basic Hello world program
+name = input("What is your name:")
+print("Username is: " + name)
+
+
+# User input and exception handling
+while True:
+    try:
+        num = int(input("Please enter a number: "))
+        break
+    except ValueError:
+        print("Invalid input. Please enter a valid integer.")
+        square = num ** 2
+        print(f" The square of {num} is {square}.")
