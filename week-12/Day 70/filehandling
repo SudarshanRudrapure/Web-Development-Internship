@@ -8,12 +8,14 @@ The process of working with files in a program. It involves opening, reading, wr
 - Create files
 - Delete files
 
+
 # Opening  and Clsoing files
 #open file
 file = open("myfile.txt", "r") # r for read, w for write
 
 #close file
 file.close()
+
 
 # Reading file data
 #open file
@@ -22,7 +24,7 @@ file = open("myfile.txt", "r")
 #Read the contents of the file
 contents = file.read()
 
-#print the fiel contents
+#print the file contents
 print(contents)
 
 #close file
