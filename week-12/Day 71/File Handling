@@ -1,0 +1,15 @@
+## File Handling in python
+
+File handling in Python refers to the ability to work with files, which are external resources used to store data persistently. 
+Python provides built-in functions and modules that allow programmers to perform various operations
+on files, such as creating, reading, writing, and deleting files.
+
+## Appending data 
+Appending data in Python using file handling involves adding new data to the end of an existing file without overwriting the existing content. This can be achieved using the ‘a’ mode in Python's file handling operations. 
+It's important to note that in append mode, new data is always added to the end of the file, even if the file is opened multiple times. 
+Existing data in the file remains unchanged, and the new data is simply added to the end.
+
+## writing data
+To write data to a file in Python, you can open a file using the open() function with a specified file name, mode (such as 'w' for write), and optionally encoding, and then use the write() method to write data to the file. 
+You can write data to a file in Python using different methods, such as writing a single string or a list of strings, numbers, or other data types. 
+You can also write data in binary or text mode, depending on the type of data you want to store. After writing data to a file, it is important to close the file using the close() method to ensure that the data is properly saved and the file is released from memory.
