@@ -1,5 +1,7 @@
 ## File Handling in python
 
+The append method allows us to addd ata to an external file where data already exists.
+
 File handling in Python refers to the ability to work with files, which are external resources used to store data persistently. 
 Python provides built-in functions and modules that allow programmers to perform various operations
 on files, such as creating, reading, writing, and deleting files.
