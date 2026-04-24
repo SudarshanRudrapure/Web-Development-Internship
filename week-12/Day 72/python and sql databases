@@ -1,14 +1,16 @@
 ## Relational Databases
-
 A relational database is a type of database that organises data into one or more tables (or "relations") of columns and rows, with a unique identifier for certain rows. The columns represent attributes of the data, and the rows represent individual records. Relationships between different tables are established using common columns (keys) to link the data. This allows for data to be queried and manipulated in a structured and efficient way.
+
 
 # Relation databases characteristics:
 Relational databases consist of tables with a collection of data that is organised in a specific structure, with rows and columns. Each row represents a single record, and each column represents a field of the record. 
 Tables are used to store and organise data. They can be used to store data of various types, such as text, numbers, and dates, and can be queried, updated, and manipulated using SQL (Structured Query Language). Data is usually constrained with the use of primary and foreign key which serve as unique identifiers.
 
+
 # SQL Database Programming
 Structured Query Language (SQL) is a special-purpose programming language for accessing and manipulating data stored in a relational database. It is used for inserting, updating, querying and deleting data in a database. 
 It can also be used for creating and modifying the structure of the database such as creating, altering, and dropping tables, views, and indexes. SQL statements are used to communicate with the database and are the standard language for relational database management systems.
+
 
 # SQLite
 SQLite is a software library that provides a relational database management system (RDBMS) and is embedded into a software application. It is a self-contained, serverless, and zero-configuration database engine that is simple to use and requires minimal setup. It is a popular choice for small to medium-sized applications that need a lightweight and portable database solution. It is widely used in desktop and mobile applications, as well as embedded systems and web browsers. 
