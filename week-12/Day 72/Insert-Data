@@ -1,0 +1,13 @@
+## Inserting Data
+In SQL (Structured Query Language), an INSERT statement is used to add new rows or records into a table in a relational database. The INSERT statement is one of the most frequently used SQL commands and follows a specific syntax. Below is a general description of an INSERT statement:
+
+
+INSERT INTO table_name (column1, column2, column3, ...)
+VALUES (value1, value2, value3, ...);
+
+- INSERT INTO: This is the clause that begins the INSERT statement and specifies the table name where the new records will be inserted.
+- table_name: This is the name of the table where the new records will be inserted.
+- (column1, column2, ..., columnN): This is an optional clause that specifies the names of the columns in the table where the new records will be inserted. If this clause is omitted, the INSERT statement will insert
+values into all columns in the table in the order they are defined.
+- VALUES: This keyword is followed by a list of values enclosed in parentheses, separated by commas. These values represent the data to be inserted into the corresponding columns specified in the previous clause.
+- (value1, value2, ..., valueN): This is the list of values that correspond to the columns specified in the previous clause. The values must be provided in the same order as the columns are defined in the table
