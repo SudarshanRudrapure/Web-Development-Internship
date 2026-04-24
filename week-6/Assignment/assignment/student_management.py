@@ -1,6 +1,6 @@
 # Student Data Management System
-
 # Initial list of dictionaries to store student records
+
 students = [
     {"Name": "Sudarshan", "Age": 22, "Course": "Data Science"},
     {"Name": "Preeti", "Age": 21, "Course": "Web Development"}
@@ -36,7 +36,6 @@ def display_students():
         print(f"{i}. Name: {student['Name']} | Age: {student['Age']} | Course: {student['Course']}")
     print("-------------------------------\n")
 
-# --- Execution ---
 
 # 1. Display initial records
 display_students()
