@@ -1,0 +1,39 @@
+## Updating Data
+The UPDATE statement in SQL is used to modify the data in a relational database. It allows you to update existing records in a table by changing the values of one or more columns based on specified conditions.
+
+SQL UPDATE Syntax:
+UPDATE: This keyword indicates that we want to update existing in our database.
+table_name: Specifies the name of the table that you want to update.
+column1, column2, ...: Specifies the columns that you want to update.
+value1, value2, ...: Specifies the new values that you want to set for the columns.
+WHERE: An optional clause that allows you to specify conditions that must be met for the update to occur. If you
+omit the WHERE clause, all rows in the table will be updated.
+condition: Specifies the condition that must be met for a row to be updated
+
+Simple Example:
+#Select data from employees table
+import sqlite3
+conn = sqlite3.connect('employee_database.db')
+print ("Opened database successfully");
+cursor = conn.execute("SELECT EMP_ID, NAME, DEPARTMENT_NAME, REGION, SALARY FROM
+employees")
+for row in cursor:
+ print ("EMP_ID = ", row[0])
+ print ("NAME = ", row[1])
+ print ("DEPARTMENT_NAME = ", row[2])
+ print ("REGION = ", row[3])
+ print("SALARY = ", row[4], "\n")
+print ("Operation done successfully");
+conn.close()
+# Update employee data
+import sqlite3
+conn = sqlite3.connect('employee_database.db')
+print ("Opened database successfully");
+conn.execute("UPDATE employees set SALARY = 31000.00 where EMP_ID = 6")
+conn.commit
+print ("Number of rows affected by update:", conn.total_changes)
+cursor = conn.execute("SELECT EMP_ID, NAME, DEPARTMENT_NAME, REGION, SALARY from
+employees")
+for row in cursor:
+ print ("EMP_ID = ", row[0])
+ print ("NAME = ", row[1])

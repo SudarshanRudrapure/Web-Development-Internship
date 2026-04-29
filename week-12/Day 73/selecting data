@@ -1,0 +1,20 @@
+## Selecting Data
+The SELECT statement in SQL is used to retrieve data from one or more database tables. It is one of the most fundamental and commonly used SQL commands, allowing users to fetch data that matches specific criteria and display it in a result set.
+
+SQL select Syntax:
+SELECT column1, column2, column3, ...
+FROM table_name
+WHERE condition
+
+SELECT: This keyword indicates that we want to retrieve data from the database.
+column1, column2, ...: These are the names of the columns in the table that we want to retrieve data from. We can
+specify one or more column names, separated by commas, to define the data we want to fetch.
+FROM: This keyword is followed by the name of the table from which we want to retrieve data.
+table_name: This is the name of the table from which we want to fetch data.
+WHERE: This optional keyword is used to specify a condition that must be met for a row to be included in the result
+set. It allows us to filter the data based on specific criteria.
+condition: This is a logical expression that specifies the criteria that must be met for a row to be included in the
+result set. It can be a combination of column names, comparison operators (such as =, <, >, etc.), and logical
+operators (such as AND, OR, NOT) to define the filtering criteria.
+
+
