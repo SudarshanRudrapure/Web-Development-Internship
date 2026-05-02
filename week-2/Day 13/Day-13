@@ -1,0 +1,53 @@
+##CSS-Cascading Style Sheets(CSS)
+->CSS was first proposed by Hakon Wium Lie on October 10,1994.
+
+Q.What is CSS?
+->Cascading Style Sheets(CSS) is a style sheet language used for describing the presentation of a document written in a markup language.  
+
+#Characteristics of CSS
+1.Allows computing devices to display web pages differently.
+2.Enables the separation of presentation and content.
+3.Improves content accessibility.
+4.Uses selectors in order to target HTML elements.
+5.Declaration blocks are used to specify changes.
+
+#Defining a CSS declaration block
+h1 {
+   color:blue;
+   font-size:12px;
+ }
+
+h1->selector
+
+{ }->declaration block 
+
+color->attribute
+blue-> value
+
+font-size->attribute
+12px->value
+
+#Common Selectors
+1) .class
+Example: .container
+Details: Selects all elements with a class name of container
+
+2) #id
+Example: #student-number
+Details: Selects an element with a uniquely identifiable ID i.e student number
+
+3) element
+Example: h1
+Details: Selects all <h1> elements
+
+4) element, element
+Example: div, p
+Details: Selects all <div> elements and all <p> elements
+
+5) element element
+Example: nav li
+Details: Selects all <li> elements inside <nav> elements
+
+6) element + element
+Example: div + h2
+Details: Selects all <h2> elements that are placed immediately after <div> elements

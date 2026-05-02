@@ -1,0 +1,158 @@
+##Using multimedia in HTML
+1.Images in HTML
+Images improve the design and layout of a webpage.
+In order to place a simple image on a webpage, use the <img> tag.
+
+Basic <img> tag syntax
+<img src="image.jpg" alt="Description">
+
+#Common Image Attributes
+1. src (source)
+Specifies the path or URL of the image.
+
+<img src="cat.jpg">
+
+2. alt (alternative text)
+Provides text description if the image fails to load or for screen readers.
+
+<img src="cat.jpg" alt="Cute cat">
+
+3. width
+Sets the width of the image (in pixels or percentage).
+
+<img src="cat.jpg" width="200">
+
+4. height
+Sets the height of the image.
+
+<img src="cat.jpg" height="150">
+
+5. title
+Shows a tooltip text when the mouse hovers over the image.
+
+<img src="cat.jpg" alt="Cat" title="This is a cute cat">
+
+6. loading
+Controls lazy loading of images.
+
+<img src="cat.jpg" alt="Cat" loading="lazy">
+
+Values:
+lazy → loads image when it comes into view
+eager → loads immediately
+
+7. srcset
+Provides multiple image sizes for responsive design.
+
+<img src="small.jpg" 
+     srcset="small.jpg 500w, medium.jpg 1000w, large.jpg 1500w"
+     alt="Responsive image">
+
+8. sizes
+Works with srcset to define image display size.
+
+<img src="small.jpg"
+     srcset="small.jpg 500w, large.jpg 1000w"
+     sizes="(max-width: 600px) 500px, 1000px"
+     alt="Responsive image">
+
+Example with multiple attributes
+<img src="dog.jpg"
+     alt="Brown dog"
+     width="300"
+     height="200"
+     title="Friendly dog"
+     loading="lazy">
+
+
+##Audio in html
+The <audio> tag specifies a standard way to embed audio in a web page.
+Web browsers generally support a variety of audio format each with its own natively built in controls.
+
+HTML Audio (<audio> tag)
+
+The <audio> tag is used to embed sound or music in a web page.
+
+Basic Syntax
+<audio src="song.mp3"></audio>
+
+
+But usually, we add controls so the user can play or pause the audio.
+
+Audio with Controls
+<audio src="song.mp3" controls></audio>
+
+This shows:
+*Play button
+*Pause button
+*Volume control
+*Timeline
+
+Using <source> for Multiple Formats
+
+Different browsers support different audio formats.
+So we use <source> inside <audio>.
+
+<audio controls>
+    <source src="song.mp3" type="audio/mpeg">
+    <source src="song.ogg" type="audio/ogg">
+    Your browser does not support the audio element.
+</audio>
+
+Common <audio> Attributes
+Attribute		Description
+controls		Shows play/pause buttons
+autoplay		Starts audio automatically
+loop			Repeats audio continuously
+muted			Starts audio with no sound
+preload			Controls how audio loads
+
+Example with Attributes
+<audio controls autoplay loop muted>
+    <source src="music.mp3" type="audio/mpeg">
+</audio>
+
+
+HTML Video (<video> tag)
+
+The <video> tag is used to embed videos in a web page, just like the <audio> tag is used for sound.
+
+Basic Syntax
+<video src="video.mp4"></video>
+
+Usually, we add controls so the user can play, pause, and control the video.
+
+Video with Controls
+<video src="video.mp4" controls></video>
+
+This shows:
+*Play/Pause button
+*Volume control
+*Timeline
+*Fullscreen option
+
+Using <source> for Multiple Formats
+Different browsers support different video formats.
+So we use multiple <source> elements.
+
+<video controls>
+    <source src="video.mp4" type="video/mp4">
+    <source src="video.webm" type="video/webm">
+    Your browser does not support the video tag.
+</video>
+
+#Common <video> Attributes
+Attribute		Description
+controls		Shows video controls
+autoplay		Plays video automatically
+loop			Repeats the video
+muted			Starts video without sound
+poster			Shows an image before video plays
+width			Sets video width
+height			Sets video height
+preload			Controls how video loads
+
+Example with Attributes
+<video width="400" controls poster="thumbnail.jpg">
+    <source src="video.mp4" type="video/mp4">
+</video>
