@@ -1,0 +1,98 @@
+# JavaScript Constructors & Methods
+
+## What is a Constructor Function?
+
+A constructor function is used to create multiple objects with the same structure.
+
+It acts like a **blueprint** for objects.
+
+## Syntax:
+function ConstructorName(param1, param2) {
+    this.property1 = param1;
+    this.property2 = param2;
+}
+
+## Important:
+
+* Use `this` → refers to the current object
+* Use `new` keyword → creates a new object
+
+
+## Constructor Example:
+
+function buildCar(make, model, color) {
+    this.make = make;
+    this.model = model;
+    this.color = color;
+
+    alert("Your " + this.color + " " + this.model + " was successfully created!");
+}
+
+var myNewCar = new buildCar("Dodge", "Hellcat", "silver");
+
+
+## Adding Methods (Functions inside Object)
+
+Methods = functions attached to objects
+
+### Your Code with Methods:
+
+function buildCar(make, model, colour) {
+    this.make = make;
+    this.model = model;
+    this.colour = colour;
+
+    this.startEngine = function() {
+        alert("Vroom! Your engine has started running");
+    };
+
+    this.lightsOn = function() {
+        alert("Your car lights have been turned on");
+    };
+}
+
+var myNewCar = new buildCar("Dodge", "Hellcat", "silver");
+
+myNewCar.startEngine();
+myNewCar.lightsOn();
+
+## 🔹 4. How It Works (Step-by-Step)
+
+1. `new buildCar(...)` creates an empty object
+2. `this` refers to that object
+3. Properties are added (`make`, `model`, `colour`)
+4. Methods are attached
+5. Object is returned automatically
+
+---
+
+## 🔹 5. Better Practice (IMPORTANT 🔥)
+
+Instead of creating methods inside constructor (bad for memory), use **prototype**
+
+### Optimized Version:
+
+function buildCar(make, model, colour) {
+    this.make = make;
+    this.model = model;
+    this.colour = colour;
+}
+
+buildCar.prototype.startEngine = function() {
+    console.log("Vroom! Engine started");
+};
+
+buildCar.prototype.lightsOn = function() {
+    console.log("Lights turned on");
+};
+
+var car1 = new buildCar("Dodge", "Hellcat", "silver");
+
+car1.startEngine();
+car1.lightsOn();
+
+## 🔹 6. Real-Life Analogy
+
+* Constructor = 🏭 Factory
+* Object = 🚗 Car
+* Methods = ⚙️ Features (engine, lights)

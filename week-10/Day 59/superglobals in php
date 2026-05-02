@@ -1,0 +1,79 @@
+## superglobals 
+
+* What are superglobals?
+Predefined variables in PHP
+Accessible everywhere
+
+in simple terms:
+-> predefined and built-in variables
+
+## List of superglobals
+$GLOBALS
+$_GET
+$_POST
+$_SERVER
+$_REQUEST
+$_FILES
+$_ENV
+$_COOKIE
+$_SESSION
+
+
+EXAMPLES 
+
+1. $GLOBALS
+<?php
+$x = 10;
+$y = 20;
+
+function test() {
+    echo $GLOBALS['x'] + $GLOBALS['y'];
+}
+
+test();
+?>
+
+
+2. $_GET
+<!-- form.html -->
+<form method="get">
+    <input type="text" name="username">
+    <button type="submit">Submit</button>
+</form>
+
+<?php
+echo $_GET['username'];
+?>
+
+3. $_POST
+<form method="post">
+    <input type="text" name="username">
+    <button type="submit">Submit</button>
+</form>
+
+<?php
+echo $_POST['username'];
+?>
+
+4. $_SERVER
+<?php
+echo $_SERVER['PHP_SELF'];
+echo "<br>";
+echo $_SERVER['SERVER_NAME'];
+?>
+
+5. $_COOKIE
+<?php
+setcookie("user", "Sudar", time() + 3600);
+
+echo $_COOKIE['user'];
+?>
+
+6. $_SESSION
+<?php
+session_start();
+
+$_SESSION['username'] = "Sudar";
+
+echo $_SESSION['username'];
+?>

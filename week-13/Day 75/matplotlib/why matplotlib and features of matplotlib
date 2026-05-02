@@ -1,0 +1,26 @@
+## Why use matplotlib
+-> There are a number of reasons for using Matplotlib
+
+# Data visualisation 
+-> Matplotlib is a powerful data visualization library that allows you to create a wide variety of visualizations to explore and analyze data. Whether you are working with scientific data, financial data, or any other kind of data, Matplotlib provides a flexible and customizable framework for creating visualizations that help you communicate your insights effectively
+
+# Python Integration 
+-> Matplotlib is designed to work seamlessly with the Python programming language, which is one of the most widely used programming languages in data science and machine learning. By learning Matplotlib, you will gain valuable experience working with Python, and you will be able to leverage the full power of the Python
+ecosystem for data analysis and visualization.
+
+# Career Opportunities
+-> Data visualization is an essential skill for many different careers, including data analysis, business intelligence, and data science. By learning Matplotlib, you will be better equipped to create compelling visualizations that communicate insights effectively, which can help you stand out in the job market.
+
+# Community and Support 
+-> Matplotlib has a large and active community of users and developers, which means that there are many resources available to help you learn and troubleshoot any issues you encounter. Whether you need help with a specific function or are looking for inspiration for your next visualization, you can find support and guidance from the Matplotlib community.
+
+## Features of Matplotlib
+# Basic Plotting
+-> The first concept to teach in a lesson on Matplotlib is basic plotting. This includes creating a figure, creating subplots, and plotting data using various types of plots such as line plots, scatter plots, bar plots, histogram, and box plots.
+
+# Advanced Plotting
+-> Matplotlib also provides several advanced plotting options such as 3D plots, polar
+plots, heatmaps, contour plots, and image plots.
+
+# Saving and Exporting Plots
+-> After creating a plot, it's important to know how to save and export it to various file formats such as PNG, PDF, and SVG. In addition, it's important to know how to display and save multiple plots in the same figure.

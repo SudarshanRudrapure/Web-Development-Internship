@@ -1,0 +1,67 @@
+## JavaScript arrays
+Arrays are useful if you need to store a list of data where individual variables
+just won't work.
+
+### Storing Data in Arrays
+->JavaScript Arrays
+-->Arrays are useful if you need to store a list of data where individual variables just won’t work. 
+The difference between a normal variable and an array is that an array can hold more than one item of data at the same time.
+
+### Declaring an Array
+
+To create an empty array, you declare your variable as normal, give it a name, and assign it the value [].
+
+-->Syntax
+var myArray = [];
+
+### Populating an Array
+Each place where a piece of data can be stored in an array is called an element.
+In order to distinguish between elements in an array, each is assigned an index value.
+
+=> Example 1 (Adding values using index)
+var myArray = [];
+
+myArray[0] = 15;
+myArray[1] = 30;
+myArray[2] = 89;
+
+alert(myArray[1]); // outputs 30
+
+
+=> Example 2 (Direct initialization)
+var myArray = [15, 30, 89];
+
+alert(myArray[1]); // outputs "30"
+
+
+
+### Array Architecture
+An array stores multiple values where each value is associated with an index.
+
+Index always starts from 0
+Each position in the array is called an index
+The value stored at that index is called the element
+
+🔹 Example Array
+var myArray = [3, "One", true, "Apple", 50, 26];
+Index & Values
+Index	0	1	2	3	4	5
+Index Value	3	"One"	true	"Apple"	50	26
+
+Array length = 6
+
+💡 Accessing Elements
+Example 1
+alert(myArray[0]); // outputs 3
+Example 2
+alert(myArray[3]); // outputs "Apple"
+Example 3
+alert(myArray[2]); // outputs true
+
+📏 Getting the Length of an Array
+Using the .length property, we can retrieve the total number of elements in an array.
+
+💡 Example
+var myArray = ["Bitcoin", "Ethereum", "Litecoin", "Cardano"];
+
+alert(myArray.length); // outputs 4

@@ -1,0 +1,32 @@
+## Python lists
+Python lists are used to store multiple data items in a single variable. Lists are objects that store an array of data
+using an index structure that can be referenced based on a numerical structure from 0.
+
+List properties
+• Ordered
+• Mutable
+• Allows duplicates
+• Indexed
+
+## List example
+mycars = ["BMW", "Mercedes", "Audi", "Lexus"]   
+print(mycars)
+
+## Python dictionaries
+Python dictionaries are used to store data values in key:value pairs. 
+Unlike lists, dictionaries have a much more rigid structure where values are not indexed based on a numerical structure. 
+Instead, data values are accessed by referencing the associated user defined key.
+
+## Dictionary properties
+• Ordered
+• Mutable
+• Duplicates are not allowed
+
+## Dictionary example
+cardict = {
+  "brand": "BMW", 
+  "model": "X5", 
+  "year": 2020
+  }
+print(cardict)
+#output: {'brand': 'BMW', 'model': 'X5', 'year': 2020}

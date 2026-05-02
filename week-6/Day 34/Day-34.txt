@@ -1,0 +1,51 @@
+## Working with JavaScript operators
+## JavaScript operators
+JavaScript operators are used to assign and compare values, perform arithmetic operations, and
+implement conditional logic. Below are the following operators in JavaScript.
+
+-Arithmetic operators - used to perform arithmetic between variables and/or values.
+-Assignment operators - used to assign values to JavaScript variables.
+-Comparison operators - used in logical statements to determine equality or difference
+between variables or values.
+-Logical operators - used to test if one or more conditions are met. These are typically used
+with boolean (logical) values.
+
+
+## Arithmetic operators
+Operator    Description
+    +         Addition
+    -         Subtraction
+    *         Multiplication
+    /         Division
+    %         Modulus
+    ++        Increment
+    --        Decrement
+
+
+## Assignment operators
+Operator                Example
+   =                    x = y
+   +=                   x += y
+   *=                   x *= y
+   -=                   x -= y
+    /=                  x /= y
+    %=                  x %= y
+
+
+## Comparison operators
+Operator                Example
+  ==                    equal to
+  ===               equal value and data type
+   !=                   not equal
+   !==              not equal value and not equal data type
+   >                    greater than
+   <                    less than
+   >=               greater than or equal to
+   <=               less than or equal to
+
+
+## Logical operators
+Operator                Example
+  &&                     AND
+  ||                     OR
+   !                    NOT

@@ -1,0 +1,88 @@
+## PHP Operators
+
+Operators are used to perform operations on variables and values in PHP.
+
+## Types of Operators
+1. Arithmetic Operators
+Used for mathematical calculations
+
+| Operator | Meaning        |
+| -------- | -------------- |
+| +        | Addition       |
+| -        | Subtraction    |
+| *        | Multiplication |
+| /        | Division       |
+| %        | Modulus        |
+
+
+## Example
+
+php id="a1p9xk"
+<?php
+$x = 10;
+$y = 5;
+
+echo $x + $y; // 15
+echo $x * $y; // 50
+?>
+
+2. Assignment Operators
+Used to assign values to variables
+
+| Operator | Example |
+| -------- | ------- |
+| =        | $x = 5  |
+| +=       | $x += 2 |
+| -=       | $x -= 2 |
+
+## Example
+php id="b7k2nm"
+<?php
+$x = 10;
+$x += 5;
+
+echo $x; // 15
+?>
+
+3. Comparison Operators
+Used to compare two values
+
+| Operator | Meaning          |
+| -------- | ---------------- |
+| ==       | Equal            |
+| !=       | Not equal        |
+| >        | Greater than     |
+| <        | Less than        |
+| >=       | Greater or equal |
+| <=       | Less or equal    |
+
+
+## Example
+
+php id="c4v8lp"
+<?php
+$x = 10;
+$y = 5;
+
+var_dump($x > $y); // true
+?>
+
+4. Logical Operators
+Used to combine conditions
+
+| Operator | Meaning |   |    |
+| -------- | ------- | - | -- |
+| &&       | AND     |   |    |
+|          |         |   | OR |
+| !        | NOT     |   |    |
+
+## Example
+
+php id="d2m9qr"
+<?php
+$x = 10;
+
+if ($x > 5 && $x < 20) {
+    echo "Valid range";
+}
+?>

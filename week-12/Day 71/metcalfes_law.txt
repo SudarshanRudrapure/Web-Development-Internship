@@ -1,0 +1,1 @@
+Metcalfe's law states the value of a network is proportional to the square of the number of connected users.

@@ -1,0 +1,92 @@
+
+# 📝 Burger Mart Project 
+## 1. Project Idea
+
+A simple **food ordering web app** where users:
+
+* Select burger, fries, soda
+* Choose delivery option
+* See total bill dynamically
+
+
+## 2. HTML (Structure)
+
+* Used `<select>` for menu options
+* `<input type="checkbox">` for delivery
+* `<button>` to place order
+* `<div id="result">` to show output
+
+Purpose: Creates UI layout
+
+
+## 3. CSS (Styling)
+
+* Centered container using `margin: auto`
+* Used `box-shadow` and `border-radius`
+* Styled button with hover effect
+
+Purpose: Makes app look clean & modern
+
+
+## 4. JavaScript (Logic)
+
+### 🔹 Input Handling
+
+document.getElementById("burger").value
+
+Gets selected value from UI
+
+### 🔹 Condition Logic
+
+if (burger === 1) { ... }
+
+Decides item name + price
+
+
+### 🔹 Function
+
+function calculateTotal(b, f, s)
+
+
+Reusable logic to calculate total
+
+
+### 🔹 Event Handling
+
+onclick="placeOrder()"
+
+Runs function when button clicked
+
+
+### 🔹 DOM Update
+
+innerHTML
+
+Displays order result dynamically
+
+## 5. Features
+
+* Dynamic price calculation
+* Delivery charge (+$5)
+* Real-time UI update
+* Clean structure (HTML + CSS + JS separated)
+
+
+## 6. Concepts Used
+
+* Variables
+* Functions
+* Conditions (`if-else`)
+* DOM Manipulation
+* Events
+* User Input Handling
+
+---
+
+## 7. Learning Outcome
+
+After this project, you understand:
+
+* How real websites take input
+* How data flows from UI → JS → UI
+* How to build interactive apps

@@ -1,0 +1,21 @@
+### Positioning in CSS
+The positioning property specifies the type of positioning method used for an element. Element are positioned using the top, bottom, left and right values.
+
+## Types of positioning
+Static -> Elements are positioned static by default
+Relative -> Positoned relative to its normal position.
+Fixed -> Always stays int he same place even if the page is scrolled.
+Sticky -> Positioned based on the user's scroll position.
+Absolute -> Positioned relative to the nearest positioned ancestor.
+
+
+## CSS float
+The CSS float property specifies how an element should float and is used for positioning elements such as images or containers.
+
+## Float properties
+Property value          Datails
+left                 Element floats to the left of its container
+right                Element floats to the right of its container
+inherit              The element inherits the float value of its parent
+none                 The element does not float. Remains in default position.
+

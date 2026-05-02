@@ -1,0 +1,100 @@
+
+# 🌐 1. Web Server – Example
+
+### ✅ Example:
+
+When you open **Google Chrome web browser** and visit a website like:
+
+👉 `https://www.amazon.com`
+
+### What happens:
+1. Your browser (client) sends a request
+2. The **web server** (Amazon server) receives it
+3. Server responds by sending:
+
+   * HTML (page structure)
+   * CSS (design)
+   * JS (functionality)
+
+### 📌 Real-world web servers:
+
+* Apache HTTP Server
+* Nginx web server
+
+These servers host and deliver website files.
+
+
+# ⚙️ 2. Server-Side Scripting – Example
+
+### ✅ Example:
+
+Login system (very common 🔐)
+
+👉 You enter:
+
+* Email: `user@gmail.com`
+* Password: `123456`
+
+### What happens:
+
+1. Browser sends data to server
+2. Server runs backend code (e.g., Node.js / PHP / Python)
+3. Server checks database
+4. Server responds:
+
+* ✔ Correct → Login success
+* ❌ Wrong → Error message
+
+### 📌 Technologies used:
+
+* Node.js runtime
+* PHP programming language
+* Python programming language
+
+Backend decides what response to send.
+
+# 🏗️ 3. Three-Tier Architecture – Example
+
+### ✅ Example:
+
+Online shopping website (like Amazon 🛒)
+
+### 🔹 Tier 1: Client (Frontend)
+
+* Browser (Chrome)
+* User clicks “View Product”
+
+### 🔹 Tier 2: Application Server (Backend)
+
+* Handles logic
+* Example: Fetch product details
+
+### 🔹 Tier 3: Database
+
+* Stores product data (name, price, stock)
+
+
+### 🔄 Flow:
+
+1. User clicks product
+2. Request goes to server
+3. Server queries database
+4. Database sends data
+5. Server builds response
+6. Browser shows product page
+
+
+
+### Real Example Stack:
+
+* Frontend → HTML, CSS, JS
+* Backend → Node.js
+* Database → MySQL database
+
+
+## Simple Summary
+
+* **Web Server** → Sends files to browser
+* **Server-side scripting** → Processes logic & data
+* **Three-tier architecture** → Client + Server + Database
+

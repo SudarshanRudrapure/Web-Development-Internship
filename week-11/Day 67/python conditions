@@ -1,0 +1,21 @@
+## What are Python conditionals?
+A conditional statement is used to handle conditions in your program. These statements guide the control structure
+of a program while making decisions based on the conditions encountered by throughout the programs execution.
+
+## If…else…
+One of the most popular control structures in Python is the if…elif…else… statement. This is what is known as a
+selection control structure where the outcome of the program is based on the condition met.
+
+## Indentation
+Where other programming languages rely on curly braces, Python relies on indentation to define scope. If you omit
+the indentation when it is required, your code will not execute correctly.
+
+# if…elif…else syntax
+if expression1:
+    statement(s)
+elif expression2:
+    statement(s)
+elif expression3:
+    statement(s)
+else:
+    statement(s)

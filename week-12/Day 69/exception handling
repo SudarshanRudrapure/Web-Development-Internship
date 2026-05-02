@@ -1,0 +1,19 @@
+## Exception Handling
+
+- Exception handling or error handling is the process of detecting and responding to errors or exceptional conditions that may occur during the execution of a program. 
+- It is an essential aspect of programming, as it helps ensure that programs are robust, reliable, and maintainable.
+- In programming, errors can occur due to a variety of reasons, such as incorrect input, hardware failure, network issues, or bugs in the code. 
+- To handle these errors, programmers typically use a combination of techniques, including exception handling, logging, and error messages.
+
+# Exception handling keywords 
+- In Python, ‘try’, ‘except’, ‘else’, and ‘finally’ are keywords used for exception handling. 
+- They are used to handleexceptions, which are events that occur during the execution of a program that disrupt the normal flow of code execution. 
+- Here's an overview of the differences between them:
+
+try: The try block is used to enclose a section of code where an exception might occur. If an exception occurs within the try block, the code inside the try block is interrupted, and the control is transferred to the corresponding except block that matches the type of exception that occurred.
+
+except: The except block is used to define how to handle specific types of exceptions that may occur within the corresponding try block. When an exception occurs, and the type of the exception matches the type specified in the except block, the code inside the except block is executed. Multiple except blocks can be used to handle different types of exceptions.
+
+- else: The else block is optional and is used to specify a block of code that should be executed only if no exceptions occurred within the try block. If no exceptions are raised, the code inside the else block is executed immediately after the try block. The else block is typically used to specify the normal flow of code when no exceptions occur.
+
+- finally: The finally block is also optional and is used to specify a block of code that should be executed regardless of whether an exception occurred or not within the try block. The finally block is placed after the try and except blocks and is typically used to specify clean-up code that must be executed, such as closing a file or releasing resources, irrespective of whether an exception occurred or not.

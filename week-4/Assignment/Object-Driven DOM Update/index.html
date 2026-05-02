@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <title>Object-Driven DOM Update</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <h1>Object-Driven DOM Update</h1>
+
+  <div id="buttons">
+    <button onclick="loadProfile(0)">Arjun Sharma</button>
+    <button onclick="loadProfile(1)">Priya Nair</button>
+    <button onclick="loadProfile(2)">Rohan Mehta</button>
+  </div>
+
+  <div id="profile-card">
+    <h2 id="name"></h2>
+    <p><strong>Role:</strong> <span id="role"></span></p>
+    <p><strong>Department:</strong> <span id="dept"></span></p>
+    <p><strong>Projects:</strong> <span id="projects"></span></p>
+    <p><strong>Score:</strong> <span id="score"></span></p>
+    <p><strong>Skills:</strong> <span id="skills"></span></p>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>

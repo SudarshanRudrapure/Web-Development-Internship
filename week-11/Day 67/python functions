@@ -1,0 +1,20 @@
+## What are Python functions?
+A Python function is a block of statements that performs some task and sometimes returns data for further computation. 
+The goal is to put some commonly or repeatedly done tasks together and create a function to avoid
+writing the same block of code over and over again for different inputs, we can do the function calls to reuse a block of code contained in it over and over again. 
+
+## Why use Python functions?
+There are various reasons why programmers use functions, this includes the following:
+• Code decomposition
+• Reusability
+• Extensibility
+
+## Function syntax
+def function_name(parameters):
+    statement(s)
+    return expression
+
+## Function example
+def greeting(name):
+    print("Hello, " + name + "!")   
+greeting("Steve")

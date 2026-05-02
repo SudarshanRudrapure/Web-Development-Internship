@@ -1,0 +1,52 @@
+Working with pseudo-classes
+Pseudo-classes
+Used to define a special state of an element.
+Elements, much like most objects can exist in different states.
+ 
+#Why use pseudo-classes?
+1.Enables improved navigation for end-user.
+2.Conveys meaning to selected elements.
+3.Enhances user interface.
+
+##common pseudo-classes
+Common Pseudo-classes
+
+1) :active
+Example: a:active
+Details: Selects the active link
+
+2) :hover
+Example: a:hover
+Details: Selects links on mouse over
+
+3) :link
+Example: a:link
+Details: Selects all unvisited links
+
+4) :visited
+Example: a:visited
+Details: Selects all visited links
+
+5) :focus
+Example: input:focus
+Details: Selects the input element which has focus
+
+6) :checked
+Example: input:checked
+Details: Selects every checked <input> element
+
+7) :disabled
+Example: input:disabled
+Details: Selects every disabled <input> element
+
+8) :first-child
+Example: p:first-child
+Details: Selects every <p> element that is the first child of its parent
+
+9) :invalid
+Example: input:invalid
+Details: Selects all input elements with an invalid value
+
+
+
+

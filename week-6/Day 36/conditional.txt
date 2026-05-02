@@ -1,0 +1,9 @@
+Conditional logic
+Very often you may want to perform different actions for different decisions. To achieve this we ca use
+conditional logic.
+
+## Conditional statements
+-Use if to specify a block of code to be executed, only if a specified condition is true.
+-Use else to specify the block of code to be executed, if the same condition is false.
+-Use else if to test a new condition, if the first condition is neither true or false.
+-Use switch statement to specify many alternative blocks of code to be executed

@@ -1,0 +1,14 @@
+## Working with Pandas library
+
+# Pandas library
+A Python library is used for working with data sets to carry out the data analysis process. It’s also used for data manipulation techniques.
+
+## The Pandas library is used for working with data sets
+
+# Reasons to use pandas library
+Pandas can be used to:
+- Build data frames
+- Provide readable data structures
+- Organise data
+
+Pandas is also compatible with other data science libraries.

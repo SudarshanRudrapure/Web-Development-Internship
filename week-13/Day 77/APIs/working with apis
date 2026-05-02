@@ -1,0 +1,14 @@
+## Application Programming Interface(API)
+
+An API, or Application Programming Interface, is a set of rules and protocols that allows different software
+applications to communicate and interact with each other. It defines how various components of software
+systems should interact, specifying the types of requests that can be made, the format of the data that should be exchanged, and the actions or responses that can be expected.
+
+## we can use HTTP requests to work with data. These usually require methods, such as get to get data. put to updata data. post to add data and delete to remove data.
+
+### why use APIs
+APIs provide a way for different applications or services to leverage the functionalities of another software
+component without needing to understand the complexities of its implementation.
+They act as intermediaries, enabling seamless communication and data exchange between different systems, platforms, or programming languages.
+They serve as building blocks for developers, allowing them to integrate existing services, access data, and
+extend the capabilities of their own applications.

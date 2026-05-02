@@ -1,0 +1,17 @@
+## Python Modules
+What are modules?
+A module is a script which contains Python definitions and statements. 
+These statements and definitions often consist of existing code that will include functions which can be called outside of the script. 
+The use of modules is a great way to package relatable functions that can be called in other script environments. 
+One can therefore think of a module as a package with various functions.
+
+## Benefits of Python modules
+• Reusability - working with modules makes the code reusable.
+• Simplicity - modules focus on a small proportion of the much larger problem, rather than focusing on the entire problem.
+• Scoping - a separate namespace is defined by a module that helps to avoid collisions between identifiers.
+
+## Time module example
+import time
+time.sleep(5)   
+print("Hello, World!")
+        #prints Hello, World! will be printed after 5 seconds

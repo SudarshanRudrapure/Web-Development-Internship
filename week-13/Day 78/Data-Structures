@@ -1,0 +1,33 @@
+## Structured
+
+--> Organisation: 
+Structured data is organised and formatted according to a pre-defined schema or data model. It is
+typically stored in relational databases or spreadsheets, where data is organised into tables with rows and
+columns.
+
+--> Format: Structured data follows a specific format and has a fixed schema that defines the data types and
+relationships between different data elements. It can be easily categorised, classified, and processed due to its consistent structure.
+
+Examples: Examples of structured data include tabular data in databases, such as customer information in a CRM
+system, sales transactions, inventory records, or financial statements.
+
+- Pre-defined schema
+- Defines the data types and
+- relationships
+- Tabular data
+
+## Unstructured
+
+--> Organisation: 
+Unstructured data lacks a pre-defined structure and does not conform to a specific schema or data
+model. It is often characterized by its free-form nature, making it challenging to organise and analyse using
+traditional database systems.
+
+--> Format: Unstructured data can take various forms, such as text documents, emails, images, videos, social media
+posts, audio recordings, and more. It does not adhere to a fixed format, and the information it contains may not be
+easily extractable without specific processing techniques.
+
+- Lacks a pre-defined structure
+- Data has very little direct correlation
+- Consists of various formats
+- Accommodates robust applications

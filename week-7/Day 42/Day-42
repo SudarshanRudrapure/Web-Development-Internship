@@ -1,0 +1,142 @@
+## Functions and methods
+-->Functions and methods are often used interchangeably. 
+
+## JavaScript functions
+A JavaScript function is a block of code designed to perform a particular task. 
+A JavaScript function is executed when "something" invokes it (calls it). 
+
+
+## Functions vs Methods (Important Concept)
+
+## 🔹 Function
+
+* A **function** is a reusable block of code.
+* It is **independent** (not tied to an object).
+
+function greet() {
+  console.log("Hello");
+}
+greet();
+
+ Here, `greet()` is a **function**
+
+
+## 🔹 Method
+
+* A **method** is a function **inside an object**.
+
+const user = {
+  name: "John",
+  sayHi: function () {
+    console.log("Hi");
+  }
+};
+
+user.sayHi();
+
+`sayHi()` is a **method** because it belongs to `user`
+
+
+## 🔥 Key Difference
+
+| Feature           | Function  | Method         |
+| ----------------- | --------- | -------------- |
+| Belongs to object | ❌ No      | ✅ Yes          |
+| Called using      | `func()`  | `obj.func()`   |
+| Example           | `greet()` | `user.sayHi()` |
+
+
+## JavaScript Functions
+
+## Definition
+
+A **function** is:
+
+> A block of code designed to perform a specific task.
+
+## 🔹 Syntax
+function functionName(parameters) {
+  // code
+}
+## Example
+
+function add(a, b) {
+  return a + b;
+}
+
+console.log(add(2, 3)); // 5
+
+
+## Types of Functions
+
+### 1. Function Declaration
+
+function test() {}
+
+### 2. Function Expression
+
+const test = function() {};
+
+
+### 3. Arrow Function
+
+const test = () => {};
+
+
+## When Function Runs
+
+A function runs when it is **called (invoked)**:
+
+myFunction(); // calling
+
+## Global vs Local Variables
+
+## 🔹 Global Variable
+
+* Declared **outside any function**
+* Can be accessed **anywhere**
+
+let name = "Sam"; // global
+
+function show() {
+  console.log(name);
+}
+
+show(); // Sam
+
+## 🔹 Local Variable
+
+* Declared **inside a function**
+* Can be used **only inside that function**
+
+function show() {
+  let age = 25; // local
+  console.log(age);
+}
+
+show();
+// console.log(age); ❌ Error
+
+| Feature | Global Variable | Local Variable       |
+| ------- | --------------- | -------------------- |
+| Scope   | Entire program  | Inside function only |
+| Access  | Anywhere        | Limited              |
+| Memory  | Stays longer    | Temporary            |
+
+
+## simple example
+let a = 10;
+
+function test() {
+  let a = 20;
+  console.log(a); // 20 (local)
+}
+test();
+console.log(a); // 10 (global)
+
+
+## Summary
+* Function → Independent block of code
+* Method → Function inside object
+* Global variable → Accessible everywhere
+* Local variable → Accessible only inside function

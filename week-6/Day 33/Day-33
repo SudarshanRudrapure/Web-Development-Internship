@@ -1,0 +1,37 @@
+## Displaying Data in the Client
+
+In JavaScript, data stored in variables can be displayed to the user using different **built-in client mechanisms**. These methods help developers interact with users and show messages or collect input directly in the browser.
+
+
+### Basic Approaches to Displaying Data
+
+## Console
+Used to display messages in the **browser console** (mainly for debugging).
+
+var name = "John";
+console.log(name);
+
+
+## Alert
+Displays a **popup message** to the user.
+
+var msg = "Welcome!";
+alert(msg);
+
+
+## Confirm
+Shows a popup with **OK and Cancel buttons** and returns a boolean value.
+
+confirm("Do you want to continue?");
+
+## Prompt
+Displays a popup that asks the user to **enter some input**.
+
+var name = prompt("Enter your name");
+alert(name);
+
+### **Key Points**
+
+* JavaScript provides different ways to **display information to users**.
+* `console.log()` is mainly used for **testing and debugging**.
+* `alert()`, `confirm()`, and `prompt()` create **interactive popup dialogs** in the browser.

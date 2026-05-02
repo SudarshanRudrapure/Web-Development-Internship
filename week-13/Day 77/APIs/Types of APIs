@@ -1,0 +1,11 @@
+1. Web APIs:
+- Specifically designed for web-based applications.
+- Allow developers to interact with web services or retrieve data from remote servers using standard
+protocols such as HTTP.
+- Often return data in formats like JSON or XML, which can be easily consumed by client applications.
+
+2. Library or Framework APIs:
+- Provided by libraries, frameworks, or software development kits (SDKs) and is used to access the
+functionalities and features of those software components.
+- Usually used within the same programming language and are called directly, while framework APIs
+provide a structured way of building applications by following a specific framework's guidelines.

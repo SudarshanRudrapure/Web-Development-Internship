@@ -1,0 +1,29 @@
+## What are Python variables?
+Python variables are like boxes, like everything else in Python, they are objects that are used to store data values for computation. 
+Unlike many other programming languages, variables are not declared. They are simply created once
+a value has been assigned to them. The variable data types do not have to be declared, instead Python will infer the data type once a value has been assigned. A variable is only a name given to a memory location for later use.
+
+## Example of assigning values to variables
+# Assigning a string value to a variable
+name = "Jack"
+# Assigning an integer value to a variable
+age = 30
+# Assigning a float value to a variable
+height = 1.75
+# Assigning a boolean value to a variable
+is_student = True
+# Assigning a list value to a variable
+fruits = ["apple", "banana", "cherry"]
+# Assigning a dictionary value to a variable
+person = {"name": "Alice", "age": 25, "city": "NewYork"}
+# Assigning a tuple value to a variable
+coordinates = (10.0, 20.0)
+# Assigning a set value to a variable
+unique_numbers = {1, 2, 3, 4, 5}
+# Assigning a None value to a variable
+result = None
+# Assigning a complex number value to a variable
+complex_number = 2 + 3j
+# Assigning a byte value to a variable
+byte_data = b"Hello, World!"  
+

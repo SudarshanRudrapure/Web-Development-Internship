@@ -1,0 +1,166 @@
+1. Comparison Operators (JavaScript)
+Comparison operators are used to compare two values.
+They return a Boolean value:
+true
+false
+
+They are mostly used in conditions like if, while, for, etc.
+Example:
+let x = 10;
+let y = 5;
+console.log(x > y); // true
+
+1. == (Equal To)
+Checks if two values are equal, but it does not check the data type.
+JavaScript may convert the values automatically before comparing.
+
+Example:
+let x = 5;
+let y = "5";
+
+console.log(x == y); // true
+
+Because JavaScript converts "5" (string) to 5 (number).
+
+⚠️ This is called Type Coercion.
+
+2. === (Strict Equal To)
+Checks if value and data type are both equal.
+No type conversion happens.
+Example:
+let x = 5;
+let y = "5";
+
+console.log(x === y); // false
+
+Because:
+5 → number
+"5" → string
+
+Best practice: Always prefer === in JavaScript.
+
+
+3. != (Not Equal)
+Checks if values are not equal.
+It does not check data type.
+Example:
+let x = 10;
+let y = "10";
+console.log(x != y); // false
+
+Because "10" is converted to number 10.
+
+
+4. !== (Strict Not Equal)
+Checks if value OR data type are different.
+Example:
+let x = 10;
+let y = "10";
+console.log(x !== y); // true
+
+Because the data types are different.
+
+
+5. > (Greater Than)
+Checks if the left value is greater than the right value.
+Example:
+let x = 10;
+let y = 5;
+
+console.log(x > y); // true
+
+
+6. < (Less Than)
+Checks if the left value is smaller than the right value.
+Example:
+let x = 3;
+let y = 8;
+
+console.log(x < y); // true
+
+7. >= (Greater Than or Equal To)
+Returns true if the left value is greater than or equal to the right value.
+Example:
+
+let x = 10;
+let y = 10;
+
+console.log(x >= y); // true
+
+
+8. <= (Less Than or Equal To)
+Returns true if the left value is less than or equal to the right value.
+Example:
+let x = 5;
+let y = 10;
+
+console.log(x <= y); // true
+
+2. Logical Operators (JavaScript)
+Logical operators are used to combine multiple conditions.
+They are commonly used in if statements and decision making.
+
+1. && (Logical AND)
+Returns true only if both conditions are true.
+Example:
+let age = 25;
+console.log(age > 18 && age < 30); // true
+
+Explanation:
+age > 18 → true
+age < 30 → true
+So the result is true.
+
+If any one condition is false, the result becomes false.
+
+
+2. || (Logical OR)
+Returns true if at least one condition is true.
+Example:
+let age = 17;
+console.log(age < 18 || age > 60); // true
+
+Explanation:
+age < 18 → true
+age > 60 → false
+
+Since one condition is true → result is true.
+
+3. ! (Logical NOT)
+Reverses the Boolean value.
+true becomes false
+false becomes true
+
+Example:
+let isLoggedIn = true;
+
+console.log(!isLoggedIn); // false
+
+Simple Real-World Example
+let username = "admin";
+let password = "1234";
+
+if (username === "admin" && password === "1234") {
+    console.log("Login Successful");
+} else {
+    console.log("Invalid Credentials");
+}
+
+Here:
+=== checks value and type
+&& checks both conditions must be true
+
+Quick Summary Table
+Operator	Type	Meaning
+==	    Comparison	equal value
+===	    Comparison	equal value and type
+!=	    Comparison	not equal
+!==	    Comparison	not equal value or type
+>	    Comparison	greater than
+<	    Comparison	less than
+>=	    Comparison	greater than or equal
+<=	    Comparison	less than or equal
+
+&&	    Logical	AND
+!	    Logical	NOT
+

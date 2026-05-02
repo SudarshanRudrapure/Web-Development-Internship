@@ -1,0 +1,19 @@
+## What is PHP?
+Hypertext Preprocessor (or simply PHP) is a server scripting language, and a powerful tool for making
+dynamic and interactive web pages by connecting with a database. 
+
+
+## Why learn PHP?
+    A must for web developers.
+    One of the highest ranking languages.
+    Database integration.
+    Supports a large number of protocols.
+
+
+
+## Applications of PHP
+    Performs system functions.
+    Data management capabilities.
+    CRUD operations (create, read, update and delete).
+    Manage user access.
+    Data encryption. 

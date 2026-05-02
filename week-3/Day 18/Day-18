@@ -1,0 +1,8 @@
+A webpage is created using HTML for structure and CSS for styling.
+HTML elements like headings, paragraphs, images, tables, and forms help organize the content of the page. Each element plays a specific role in presenting information clearly to users.
+
+CSS is used to improve the visual appearance of the webpage. By using selectors such as id and class, we can apply styles like colors, spacing, fonts, borders, and alignment to different sections. This helps maintain consistency and makes the page look more attractive and user-friendly.
+
+Div containers are used to group related content, which helps in layout design and easier styling. Tables are useful for displaying structured data, while forms allow user interaction and input collection.
+
+Overall, combining HTML structure with CSS styling helps in building clean, responsive, and visually appealing webpages, which is the foundation of front-end web development.

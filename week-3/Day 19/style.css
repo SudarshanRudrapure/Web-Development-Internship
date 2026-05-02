@@ -1,0 +1,74 @@
+
+
+/* Reset default spacing */
+body {
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Navbar container */
+.navbar {
+  background-color: #222;
+  overflow: hidden;
+}
+
+/* Navbar links */
+.navbar a {
+  float: left;
+  color: white;
+  padding: 14px 18px;
+  text-decoration: none;
+  font-size: 16px;
+}
+
+/* Hover effect */
+.navbar a:hover {
+  background-color: #575757;
+}
+
+/* Dropdown container */
+.dropdown {
+  float: left;
+  overflow: hidden;
+}
+
+/* Dropdown button */
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: white;
+  padding: 14px 18px;
+  background-color: inherit;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+/* Dropdown content */
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: #333;
+  min-width: 160px;
+}
+
+/* Dropdown links */
+.dropdown-content a {
+  float: none;
+  display: block;
+  padding: 12px;
+}
+
+/* Show dropdown on hover */
+.dropdown:hover .dropdown-content {
+  display: block;
+}
+
+/* Right side menu */
+.nav-right {
+  float: right;
+}
+
+/* Page content */
+.content {
+  padding: 20px;
+}

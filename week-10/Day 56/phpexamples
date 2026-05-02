@@ -1,0 +1,37 @@
+<?php 
+
+$myVar = "I am a string";
+echo $myVar;
+
+?>
+
+//output : I am a string
+
+
+<?php
+$x = 5; // global scope 
+$y = 10; // global scope    
+$z = $x + $y; // global scope
+echo $z; // output: 15
+?>
+
+## PHP output - HTML
+In order to embed PHP code with HTML, the PHP must be set apart using PHP start and end tags. 
+Note that in the example below, our file is still saved as a .php file
+
+<!DOCTYPE html>
+<html>
+<body>
+<h3>The sum of 10 and 5 is </h3>
+<?php
+$x = 5; // global scope
+$y = 10; // global scope
+$z = $x + $y; // global scope
+echo $z; // output: 15
+
+?>
+</body> 
+</html>
+
+//Output: The sum of 10 and 5 is 
+15

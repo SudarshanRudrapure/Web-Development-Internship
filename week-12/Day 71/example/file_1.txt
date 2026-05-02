@@ -1,0 +1,1 @@
+This text overwrites all existing data in text file

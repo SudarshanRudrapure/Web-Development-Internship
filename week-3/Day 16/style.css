@@ -1,0 +1,25 @@
+body{
+    font-family: Arial, sans-serif;
+}
+
+/* Absolute sizes */
+h1{
+    font-size:40px;
+}
+
+h2{
+    font-size:30px;
+}
+
+/* Relative sizes */
+p{
+    font-size:1em;   /* equals default browser size (16px) */
+}
+
+.small-text{
+    font-size:0.8em; /* smaller relative text */
+}
+
+.large-text{
+    font-size:1.5em; /* larger relative text */
+}

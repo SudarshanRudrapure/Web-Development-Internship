@@ -1,0 +1,49 @@
+## Working with fonts
+Typography is the art of designing the appearance of characters and letters on a page. To alter the font of text, use the "font-family" attribute.
+
+Example:       
+
+
+#Scaling fonts
+1.Absolute size
+2.Relative size
+
+1.Absolute size
+*Sets the text to a specified size.
+*Does not allow a user to change the text size in all browsers.
+*Useful when the physical size of the output is known.
+*Absolute font sizes generally use fixed values, such as pixels(px), to specify text sizes.
+Examples:
+	h1{
+	    font-size:40px;
+ 	  }
+
+	h2{
+	    font-size:30px;
+ 	  }
+
+	p{
+	    font-size:14px;
+ 	  }
+
+2.Relative size
+*Sets the size relative to surrounding elements.
+*Allows a user to change the text size in browsers.
+*Setting font sizes using the em size enables users to resize the text and is often a preferred alternative to px. 1em is equal to the default text size of browsers, 16px.
+Examples:
+	h1{
+	    font-size:2.5em; /*40px/16=2.5em */
+ 	  }
+
+	h2{
+	    font-size:1.875em; /*30px/16=1.875em */
+ 	  }
+
+	p{
+	    font-size:0.875em; /*14px/16=0.875em */;
+ 	  }
+ 
+• Much like em, using percent % as a unit is also a highly responsive approach to developing content.
+• It’s much easier for visitors to use scalable text that can display on any device.
+	   
+

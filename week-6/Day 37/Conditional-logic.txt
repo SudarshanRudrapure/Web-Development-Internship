@@ -1,0 +1,10 @@
+
+Statement	        Purpose
+
+if	            Runs code if condition is true
+
+if...else	    Two possible results
+
+else if	        Multiple conditions
+
+switch	        Check many fixed values

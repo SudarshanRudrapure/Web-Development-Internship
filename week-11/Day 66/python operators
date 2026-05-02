@@ -1,0 +1,45 @@
+### python Operators
+## What are Python operators?
+Python operators are used to perform computational operations on values and variables. They can be used to build both basic and complex algorithms. 
+There are four commonly used operators in Python; 
+- arithmetic, 
+- assignment,
+- comparison and 
+- logical.
+
+## Arithmetic operators
+Arithmetic operators are used to performing mathematical computations such as addition, subtraction,
+multiplication, and division.
+Operators       Examples        Results
+    +             2 + 2             4
+    -             2 - 2             0
+    *             2 * 5             10
+    /             10/2              5
+    %             10 % 4            2
+
+
+
+## Assignment operators
+Assignment operators are used to assign values to the variables. For the example below, let’s assume that x=20efor all examples.
+Operators          Examples          Results
+    =               x = 20              20
+    +=              x += 10             30
+    -=              x -= 10             10
+    *=              x *= 10             200
+    /=              x /= 10             2
+
+
+## Comparison operators
+Comparison operators are used to compare two values. It either returns True or False according to the condition.
+Operators           Examples               Results
+    ==              20 == 20                True
+    !=              5 != 10                 True
+    >               3 > 10                  False
+    <               5 < 10                  True
+
+
+## Logical operators
+It is used to combine conditional statements. Logical operators will also return a True or False value.
+Operators           Examples                  Results
+    and             10<20 and 5>2               True
+    or              10>20 or 5>2                True

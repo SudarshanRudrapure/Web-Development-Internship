@@ -1,0 +1,10 @@
+
+
+
+<?php
+echo "Hello, World!";
+?>
+
+    This is the simplest PHP script
+    <?php ?> → PHP starts and ends here
+    echo → prints output to browser
