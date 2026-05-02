@@ -1,0 +1,46 @@
+Objectives-->	
+		1.Internet and the world wide web
+		2. Networking
+		3. Web server basics
+		4. Markup languages
+
+1. Internet and the world wide web
+---> The internet consists of multiple computers over a network that communicate with one another using a specific set of rules. The internet orginated from ARPANET.   
+--->The internet of things(IOT)
+    A subsets of the internet that includes computers and sensors connected to each other for communication and automatic transaction processing.
+    also discussed Characteristics of IOT.
+
+2. Networking
+-->Packet-switched networks
+	In a packet switched network, files are broken down into smaller pieces called packets, that are labelled electronically with their origins, sequences and destination address.
+--->and also discussed Common network types like LAN(local area network),WAN(wide area network)
+    public and private networks and virtual private networks(VPNs) and advantages of using VPN.
+--->Intranet(Does not extend beyond the organization that created it) and
+    Extranets(Much like intranet, but also extended to entities outside the boundaries of an organization such as business partners, customers and suppliers).
+
+3. Web Server Basics
+--->A web server is a computer that hosts web content or files that make up structure of websites.(includes things  such as images and so on) 
+--->Responds to client requests by:
+	*Transferring files and scripts to the web client(browser).
+	*Generating a response by invoking scripts and querying a database.
+--->Also know about the Web Client and Web Server
+	*Web client (chrome, edge....)
+	*A web client is the thing you use to access websites(in simple The client asks for information)->Client = requester + viewer
+	*Web server(it hosts all the scripts and all the files that we need) 
+	*A web server is a powerful computer (or group of computers) that stores websites and sends them to clients(In simple words The server answers the request).->Client asks → Server processes → Server replies → Client displays.
+--->And also know about the how message flows in a two-tier client/server architecture and      three-tier client/server architecture.
+--->also studied client-side scripting and server-side scripting.
+	*client-side scripting
+		->script is run by the client software(browser).
+		->code instructs the client to request the script from server.
+		->processing occurs on local machine(the users device).
+		->Scripting languages included HTML, CSS and JavaScript.
+	*server-side scripting
+		->Script is run by the server software(backend).
+		->server responds to the clients request.
+		->server response is shaped based on client request.
+		->Ideal for hosting a database.
+		->Scripting languages include PHP, NodeJS, Python.
+
+PLATFORM NEUTRALITY
+	*The ability of a network to connect devices that use different operating systems is called platoform neutrality.

@@ -1,0 +1,28 @@
+Web Languages
+-->Key techonolgies of the web
+1. Hypertext
+2. Styling language
+3. Graphical User Interface(GUI).
+
+1. Hypertext
+	->Described as a page linking system in which text on one page links to another page.
+	i.e.,Hypertext Markup Language(HTML).
+                **skelton of a webpage or website**
+	->Includes a set of tags which describes the relationships among text elements.
+	->Tags provide formatting instructions
+	->Most tags have an opening and closing tag<><>.
+
+2. Styling
+	->Style sheets are sets of insturctions that give web developers more control over the format of displayed pages.
+	i.e.,Cascading style sheet(CSS)
+	->can be included in HTML document
+	->Single style sheet allows formatting to applied to across multiple web pages
+	->Usually stored in a separate file.
+
+3. GUI(Graphical user interface)
+-->GUI is made up of HTML code as well as the CSS code.
+*Graphical user interface (GUI) is a way of presenting program control functions output to users and accepting input.
+*Allows users to interface with system.
+*Strong focus on UI/UX.
+*Determines user acceptance.
+*Uses pictures, icons and other graphical elements instead of plain text.

@@ -1,0 +1,26 @@
+🌐 HTTP (HyperText Transfer Protocol)
+1.Data is sent in plain text
+2.Not secure
+3.Anyone can read the data
+
+Example:
+http://example.com
+
+📌 Risk:
+Passwords, messages, or details can be stolen ❌
+
+
+🔒 HTTPS (HyperText Transfer Protocol Secure)
+1.Data is encrypted
+2.Secure
+3.Uses SSL/TLS certificate
+
+Example:
+https://example.com
+
+📌 Safe:
+Even if someone intercepts data, they can’t read it ✅
+
+✅ One-line summary
+HTTP = unsafe communication
+HTTPS = secure communication using encryption

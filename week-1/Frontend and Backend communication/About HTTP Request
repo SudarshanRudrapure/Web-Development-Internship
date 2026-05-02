@@ -1,0 +1,42 @@
+## HTTP Request
+**HTTP stands for Hypertext Transfer Protocol
+An HTTP request is a message sent by a client (like a web browser or mobile app) to a server asking it to do something—usually to get, send, or update data.
+
+Simple example 
+When you type www.google.com and press Enter, your browser sends an HTTP request to Google’s server saying:
+“Please send me the Google homepage.”
+
+Main parts of an HTTP request
+1. Request Method – what action you want
+GET → get data
+POST → send data
+PUT → update data
+DELETE → delete data
+
+URL – where the request is sent
+Example: /login, /products
+Headers – extra information
+Example: browser type, content type
+Body (optional) – data you send
+Example: username & password in a login form
+
+Very simple real-life analogy 
+You (browser) = customer
+Restaurant (server)
+Menu order = HTTP request
+Food = HTTP response
+
+[ Browser / App ]
+        |
+        |  HTTP Request (GET / POST)
+        ↓
+[     Server     ]
+        |
+        |  HTTP Response (Data / HTML / JSON)
+        ↓
+[ Browser / App ]
+
+-->Browser asks something → Server replies with data.
+
+In One Line.....,
+-->HTTP request = a way for frontend (browser) to talk to backend (server).

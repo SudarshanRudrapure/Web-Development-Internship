@@ -1,0 +1,9 @@
+🧩 Example (Real Life)
+
+When you open a website:
+
+Browser → sends HTTP Request
+
+Server → sends HTTP Response
+
+Page loads on screen

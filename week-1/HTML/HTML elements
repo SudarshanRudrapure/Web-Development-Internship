@@ -1,0 +1,90 @@
+## HTML elements
+HTML elements are the basic building blocks of a web page 🌐
+An HTML element usually consists of:
+-Opening tag
+-Content
+-Closing tag
+
+Example
+<p>This is a paragraph</p>
+
+Here:
+<p> → opening tag
+This is a paragraph → content
+</p> → closing tag
+
+##Types of HTML Elements
+
+1️⃣ Block-level Elements
+These start on a new line and take full width.
+Examples:
+<div>Block</div>
+<p>Paragraph</p>
+<h1>Heading</h1>
+<ul>List</ul>
+
+
+Common block elements:
+<div>
+<p>
+<h1> to <h6>
+<ul>, <ol>, <li>
+<section>, <article>
+
+2️⃣ Inline Elements
+These do not start on a new line and take only required width.
+
+Examples:
+<span>Inline</span>
+<a href="#">Link</a>
+<strong>Bold</strong>
+
+Common inline elements:
+<span>
+<a>
+<b>, <strong>
+<i>, <em>
+<img>
+
+3️⃣ Empty (Self-closing) Elements
+These do not have closing tags.
+Examples:
+<br>
+<hr>
+<img src="image.jpg">
+<input type="text">
+
+4️⃣ Semantic Elements
+These give meaning to the content.
+Examples:
+<header>Header</header>
+<nav>Navigation</nav>
+<main>Main content</main>
+<footer>Footer</footer>
+
+Common semantic elements:
+<header>
+<nav>
+<section>
+<article>
+<aside>
+<footer>
+
+5️⃣ Non-Semantic Elements
+They don’t describe content meaning.
+Examples:
+<div>
+<span>
+    
+Simple Full Example
+<!DOCTYPE html>
+<html>
+<head>
+  <title>HTML Elements</title>
+</head>
+<body>
+  <h1>Welcome</h1>
+  <p>This is <strong>HTML</strong> example.</p>
+  <a href="#">Click here</a>
+</body>
+</html>
