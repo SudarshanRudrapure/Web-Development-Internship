@@ -6,10 +6,11 @@
 3. Sends HTTP requests
 
 
-🗄️ Backend
+--> Backend
 1. Runs on server
 2. Java, Python, PHP, Node
 3. Processes request & sends response
+
 
 
 🔄 How They Communicate

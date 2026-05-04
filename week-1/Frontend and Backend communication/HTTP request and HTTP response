@@ -4,11 +4,11 @@
 Sent by client (browser / app)
 Asks the server for data or sends data
 Example:
-👉 “Give me the login page”
+    “Give me the login page”
 
 
-🔵 HTTP Response
+🔵 HTTP Response 
 Sent by server
 Contains the result (HTML, data, error, etc.)
 Example:
-👉 “Here is the login page”
+    “Here is the login page”

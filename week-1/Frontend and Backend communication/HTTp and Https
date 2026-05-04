@@ -19,7 +19,8 @@ Example:
 https://example.com
 
 📌 Safe:
-Even if someone intercepts data, they can’t read it ✅
+Even if someone intercepts data, they can’t read it 
+
 
 ✅ One-line summary
 HTTP = unsafe communication

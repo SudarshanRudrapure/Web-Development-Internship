@@ -2,9 +2,11 @@
 **HTTP stands for Hypertext Transfer Protocol
 An HTTP request is a message sent by a client (like a web browser or mobile app) to a server asking it to do something—usually to get, send, or update data.
 
+
 Simple example 
 When you type www.google.com and press Enter, your browser sends an HTTP request to Google’s server saying:
 “Please send me the Google homepage.”
+
 
 Main parts of an HTTP request
 1. Request Method – what action you want
