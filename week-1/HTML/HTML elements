@@ -15,7 +15,7 @@ This is a paragraph → content
 
 ##Types of HTML Elements
 
-1️⃣ Block-level Elements
+1. Block-level Elements
 These start on a new line and take full width.
 Examples:
 <div>Block</div>
@@ -31,7 +31,7 @@ Common block elements:
 <ul>, <ol>, <li>
 <section>, <article>
 
-2️⃣ Inline Elements
+2. Inline Elements
 These do not start on a new line and take only required width.
 
 Examples:
@@ -46,7 +46,7 @@ Common inline elements:
 <i>, <em>
 <img>
 
-3️⃣ Empty (Self-closing) Elements
+3. Empty (Self-closing) Elements
 These do not have closing tags.
 Examples:
 <br>
@@ -54,7 +54,7 @@ Examples:
 <img src="image.jpg">
 <input type="text">
 
-4️⃣ Semantic Elements
+4. Semantic Elements
 These give meaning to the content.
 Examples:
 <header>Header</header>
@@ -70,8 +70,8 @@ Common semantic elements:
 <aside>
 <footer>
 
-5️⃣ Non-Semantic Elements
-They don’t describe content meaning.
+5. Non-Semantic Elements
+They don't describe content meaning.
 Examples:
 <div>
 <span>
