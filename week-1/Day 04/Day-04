@@ -1,12 +1,14 @@
 1. What is HTML?
 Hypertext Markup Language(HTML) is standard markup language for creating web pages and web applications.
 
-#Characteristics of HTML
+# Characteristics of HTML
+
 1.Cornerstone technology used by most websites
 2.Enables media files to be embedded
 3.Semantically defines web page.
 4.Allows developers to embed JavaScript.
 5.Elements/tags have attributes.
+
 
 #HTML5
 1.The 5th iteration of the HTML standard.
@@ -16,7 +18,7 @@ Hypertext Markup Language(HTML) is standard markup language for creating web pag
 6.Enriches the semantic content of documents by introducing new page structure elements.
 7.Accommodates the use of multiple and outdated browsers.        
 
-#Defining an HTML documents
+# Defining an HTML documents
 <!DOCTYPE html>   -----> Defines/declares document type as documents as HTML
 <html>		  ----->Opening tag for HTML content
     <head>         ----->Data about data. Data about HTML document i.e CSS and character set
