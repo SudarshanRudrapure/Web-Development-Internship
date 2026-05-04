@@ -3,10 +3,12 @@ body{
     font-size:  50%;
     background-color: aliceblue;
 }
+
 h1{
     color: rgb(228, 15, 15);
     font-style: normal;
 }
+
 p{
     color: rgb(185, 67, 170);
     font-size: large;

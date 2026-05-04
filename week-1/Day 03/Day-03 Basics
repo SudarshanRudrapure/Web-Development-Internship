@@ -1,4 +1,5 @@
-Web Languages
+Web Languages :
+
 -->Key techonolgies of the web
 1. Hypertext
 2. Styling language
@@ -12,12 +13,14 @@ Web Languages
 	->Tags provide formatting instructions
 	->Most tags have an opening and closing tag<><>.
 
+
 2. Styling
 	->Style sheets are sets of insturctions that give web developers more control over the format of displayed pages.
 	i.e.,Cascading style sheet(CSS)
 	->can be included in HTML document
 	->Single style sheet allows formatting to applied to across multiple web pages
 	->Usually stored in a separate file.
+
 
 3. GUI(Graphical user interface)
 -->GUI is made up of HTML code as well as the CSS code.
