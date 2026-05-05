@@ -1,4 +1,4 @@
-#Attributes 
+# Attributes 
 Used Attributes to control the behaviour of elements.
 And also act as a modifier for HTML element types.
 
@@ -62,5 +62,6 @@ They define the display size of the image in pixels.
 <img src="cat.jpg" width="200" height="150" alt="Cute cat">
 
 example:
+
 width="200" → image width is 200 pixels
 height="150" → image height is 150 pixels
