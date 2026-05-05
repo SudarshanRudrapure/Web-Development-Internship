@@ -1,4 +1,4 @@
-##Using multimedia in HTML
+## Using multimedia in HTML
 1.Images in HTML
 Images improve the design and layout of a webpage.
 In order to place a simple image on a webpage, use the <img> tag.
@@ -6,7 +6,7 @@ In order to place a simple image on a webpage, use the <img> tag.
 Basic <img> tag syntax
 <img src="image.jpg" alt="Description">
 
-#Common Image Attributes
+# Common Image Attributes
 1. src (source)
 Specifies the path or URL of the image.
 
@@ -65,7 +65,7 @@ Example with multiple attributes
      loading="lazy">
 
 
-##Audio in html
+## Audio in html
 The <audio> tag specifies a standard way to embed audio in a web page.
 Web browsers generally support a variety of audio format each with its own natively built in controls.
 
@@ -75,7 +75,6 @@ The <audio> tag is used to embed sound or music in a web page.
 
 Basic Syntax
 <audio src="song.mp3"></audio>
-
 
 But usually, we add controls so the user can play or pause the audio.
 
@@ -99,6 +98,7 @@ So we use <source> inside <audio>.
     Your browser does not support the audio element.
 </audio>
 
+
 Common <audio> Attributes
 Attribute		Description
 controls		Shows play/pause buttons
@@ -111,7 +111,6 @@ Example with Attributes
 <audio controls autoplay loop muted>
     <source src="music.mp3" type="audio/mpeg">
 </audio>
-
 
 HTML Video (<video> tag)
 
@@ -141,7 +140,7 @@ So we use multiple <source> elements.
     Your browser does not support the video tag.
 </video>
 
-#Common <video> Attributes
+# Common <video> Attributes
 Attribute		Description
 controls		Shows video controls
 autoplay		Plays video automatically
