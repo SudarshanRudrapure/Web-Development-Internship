@@ -15,7 +15,6 @@ Example:
 <p align="center">This is right aligned</p>
 <p align="right">This is right aligned</p>
 
-
 Common HTML Attributes with Examples
 1. href (used in links)
 Specifies the URL of a link.
