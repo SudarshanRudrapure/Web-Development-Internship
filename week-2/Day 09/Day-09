@@ -1,4 +1,4 @@
-##HTML Tables
+## HTML Tables
 A web table is an HTML structure which consists of multiple table rows with each row containing one or more table cells.
 ->Tables are block level elements.
 ->The size of the table is defined by the number of rows, cells and content.
@@ -8,7 +8,7 @@ A web table is an HTML structure which consists of multiple table rows with each
 <td>  -> Defines a cell in a table.
 
 
-##What is an HTML Table?
+## What is an HTML Table?
 HTML table is used to display data in rows and columns
 Similar to an Excel spreadsheet
 Tables are block-level elements
@@ -39,8 +39,7 @@ width → Sets table width (not recommended, use CSS)
 <tbody> → Table body section
 <tfoot> → Table footer section
 
-
-#Common CSS properties:
+# Common CSS properties:
 border
 border-collapse
 padding
