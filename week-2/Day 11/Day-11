@@ -1,12 +1,12 @@
-##HTML input
+## HTML input
 Using input elements enables developers to create interactive websites. To create an input element, we use the <input> tag and specify the type of input using the "type" attribute.
 
-#Why use HTML input elements?
+# Why use HTML input elements?
 1.Captures data from user for processing.
 2.Used to parse data to the back-end.
 3.Shape the client and server response.
 
-##Basic HTML Input Types
+## Basic HTML Input Types
 
 1. text – single line text input
 syntax:
@@ -16,16 +16,13 @@ syntax:
 syntax:
 <input type="password" placeholder="Enter password">
 
-
 3.email – validates email format or A text field that accepts a single line of text. The text is treated as an email address and uses validation parameters.
 syntax:
 <input type="email" placeholder="Enter email">
 
-
 4.number – only numeric input allowed
 syntax:
 <input type="number" min="1" max="100">
-
 
 5.tel – for phone numbers
 syntax:
@@ -35,7 +32,7 @@ syntax:
 syntax:
 <input type="url" placeholder="Enter website">
 
--->Date & Time Inputs=>(Generates a simple UI which allows users to select a time and date.
+-->Date & Time Inputs=>(Generates a simple UI which allows users to select a time and date).
 
 1.date – calendar date picker
 syntax:
