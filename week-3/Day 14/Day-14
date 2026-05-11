@@ -1,12 +1,13 @@
 ## Working with pseudo-classes
-Pseudo-classes
-Used to define a special state of an element.
+Pseudo-classes Used to define a special state of an element.
 Elements, much like most objects can exist in different states.
  
 # Why use pseudo-classes?
+
 1.Enables improved navigation for end-user.
 2.Conveys meaning to selected elements.
 3.Enhances user interface.
+
 
 ## common pseudo-classes
 Common Pseudo-classes
