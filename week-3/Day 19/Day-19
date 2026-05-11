@@ -1,4 +1,5 @@
 1.styling the navigation bar
+
 ->Formatting lists
 	By default, unordered lists are displayed with a solid disc, while ordered lists are displayed with numerals. To alter the list marker property, use the list-style-type property.
 
@@ -14,7 +15,7 @@
 4.To create a vertical navigation bar, use diplay:block;
 5.To space list items, use the "padding" and "margin" properties.
 
-##Examples of styled navigation bars
+## Examples of styled navigation bars
 1.Horizontal
  HOME NEWS CONTACT         ABOUT
  HOME NEWS CONTACT         ABOUT
@@ -25,6 +26,7 @@
  CONTACT
  ABOUT
 
+
 ##List style properties
    value                          Details
 list-style             Specifies all the list properties in one declaration
@@ -32,8 +34,8 @@ list-style-position    Specifies where to place the list-item marker.
 list-style-image       Specifies the type of list-item marker.
 list-style-type        Specifies the type of list-item marker
 
+## Types of elements
 
-##Types of elements
 1.Block level elements
 -Can appear in the body of an HTML page.
 -Can contain other block level as well as inline elements
