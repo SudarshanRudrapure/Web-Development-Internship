@@ -31,13 +31,16 @@
     color: royalblue;
 }
 
+
 a:visited{
     color: orange;
 }
 
+
 h1{
     color: rgb(35, 6, 6);
 }
+
 
 #submit:hover{
     background-color: rgb(218, 177, 177);
