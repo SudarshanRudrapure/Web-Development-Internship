@@ -1,4 +1,5 @@
 ### Approaches to styling
+
 1.External
 2.Internal
 3.Inline
@@ -8,7 +9,6 @@
 Examples:
 <link rel="stylesheet" href="style.css">
 
-
 2) Internal styling
 ->Embedded between the <head> tags of an HTML document.
 Styles all elements within a single document. Uses the <style> tag.
@@ -16,7 +16,6 @@ Examples:
 <style>
 h1 { color: blue; }
 </style>
-
 
 2) Inline styling
 ->Embeds styling withing HTML elements, usually in the same instance in which elements are created.
