@@ -1,5 +1,4 @@
 // Shopping List Array Project
-
 // Create an empty shopping list array
 let shoppingList = [];
 
@@ -9,6 +8,7 @@ shoppingList.push("Bread");
 shoppingList.push("Eggs");
 shoppingList.push("Rice");
 
+
 console.log("Shopping List after adding items:");
 console.log(shoppingList);
 
@@ -16,7 +16,6 @@ console.log(shoppingList);
 let removedItem = shoppingList.pop();
 
 console.log("Removed Item:", removedItem);
-
 console.log("Shopping List after removing the last item:");
 console.log(shoppingList);
 
