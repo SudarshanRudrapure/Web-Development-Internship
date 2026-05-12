@@ -1,0 +1,44 @@
+## Synchronous Functions
+Synchronous code executes line by line.
+
+Each statement waits until previous statement finishes.
+
+Example
+console.log("Task 1");
+
+console.log("Task 2");
+
+console.log("Task 3");
+
+Output
+Task 1
+Task 2
+Task 3
+
+## Asynchronous Functions
+
+Asynchronous code does not block execution.
+
+Tasks can run in background.
+
+Examples:
+
+API calls
+Timers
+File loading
+Example Using setTimeout()
+File Name: asynchronousExample.js
+console.log("Start");
+
+setTimeout(() => {
+
+    console.log("Inside Timeout");
+
+}, 2000);
+
+console.log("End");
+
+Output
+Start
+End
+Inside Timeout

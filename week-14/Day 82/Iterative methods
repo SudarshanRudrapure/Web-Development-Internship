@@ -1,0 +1,79 @@
+## Iterative Methods in Arrays
+Iterative methods help process array elements easily.
+
+Important methods:
+
+forEach()
+map()
+filter()
+find()
+reduce()
+1. forEach()
+
+Used to iterate through array elements.
+
+Example
+File Name: forEachExample.js
+let numbers = [1, 2, 3];
+
+numbers.forEach(function(num){
+
+    console.log(num);
+
+});
+Output
+1
+2
+3
+2. map()
+
+Creates new array by modifying existing array values.
+
+Example
+File Name: mapExample.js
+let numbers = [1, 2, 3];
+
+let doubled = numbers.map(num => num * 2);
+
+console.log(doubled);
+Output
+[2, 4, 6]
+3. filter()
+
+Filters array elements based on condition.
+
+Example
+File Name: filterExample.js
+let numbers = [10, 15, 20, 25];
+
+let result = numbers.filter(num => num > 15);
+
+console.log(result);
+Output
+[20, 25]
+4. find()
+
+Returns first matching element.
+
+Example
+File Name: findExample.js
+let numbers = [5, 10, 15, 20];
+
+let result = numbers.find(num => num > 10);
+
+console.log(result);
+Output
+15
+5. reduce()
+
+Reduces array into single value.
+
+Example
+File Name: reduceExample.js
+let numbers = [1, 2, 3, 4];
+
+let total = numbers.reduce((sum, num) => sum + num, 0);
+
+console.log(total);
+Output
+10

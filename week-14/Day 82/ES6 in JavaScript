@@ -1,0 +1,44 @@
+
+# ES6 in JavaScript
+
+ES6 stands for ECMAScript 2015.
+
+It introduced many modern features to JavaScript that make coding:
+- Easier
+- Shorter
+- Cleaner
+- More powerful
+
+# Important Features of ES6
+
+1. let and const
+2. Arrow Functions
+3. Template Literals
+4. Destructuring
+5. Spread Operator
+6. Classes
+7. Promises
+8. Async and Await
+
+
+# Arrow Functions
+
+Arrow functions provide a shorter syntax for writing functions.
+
+---
+
+# Features of Arrow Functions
+
+- Similar to mathematical notation
+- Uses => symbol
+- function keyword is not used
+- No need for function name
+- Short and clean syntax
+
+---
+
+# General Syntax
+
+(parameter1, parameter2) => {
+    function body
+}

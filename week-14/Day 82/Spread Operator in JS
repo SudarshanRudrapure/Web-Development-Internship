@@ -1,0 +1,44 @@
+## Spread Operator
+Spread operator uses three dots (...).
+
+It expands iterable objects like:
+Arrays
+Strings
+Objects
+Features of Spread Operator
+Copy arrays
+Merge arrays
+Pass multiple values
+Expand iterable elements
+
+Syntax
+...
+Copying Arrays
+File Name: spreadCopyArray.js
+let numbers = [1, 2, 3];
+
+let copyNumbers = [...numbers];
+
+console.log(copyNumbers);
+Output
+[1, 2, 3]
+
+Merging Arrays
+
+let arr1 = [1, 2];
+let arr2 = [3, 4];
+
+let merged = [...arr1, ...arr2];
+
+console.log(merged);
+Output
+[1, 2, 3, 4]
+
+Adding Elements Using Spread Operator
+let fruits = ["Apple", "Banana"];
+
+let newFruits = [...fruits, "Mango"];
+
+console.log(newFruits);
+Output
+["Apple", "Banana", "Mango"]
