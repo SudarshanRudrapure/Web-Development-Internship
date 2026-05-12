@@ -1,0 +1,34 @@
+## Object Destructuring
+
+Object destructuring allows extracting values from objects into variables.
+
+# Without Destructuring
+
+let student = {
+    name: "Sudarshan",
+    age: 21
+};
+
+let name = student.name;
+let age = student.age;
+
+console.log(name);
+console.log(age);
+
+
+
+# With Destructuring
+File Name: objectDestructuring.js
+let student = {
+    name: "Sudarshan",
+    age: 21
+};
+
+let { name, age } = student;
+
+console.log(name);
+console.log(age);
+
+Output
+Sudarshan
+21

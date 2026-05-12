@@ -1,0 +1,99 @@
+
+# Objects in JavaScript
+
+Objects are used to store multiple values in a single variable using key-value pairs.
+
+An object can contain:
+- Properties
+- Methods
+
+# Why Use Objects?
+
+Objects help organize related data together.
+
+Example:
+A student object can store:
+- Name
+- Age
+- Course
+
+instead of creating separate variables.
+
+# Creating an Object
+
+## Syntax
+
+let objectName = {
+    key: value
+};
+
+
+## Accessing Object Properties
+
+There are two ways:
+Dot Notation
+Bracket Notation
+
+Dot Notation
+console.log(student.name);
+Output:
+Sudarshan
+
+Bracket Notation
+console.log(student["age"]);
+Output:
+21
+
+## Modifying Object Properties
+student.age = 22;
+
+console.log(student.age);
+
+Output:
+22
+
+# Adding New Properties
+student.city = "Bangalore";
+
+console.log(student);
+Deleting Properties
+delete student.course;
+
+console.log(student);
+
+## Properties in JavaScript
+
+Properties are values associated with objects.
+
+Example:
+
+let car = {
+    brand: "BMW",
+    color: "Black"
+};
+
+Here:
+
+brand is a property
+color is a property
+
+
+## Data Properties
+
+->Data properties store values inside objects.
+
+Example:
+
+let employee = {
+    name: "Rahul",
+    salary: 50000
+};
+
+
+Data Property Attributes
+
+Each property has attributes like:
+value
+writable
+enumerable
+configurable
