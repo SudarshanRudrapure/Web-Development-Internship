@@ -1,0 +1,34 @@
+
+# Default Properties in React
+
+Default properties are default values assigned to component props.
+
+If parent component does not pass value,
+React uses default value automatically.
+
+---
+
+# Why Use Default Props?
+
+Default props help:
+- Avoid undefined values
+- Provide fallback values
+- Make components safer
+
+---
+
+# Example Without Default Props
+
+## File Name: App.js
+
+function Student(props){
+
+    return(
+
+        <h1>Hello {props.name}</h1>
+
+    );
+
+}
+
+export default Student;

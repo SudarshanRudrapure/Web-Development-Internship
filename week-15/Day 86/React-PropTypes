@@ -1,0 +1,14 @@
+## React Property Types (PropTypes)
+
+PropTypes are used to validate props.
+They help ensure correct data types are passed.
+
+Why Use PropTypes?
+PropTypes help:
+
+Detect bugs
+Improve code quality
+Validate props
+Installing PropTypes
+Command
+npm install prop-types

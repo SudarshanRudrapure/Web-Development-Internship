@@ -1,0 +1,19 @@
+| PropType | Description   |
+| -------- | ------------- |
+| string   | Text value    |
+| number   | Numeric value |
+| bool     | true/false    |
+| array    | Array         |
+| object   | Object        |
+| func     | Function      |
+
+
+/*
+Required Props
+
+Using:
+
+PropTypes.string.isRequired
+
+makes prop mandatory.
+*/

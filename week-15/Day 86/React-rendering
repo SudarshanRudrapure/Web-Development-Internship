@@ -1,0 +1,21 @@
+## Rendering Children in React
+
+Children are components or elements placed inside another component.
+
+Example
+<Card>
+    <h1>Hello</h1>
+</Card>
+
+Here:
+
+<h1>Hello</h1>
+
+is child element.
+
+/*
+Steps for Rendering Children
+Parent sends child elements
+Child component receives using props.children
+Child component renders them
+*/
