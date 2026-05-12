@@ -1,0 +1,61 @@
+## React Component Lifecycle
+
+Lifecycle means:
+Different stages a component goes through from creation to removal.
+
+Lifecycle Phases
+Mounting
+Updating
+Unmounting
+
+What are Lifecycle Events?
+Lifecycle events are methods/functions executed during different stages of component life.
+Event Definition
+An event is an action or occurrence detected by the application.
+
+Examples:
+
+Mouse click
+Keyboard press
+Form submit
+Component loading
+Event Categories in React
+Mouse Events
+Keyboard Events
+Form Events
+Lifecycle Events
+
+1. Mouse Events
+
+Examples:
+
+onClick
+onMouseOver
+Example
+<button onClick={() => alert("Button Clicked")}>
+    Click
+</button>
+
+2. Keyboard Events
+
+Examples:
+
+onKeyDown
+onKeyUp
+Example
+<input onKeyDown={() => console.log("Key Pressed")} />
+
+3. Form Events
+
+Examples:
+
+onSubmit
+onChange
+Example
+<form onSubmit={() => alert("Form Submitted")}>
+
+</form>
+
+Mounting Phase
+Mounting means:
+Component is created and inserted into DOM.

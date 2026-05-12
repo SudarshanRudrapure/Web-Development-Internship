@@ -1,0 +1,56 @@
+# React Component State
+
+State is a built-in React object used to store data or information about the component.
+
+State allows components to:
+- Change dynamically
+- Respond to user interactions
+- Update UI automatically
+
+---
+
+# What is State?
+
+State is data managed inside a component.
+
+When state changes:
+React automatically re-renders the component.
+
+
+States and Interactions in Components
+
+State helps components interact with users.
+
+Examples:
+
+Button click
+Form input
+Toggle menu
+Like button
+Counter
+---
+
+# Example
+
+A counter application changes value when button is clicked.
+
+The counter value is stored in state.
+
+---
+
+# Features of State
+
+- Managed inside component
+- Mutable (can change)
+- Dynamic
+- Causes re-rendering
+
+---
+
+# Creating State in React
+
+React uses:
+useState()
+
+## Syntax
+const [stateName, setStateName] = useState(initialValue);
