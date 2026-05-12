@@ -1,0 +1,140 @@
+## JavaScript Functions
+-> Functions are reusable blocks of code.
+
+## JavaScript Variables
+-> Variables are used to store data.
+
+## Variable Declaration
+1. Using var
+var name = "Sudarshan";
+
+2. Using let
+let age = 21;
+
+3. Using const
+const country = "India";
+
+
+## Difference Between var, let and const
+Keyword	        Value Change	    Scope
+var	              Yes	        Function Scope
+let	              Yes	        Block Scope
+const	          No	        Block Scope
+
+
+## Data Types in JavaScript
+
+JavaScript has primitive data types.
+
+1. Undefined
+A variable declared but not assigned a value.
+
+let x;
+console.log(x);
+Output
+undefined
+
+2. Null
+
+Represents intentional absence of value.
+
+let data = null;
+console.log(data);
+Output
+null
+JavaScript Oddity
+typeof null
+Output
+object
+
+Even though null means no value, JavaScript treats it as an object.
+This is considered a historical bug in JavaScript.
+
+3. Boolean
+
+Stores true or false values.
+
+let isLoggedIn = true;
+4. Number
+
+Stores numeric values.
+
+let marks = 95;
+5. String
+
+Stores text values.
+
+let course = "JavaScript";
+6. Symbol
+
+Used to create unique identifiers.
+
+let id = Symbol("id");
+JavaScript Syntax
+
+Syntax is the set of rules for writing correct JavaScript programs.
+
+Example
+let name = "JavaScript";
+console.log(name);
+Syntax Rules
+Statements usually end with semicolon ;
+JavaScript is case-sensitive
+Variables must follow naming rules
+
+
+## Comments in JavaScript
+
+Comments are ignored by the browser.
+
+Used for:
+
+Explanation
+Documentation
+Debugging
+Single Line Comment
+// This is a comment
+Multi-Line Comment
+/*
+This is
+multi-line comment
+*/
+Keywords and Reserved Words
+
+JavaScript has reserved keywords with special meanings.
+
+These cannot be used as variable names.
+
+Examples
+let
+const
+var
+if
+else
+return
+function
+class
+Wrong Example
+let function = "JavaScript";
+
+This gives an error because function is a reserved keyword.
+
+## Identifiers in JavaScript
+
+Identifiers are names given to:
+
+Variables
+Functions
+Classes
+Rules for Identifiers
+Cannot start with numbers
+Cannot contain spaces
+Case-sensitive
+Use meaningful names
+Camel Case in JavaScript
+
+JavaScript uses camelCase naming convention.
+
+Example
+let firstName = "Sudarshan";
+let studentMarks = 90;

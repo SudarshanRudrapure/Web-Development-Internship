@@ -1,0 +1,53 @@
+# JavaScript Basics
+
+# Introduction to JavaScript
+
+JavaScript is:
+- A high-level programming language
+- Dynamic and interpreted
+- Used for object-oriented and functional programming
+
+JavaScript is known as:
+
+"The Programming Language of the Web"
+
+It helps webpages become interactive.
+
+Examples:
+- Button click actions
+- Form validation
+- Showing alerts
+- Updating webpage content dynamically
+
+---
+
+# JavaScript and ECMAScript
+
+## JavaScript
+JavaScript is the programming language used in web browsers.
+
+## ECMAScript
+ECMAScript (ES) is the official standard/version of JavaScript.
+
+Examples:
+- ES5
+- ES6
+- ES2020
+
+---
+
+# How Does JavaScript Work?
+
+JavaScript works inside the browser using a JavaScript Engine.
+
+Examples:
+- Chrome uses V8 Engine
+- Firefox uses SpiderMonkey
+
+## Working Process
+
+1. Browser loads webpage
+2. JavaScript engine reads the code
+3. Code gets executed
+4. Output is displayed on webpage
+
