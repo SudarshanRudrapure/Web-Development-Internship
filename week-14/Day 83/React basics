@@ -1,0 +1,243 @@
+
+# Introducing React
+
+React is a JavaScript library used to build User Interfaces (UI).
+
+It was created by :contentReference[oaicite:0]{index=0} (Facebook).
+
+React helps developers create:
+- Fast applications
+- Interactive webpages
+- Reusable UI components
+
+---
+
+# Understanding React
+
+React was built to solve one major problem:
+
+"Building large applications with data that changes over time."
+
+Traditional JavaScript applications become difficult to manage when applications grow larger.
+
+React solves this by:
+- Breaking UI into components
+- Updating only changed parts
+- Making code reusable
+
+---
+
+# What is React?
+
+React is:
+- A JavaScript UI library
+- Component-based
+- Declarative
+- Fast and efficient
+
+---
+
+# React as UI Component Library
+
+React is called a UI Component Library because it allows developers to create reusable UI blocks called components.
+
+Examples:
+- Navbar
+- Login Form
+- Footer
+- Sidebar
+- Button
+
+---
+
+# What is a UI?
+
+UI means:
+
+User Interface
+
+Everything that helps communication between:
+- Humans
+- Computers
+
+Examples:
+- Buttons
+- Forms
+- Menus
+- Images
+- Input boxes
+
+---
+
+# GUI (Graphical User Interface)
+
+Earlier computers used:
+GUI → Graphical User Interface
+
+Examples:
+- Windows
+- Icons
+- Menus
+
+---
+
+# Web Elements
+
+Web elements are small parts of web GUI.
+
+Examples:
+- Button
+- Textbox
+- Dropdown
+- Checkbox
+
+---
+
+# Note
+
+Whenever we mention UI in React,
+we are referring to:
+
+"Web GUI"
+
+---
+
+# Composable UIs
+
+React allows combining multiple components together to create complete applications.
+
+This is called:
+
+Composable UI
+
+---
+
+# Example
+
+A webpage can contain:
+- Header Component
+- Sidebar Component
+- Content Component
+- Footer Component
+
+All combined together.
+
+---
+
+# Self-contained Concern-Specific Blocks
+
+React components are:
+- Independent
+- Reusable
+- Self-contained
+
+Each component handles its own functionality.
+
+Example:
+A Login component manages:
+- Username
+- Password
+- Validation
+
+without affecting other components.
+
+---
+
+# Some Components Can Talk to Server
+
+React components can communicate with backend servers using APIs.
+
+Example:
+- Fetch user data
+- Save form data
+- Login authentication
+
+---
+
+# Benefits of React
+
+## 1. Simpler Applications
+
+React breaks large UI into smaller reusable components.
+
+This makes code easier to:
+- Understand
+- Maintain
+- Debug
+
+---
+
+# 2. Fast User Interfaces
+
+React uses:
+
+Virtual DOM
+
+Instead of reloading entire webpage,
+React updates only changed elements.
+
+This improves performance.
+
+---
+
+# 3. Less Code to Write
+
+Reusable components reduce repeated code.
+
+Example:
+One button component can be reused multiple times.
+
+---
+
+# Bootstrapping in Software Development
+
+Bootstrapping means:
+
+Starting a self-sustaining project setup process.
+
+In React:
+Bootstrapping creates:
+- Project structure
+- Configuration
+- Required packages
+
+---
+
+# Creating React Application
+
+## Command
+
+npx create-react-app myapp
+
+or 
+
+npm create vite@latest projectname
+
+
+
+when we open the application in our editor
+
+README.md
+.md indicates that the file is a markdown file
+
+node_mdoules
+folder has all the node packages installed
+
+package.json
+list of node package dependencies and other project configuration
+
+gitignore 
+indicates all files and folders that shouldn't be added to remote git repository
+
+public.
+folder holds all our files
+
+
+everything is in src/folder
+app.js file to implement react components 
+test.js file for tests
+ 
+index.js is entry point to React
+
+index.css and app.css file to style general application and components
+

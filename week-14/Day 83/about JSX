@@ -1,0 +1,141 @@
+JSX Example
+File Name: App.js
+
+function App() {
+
+    return (
+
+        <div>
+            <h1>Hello React</h1>
+            <p>Welcome to JSX</p>
+        </div>
+
+    );
+
+}
+
+export default App;
+
+
+## JSX Rules
+1. Return Single Parent Element
+
+Wrong:
+
+return (
+    <h1>Hello</h1>
+    <p>React</p>
+)
+
+Correct:
+
+return (
+    <div>
+        <h1>Hello</h1>
+        <p>React</p>
+    </div>
+)
+
+2. class becomes className
+
+In JSX:
+
+className="container"
+
+instead of:
+
+class="container"
+Example
+<div className="box">
+    Welcome
+</div>
+
+3. JavaScript Inside JSX Uses Curly Braces
+
+Example:
+
+function App() {
+
+    let name = "Sudarshan";
+
+    return (
+        <h1>Hello {name}</h1>
+    );
+
+}
+JSX Gotchas
+
+Gotchas means common mistakes/problems beginners make.
+
+## Common JSX Gotchas
+1. Multiple Parent Elements Not Allowed
+
+Must wrap inside:
+
+div
+or
+Fragment
+
+
+2. class Keyword Cannot Be Used
+
+Use:
+className
+
+3. Inline CSS Uses Object
+
+Wrong:
+
+<h1 style="color:red">
+
+Correct:
+
+<h1 style={{color:"red"}}>
+Example
+function App(){
+
+    return(
+
+        <h1 style={{color:"blue"}}>
+            React Styling
+        </h1>
+
+    );
+
+}
+
+export default App;
+
+
+4. Every JSX Tag Must Be Closed
+
+Correct:
+
+<img src="image.png" />
+Simple React Example
+File Name: App.js
+function App(){
+
+    let course = "ReactJS";
+
+    return(
+
+        <div>
+
+            <h1>Welcome to {course}</h1>
+
+            <p>This is React Application</p>
+
+        </div>
+
+    );
+
+}
+
+export default App;
+
+
+Output
+Welcome to ReactJS
+
+This is React Application
