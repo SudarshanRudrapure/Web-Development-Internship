@@ -1,0 +1,19 @@
+# JavaScript Operators
+Operators are symbols used to perform operations on values and variables.
+
+Example:
+
+let a = 10;
+let b = 5;
+
+console.log(a + b);
+
+    //output : 15
+
+## Types of Operators in JavaScript
+- Arithmetic Operators
+- Assignment Operators
+- Comparison Operators
+- Logical Operators
+- Increment and Decrement Operators
+- Ternary Operator
