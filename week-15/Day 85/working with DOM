@@ -1,0 +1,30 @@
+Working with DOM in React
+
+React provides virtual DOM for efficient UI updates.
+
+React avoids direct DOM manipulation whenever possible.
+
+Instead React uses:
+
+State
+Props
+Event handlers
+Forms in React
+
+Forms are used to collect user input.
+
+Examples:
+
+Login form
+Registration form
+Search form
+Form Elements
+
+Common form elements:
+
+input
+textarea
+select
+checkbox
+radio button
+button

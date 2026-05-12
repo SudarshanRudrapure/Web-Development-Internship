@@ -1,0 +1,49 @@
+
+# DOM Events in React
+
+DOM Events are actions that occur in the browser.
+
+These actions can be:
+- Button clicks
+- Keyboard typing
+- Mouse movement
+- Form submission
+
+React handles these events using:
+Event Handlers
+
+---
+
+# What is DOM?
+
+DOM stands for:
+
+Document Object Model
+
+DOM represents webpage structure as objects.
+
+React interacts with DOM to update UI dynamically.
+
+---
+
+# Common DOM Events in React
+
+| Event | Description |
+|-------|-------------|
+| onClick | Button click |
+| onChange | Input value change |
+| onSubmit | Form submit |
+| onMouseOver | Mouse hover |
+| onKeyDown | Keyboard press |
+
+---
+
+# Event Handlers in React
+
+Event handlers are functions that execute when events occur.
+
+---
+
+# Syntax
+
+onClick={functionName}
