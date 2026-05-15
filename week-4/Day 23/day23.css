@@ -1,6 +1,7 @@
 body {
  margin: auto;
 }
+
 .div-header {}
 .nav-wrapper {
  background-color: #00b300;
@@ -105,6 +106,7 @@ body {
  animation-name: caption-fade;
  animation-duration: 2s;
 }
+
 @keyframes caption-fade {
  0% {
  opacity: 0;
@@ -137,6 +139,7 @@ body {
  animation-duration: 2s;
  border-color: #4CAF50;
 }
+
 @keyframes product-container-anim {
  0% {
  opacity: 0;
