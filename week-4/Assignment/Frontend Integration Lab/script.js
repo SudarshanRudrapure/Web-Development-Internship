@@ -22,7 +22,6 @@ function setField(id, valid, msg, type = "error") {
 
   // Update sidebar rule dot
   setRule(id, valid);
-
   updateProgress();
   updatePreview();
 }

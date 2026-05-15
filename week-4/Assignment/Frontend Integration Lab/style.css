@@ -22,6 +22,7 @@
   margin: 0;
   padding: 0;
 }
+
 body {
   background: var(--bg);
   color: var(--ink);
@@ -64,6 +65,8 @@ body {
   padding: 0.3rem 0.75rem;
   border-radius: 2px;
 }
+
+
 .layout {
   display: grid;
   grid-template-columns: 1fr 340px;

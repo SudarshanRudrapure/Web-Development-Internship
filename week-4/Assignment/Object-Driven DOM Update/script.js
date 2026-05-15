@@ -15,6 +15,7 @@ const students = [
     score: "97%",
     skills: "Figma, CSS, Adobe XD"
   },
+  
   {
     name: "Rohan Mehta",
     role: "Data Analyst",
@@ -24,6 +25,7 @@ const students = [
     skills: "Python, SQL, Tableau"
   }
 ];
+
 
 function loadProfile(index) {
   const s = students[index];
