@@ -27,7 +27,6 @@ btn.addEventListener("mouseout", setNormalColor);
 btn.addEventListener("click", printTimetable);
 
 function printTimetable() {
-
   // Monday
   if (userInput.value == "Monday") {
     for (var i = 0; i < monday.length; i++) {
@@ -37,6 +36,7 @@ function printTimetable() {
       container.appendChild(paraText);
     }
   }
+
 
   // Tuesday
   if (userInput.value == "Tuesday") {
@@ -82,6 +82,7 @@ function printTimetable() {
       paraText.style.cssText = "font-size:24px;";
 
       body.appendChild(img);
+      
     }
   }
 
