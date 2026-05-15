@@ -1,4 +1,3 @@
-
 var x = "Hello";
 alert(typeof x); // string
 
@@ -42,19 +41,19 @@ var marks = 85;
 alert(typeof marks); // number
 
 var temperature = 36.7;
-alert(typeof temperature); // number
+alert(typeof temperature);  // number
 
 var isOnline = false;
-alert(typeof isOnline); // boolean
+alert(typeof isOnline);     // boolean
 
 var course = "Web Development";
-alert(typeof course); // string
+alert(typeof course);   // string
 
 var count = 100;
-alert(typeof count); // number
+alert(typeof count);    // number
 
 var status = true;
-alert(typeof status); // boolean
+alert(typeof status);   // boolean
 
 var data;
-alert(typeof data); // undefined
+alert(typeof data);     // undefined

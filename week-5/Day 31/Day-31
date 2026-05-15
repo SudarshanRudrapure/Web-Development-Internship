@@ -1,3 +1,4 @@
+
 ## JavaScript
 JavaScript is a high-level programming language.
 
@@ -6,11 +7,11 @@ In programming, data types are important.
 Knowing which data type is stored in a variable, enables us to perform specific computational operations.
 
 ## Data types
-    *String
-    *Integer and float
-    *Boolean
-    *Null
-    *Undefined
+    -String
+    -Integer and float
+    -Boolean
+    -Null
+    -Undefined
 
 ### Data type examples
 var number1 = 16      //Integer
