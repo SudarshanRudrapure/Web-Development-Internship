@@ -24,6 +24,7 @@ body{
 /*Animations*/
 
 /* Fade Animation */
+
 .fade{
     background: teal;
     animation: fadeEffect 3s infinite;
