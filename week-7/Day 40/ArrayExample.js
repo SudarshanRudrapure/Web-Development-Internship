@@ -14,9 +14,9 @@ for (let i = 0; i < myArray.length; i++) {
   console.log("Index", i, "Value:", myArray[i]);
 }
 
+
 /*
 Output
-
 First element: 10
 Second element: Hello
 Third element: true

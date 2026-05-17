@@ -8,7 +8,6 @@ just won't work.
 The difference between a normal variable and an array is that an array can hold more than one item of data at the same time.
 
 ### Declaring an Array
-
 To create an empty array, you declare your variable as normal, give it a name, and assign it the value [].
 
 -->Syntax
@@ -32,8 +31,6 @@ alert(myArray[1]); // outputs 30
 var myArray = [15, 30, 89];
 
 alert(myArray[1]); // outputs "30"
-
-
 
 ### Array Architecture
 An array stores multiple values where each value is associated with an index.
