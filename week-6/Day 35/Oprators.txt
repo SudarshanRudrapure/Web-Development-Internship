@@ -22,6 +22,7 @@ console.log(x == y); // true
 
 Because JavaScript converts "5" (string) to 5 (number).
 
+
 ⚠️ This is called Type Coercion.
 
 2. === (Strict Equal To)
@@ -38,7 +39,6 @@ Because:
 "5" → string
 
 Best practice: Always prefer === in JavaScript.
-
 
 3. != (Not Equal)
 Checks if values are not equal.
@@ -68,7 +68,6 @@ let x = 10;
 let y = 5;
 
 console.log(x > y); // true
-
 
 6. < (Less Than)
 Checks if the left value is smaller than the right value.
