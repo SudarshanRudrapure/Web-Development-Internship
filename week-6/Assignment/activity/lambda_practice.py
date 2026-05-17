@@ -1,6 +1,5 @@
 # 1. Define the lambda function that multiplies two numbers
-
-# Syntax: lambda arguments : expression
+## Syntax: lambda arguments : expression
 
 multiply = lambda x, y : x * y
 
