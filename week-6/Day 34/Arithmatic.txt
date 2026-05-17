@@ -26,9 +26,11 @@ Modulus         alert (y%3);          1
                 alert ((x+y)%4);      3
 
 Increment counter1++;
+
 counterResult1=counter1
 alert(counterResult1);          //7
 
 Decrement counter2--;
+
 counterResult2=counter2
 alert(counterResult2);         //8

@@ -1,4 +1,5 @@
 ## Working with JavaScript operators
+
 ## JavaScript operators
 JavaScript operators are used to assign and compare values, perform arithmetic operations, and
 implement conditional logic. Below are the following operators in JavaScript.
@@ -42,7 +43,6 @@ Operator                Example
    <                    less than
    >=               greater than or equal to
    <=               less than or equal to
-
 
 ## Logical operators
 Operator                Example
