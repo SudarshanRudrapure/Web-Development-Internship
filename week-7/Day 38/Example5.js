@@ -1,3 +1,4 @@
+// Example
 var year = 2024;
 
 if (year % 4 === 0) {

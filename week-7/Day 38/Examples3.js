@@ -1,4 +1,4 @@
-//Even or Odd
+//Even or Odd Example
 
 var num = 17;
 
