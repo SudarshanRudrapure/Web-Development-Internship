@@ -15,4 +15,5 @@ function Product(name, price, quantity) {
 const p1 = new Product("Laptop", 50000, 2);
 
 console.log(p1.getTotalValue());   // 100000
+
 console.log(p1.applyDiscount(10)); // 45000

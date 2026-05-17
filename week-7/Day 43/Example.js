@@ -18,5 +18,4 @@ function getUsersByCourse(courseName) {
 }
 
 console.log(getUsersByCourse("Python"));
-
 //Output: [ 'Preeti', 'Rukmini' ]

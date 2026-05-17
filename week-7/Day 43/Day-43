@@ -1,6 +1,5 @@
 ## retun Statement
 #syntax:
-
 function myFunction(){
     //code to be executed
     
@@ -16,14 +15,12 @@ function myFunction(){
 
 
 ## 🔹 Basic Example
-
 function add(a, b) {
   return a + b;
 }
 
 let result = add(2, 3);
 console.log(result); // 5
-
 
 ### 1. Stops execution
 function test() {
