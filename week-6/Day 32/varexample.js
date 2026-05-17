@@ -3,6 +3,8 @@ var x;
 x = 5;
 alert(x);
 
+
+
 // Declaring and assigning value
 var word = "John";
 alert(word);
@@ -43,6 +45,8 @@ alert(score);
 // String variable
 var city = "Bangalore";
 alert(city);
+
+
 
 // Boolean variable
 var isStudent = true;
