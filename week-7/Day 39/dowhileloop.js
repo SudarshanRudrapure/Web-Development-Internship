@@ -1,5 +1,6 @@
 /*
 do...while Loop
+
 Syntax
 do {
   // code to run
@@ -13,6 +14,7 @@ do {
   console.log("Number:", i);
   i++;
 } while (i <= 5);
+
 
 /*
 Output:

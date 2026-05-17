@@ -2,7 +2,9 @@
 Loops in JavaScript are used to execute a block of code repeatedly until a specified condition is met. They help in reducing code repetition and make programs more efficient and readable.
 Instead of writing the same code multiple times, loops allow developers to automate repetitive tasks such as printing numbers, processing arrays, or performing calculations.
 
+
 There are three main types of loops in JavaScript:
+
 
 1. for Loop
 The for loop is used when the number of iterations is already known.
@@ -14,6 +16,7 @@ Condition → when to stop
 Increment/Decrement → update value
 
 -->It is commonly used for counting and array traversal.
+
 
 Syntax
 for (initialization; condition; increment) {
