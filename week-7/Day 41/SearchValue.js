@@ -9,6 +9,7 @@ for (let i = 0; i < fruits.length; i++) {
   }
 }
 
+
 if (found) {
   console.log(searchItem + " found in array");
 } else {

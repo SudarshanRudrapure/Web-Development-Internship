@@ -6,6 +6,7 @@ for (let i = 0; i < numbers.length; i++) {
   }
 }
 
+
 /*
 Even Number: 2
 Even Number: 4

@@ -3,7 +3,6 @@ for (i = 10; i > 0; i--) {
   console.log(i);
 }
 
-
 // writes the numbers 1 to 20 and adds a string odd or even depending on whether or not the number is odd or even
 
 var i;
@@ -25,7 +24,6 @@ while (i < myArray.length) {
   console.log(myArray[i]);
   i++;
 }
-
 
 // prompt the user until they supply a height of 1.2 meters or greater
 
