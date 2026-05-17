@@ -8,12 +8,14 @@ marks_list = [
 ]
 
 # Convert to NumPy array
+
 marks_array = np.array(marks_list)
 
 print("Student Marks (2D Array):")
 print(marks_array)
 
 # Calculations
+
 average_marks = np.mean(marks_array)
 max_marks = np.max(marks_array)
 min_marks = np.min(marks_array)

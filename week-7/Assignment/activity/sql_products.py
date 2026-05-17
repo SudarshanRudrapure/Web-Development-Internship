@@ -1,6 +1,7 @@
 import sqlite3
 
 # Create connection (or open existing database)
+
 conn = sqlite3.connect("products.db")
 cursor = conn.cursor()
 
@@ -21,6 +22,7 @@ cursor.execute("INSERT INTO Products (name, price) VALUES ('Tablet', 30000)")
 conn.commit()
 
 # SQL Query to display all records
+
 cursor.execute("SELECT * FROM Products")
 
 rows = cursor.fetchall()
