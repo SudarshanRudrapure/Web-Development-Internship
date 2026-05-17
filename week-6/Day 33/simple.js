@@ -1,9 +1,8 @@
-var names = "John";
-console.log(names);
+// var names = "John";
+// console.log(names);
 
-
-// var msg = "Welcome!";
-// alert(msg);
+var msg = "Welcome!";
+alert(msg);
 
 // confirm("Do you want to continue?");
 

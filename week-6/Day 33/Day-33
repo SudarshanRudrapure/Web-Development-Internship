@@ -1,16 +1,12 @@
 ## Displaying Data in the Client
-
 In JavaScript, data stored in variables can be displayed to the user using different **built-in client mechanisms**. These methods help developers interact with users and show messages or collect input directly in the browser.
 
-
 ### Basic Approaches to Displaying Data
-
 ## Console
 Used to display messages in the **browser console** (mainly for debugging).
 
 var name = "John";
 console.log(name);
-
 
 ## Alert
 Displays a **popup message** to the user.
