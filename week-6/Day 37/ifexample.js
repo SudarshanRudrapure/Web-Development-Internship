@@ -1,5 +1,4 @@
 // The if statement runs a block of code only when the condition is true.
-
 //Syntax
 
 if (condition) {

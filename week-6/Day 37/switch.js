@@ -1,5 +1,4 @@
 // switch Statement (Basic)
-
 // The switch statement is used when checking multiple specific values.
 
 // Syntax

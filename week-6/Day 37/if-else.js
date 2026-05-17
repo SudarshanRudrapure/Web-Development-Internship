@@ -5,7 +5,6 @@
 // If condition is false → else block runs
 
 // Syntax
-
 if (condition) {
    // true block
 } else {

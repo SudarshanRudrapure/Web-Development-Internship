@@ -1,5 +1,4 @@
 // else if Statement
-
 // Used when checking multiple conditions.
 // JavaScript checks conditions one by one.
 
