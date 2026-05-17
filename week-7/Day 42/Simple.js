@@ -11,4 +11,5 @@ const student = {
   }
 };
 
+
 console.log(student.getResult()); // Pass
