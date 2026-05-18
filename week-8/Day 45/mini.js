@@ -150,11 +150,12 @@ function placeOrder() {
     sodaTotal = 1.5;
   }
 
+  
   let total = calculateTotal(burgerTotal, friesTotal, sodaTotal);
-
   if (delivery) {
     total += 5;
   }
+
 
   // Display result
   document.getElementById("result").innerHTML =
