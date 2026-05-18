@@ -6,7 +6,6 @@ form.addEventListener("submit", function (e) {
 
   const uname = document.querySelector("#uname").value;
   const pwd = document.querySelector("#pwd").value;
-
   const storedUser = localStorage.getItem("username");
   const storedPwd = localStorage.getItem("password");
 
@@ -22,7 +21,6 @@ form.addEventListener("submit", function (e) {
     modal.classList.add("show");
   }
 });
-
 function dismissModal() {
   modal.classList.remove("show");
 }

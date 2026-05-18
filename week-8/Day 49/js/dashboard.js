@@ -7,10 +7,8 @@ const user = localStorage.getItem("username");
 if (!user) {
   window.location.href = "login.html";
 }
-
 // ✅ Show username
 welcomeText.innerText = "Hello, " + user + "! 👋";
-
 // 🔓 Logout function
 function logout() {
   localStorage.removeItem("username");

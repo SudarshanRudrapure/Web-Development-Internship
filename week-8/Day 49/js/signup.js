@@ -8,8 +8,6 @@ form.addEventListener("submit", function (e) {
 
   localStorage.setItem("username", username);
   localStorage.setItem("password", password);
-
   alert("Account created successfully!");
-
   window.location.href = "login.html";
 });
