@@ -1,11 +1,10 @@
 
 # 🌐 1. Web Server – Example
-
 ### ✅ Example:
 
 When you open **Google Chrome web browser** and visit a website like:
 
-👉 `https://www.amazon.com`
+ `https://www.amazon.com`
 
 ### What happens:
 1. Your browser (client) sends a request
@@ -25,9 +24,7 @@ These servers host and deliver website files.
 
 
 # ⚙️ 2. Server-Side Scripting – Example
-
 ### ✅ Example:
-
 Login system (very common 🔐)
 
 👉 You enter:

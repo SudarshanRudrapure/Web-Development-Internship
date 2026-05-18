@@ -1,4 +1,5 @@
 ## Web servers
+
 A web server is a computer that hosts web content or files that make up the structure of websites.
 Responds to client requests by:  Transferring files and scripts to the web client (browser).  Generating a response by invoking scripts and querying a database. \
 
@@ -6,7 +7,6 @@ Responds to client requests by:  Transferring files and scripts to the web cl
  Script is run by the server software (backend). 
  Server responds to the client’s request. 
  Server response is shaped based on client request.  Ideal for hosting a database.  Scripting languages include PHP, NodeJS, Python. 
-
 
 ## Three-tier client/server architecture
 A three-tier architecture extends the two-tier architecture to allow additional processing (for example,
