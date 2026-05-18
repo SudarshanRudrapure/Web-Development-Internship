@@ -11,7 +11,6 @@ Methods:
 * `study()` → "I am studying ___"
 
 */
-
 function Student(name, course) {
     this.name = name;
     this.course = course;
@@ -26,10 +25,8 @@ function Student(name, course) {
 }
 
 var s1 = new Student("Sudarshan", "JavaScript");
-
 s1.introduce();
 s1.study();
-
 
 /*
 Output:

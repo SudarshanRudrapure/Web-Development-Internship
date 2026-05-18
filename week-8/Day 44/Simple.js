@@ -25,7 +25,6 @@ function BankAccount(owner, balance) {
 }
 
 var account1 = new BankAccount("Sudarshan", 5000);
-
 account1.deposit(2000);      // Sudarshan deposited ₹2000
 account1.withdraw(1000);     // Sudarshan withdrew ₹1000
 account1.checkBalance();     // Current balance: ₹6000

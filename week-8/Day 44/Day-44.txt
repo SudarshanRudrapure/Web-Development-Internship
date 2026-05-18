@@ -1,5 +1,4 @@
 # JavaScript Constructors & Methods
-
 ## What is a Constructor Function?
 
 A constructor function is used to create multiple objects with the same structure.
