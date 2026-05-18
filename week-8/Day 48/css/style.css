@@ -1,4 +1,5 @@
 /* ===== BODY ===== */
+
 .login-body {
   margin: 0;
   padding: 0;
@@ -6,7 +7,6 @@
   background: #333;
 }
 
-/* ===== BACKGROUND ===== */
 .bg-container {
   position: relative;
   width: 100%;
