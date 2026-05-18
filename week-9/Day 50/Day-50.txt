@@ -1,9 +1,10 @@
+
 Started working on a core project (HR Dashboard Web App)
 This project is based on a real-world case study (Joe’s Coaches)
 
 ## Goal is to build a single page application (SPA)
 
-Key Concepts
+# Key Concepts
 1. Single Page Application (SPA)
 Entire app works on one page
 No need to reload pages again and again
@@ -43,7 +44,7 @@ Cards layout → Display employee data
 Modal popup → Input forms
 Buttons & events → User interaction
 
+
 Learnings / Outcomes
 Understood how to build a real-world project structure
 Learned how to combine HTML, CSS, and JavaScript into one system
-Blockers / Risks
