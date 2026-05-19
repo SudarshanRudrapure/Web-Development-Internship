@@ -1,5 +1,4 @@
 ## superglobals 
-
 * What are superglobals?
 Predefined variables in PHP
 Accessible everywhere
@@ -17,7 +16,6 @@ $_FILES
 $_ENV
 $_COOKIE
 $_SESSION
-
 
 EXAMPLES 
 

@@ -1,5 +1,4 @@
 <?php
-
 // Function without parameters
 function sayHello() {
     echo "Hello World! <br>";
@@ -19,5 +18,4 @@ function multiply($a, $b) {
 }
 $result = multiply(5, 4);
 echo "Result: $result";
-
 ?>

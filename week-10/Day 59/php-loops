@@ -1,5 +1,4 @@
 ## php Loops
-
 ## What are loops?
 Loops are used to execute the same block of code multiple times.
 Useful when repetition is required.
@@ -8,6 +7,7 @@ In simple terms:
 Run the same block of code again and again.
 
 ## Types of loops
+
 1. for loop
 --> Runs a block of code fixed number of times
 

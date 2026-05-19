@@ -1,5 +1,4 @@
 <?php
-
 // 1. for loop
 for ($i = 1; $i <= 5; $i++) {
     echo "For Loop: $i <br>";
@@ -24,5 +23,4 @@ do {
     echo "Do While Loop: $y <br>";
     $y++;
 } while ($y <= 3);
-
 ?>
