@@ -17,8 +17,6 @@ Operators       Examples        Results
     /             10/2              5
     %             10 % 4            2
 
-
-
 ## Assignment operators
 Assignment operators are used to assign values to the variables. For the example below, let’s assume that x=20efor all examples.
 Operators          Examples          Results
