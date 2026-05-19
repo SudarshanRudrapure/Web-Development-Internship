@@ -6,13 +6,11 @@
 
 ->These types of databases adopt the structured and relational model in data management.
 
-
 ## Types of SQL statements
 1. Data Definition Language (DDL) 
 -->Used to manipulate schema objects
 -->Permits and revokes database privileges 
 -->Includes commands such as CREATE, ALTER, DROP etc. 
-
 
 2.Data Manipulation Language (DML)
 -->Used to read and manipulate data stored in

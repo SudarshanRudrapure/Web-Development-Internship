@@ -16,7 +16,6 @@ CREATE TABLE `categories` (
 /*If products table exists, delete it*/
 DROP TABLE IF EXISTS `products`;
 
-
 /*Create products table*/
 CREATE TABLE `products`(
  `productCode` int(11) NOT NULL,
@@ -27,7 +26,6 @@ CREATE TABLE `products`(
  KEY `categoryCode` (`categoryCode`),
  CONSTRAINT `products_fk` FOREIGN KEY (`categoryCode`) REFERENCES `categories` (`categoryCode`)
 );
-
 
 /*Alter the products table and add productDescription column*/
 ALTER TABLE products

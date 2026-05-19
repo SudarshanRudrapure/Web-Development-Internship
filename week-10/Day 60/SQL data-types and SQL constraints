@@ -4,10 +4,12 @@
 3. DECIMAL 
 4. DATE
 
+
 ## SQL constraints
 -> Used to enforce rules for data stored in table
 -> Ensures data integrity and reliability
 -> Enforced on column or table level
+
 
 ## Common SQL constraints
 1. PRIMARY KEY

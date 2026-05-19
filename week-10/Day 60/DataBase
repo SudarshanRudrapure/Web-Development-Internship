@@ -5,13 +5,11 @@ columns and rows. Databases are frequently stored on a server which can be queri
 management. Create, read, update and delete (CRUD) operations are common uses for relational
 databases.
 
-
 ## Importance of databases
 -> Enables organisations to manage and store important data.
 -> Provides organisations with meaningful insight.
 -> Allows organisations to formulate enhanced business strategy.
 -> Enhances the efficiency of existing organisational processes.
-
 
 Types of common databases
 1. Relational database 
@@ -23,7 +21,6 @@ databases are often used to manage structured data.
 –> Frequently used to manage unstructured data. Unlike relational databases
 where there tends to be some apparent order and structure, a NoSQL database stores data in
 files, documents and collections instead of tables.
-
 
 3. Cloud database 
 –> These types of databases can be either structured or unstructured, the
