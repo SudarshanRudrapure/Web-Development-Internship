@@ -64,8 +64,6 @@ if($resultCheck>0){
 
  ?>
  </div>
-
-
  </div>
 
  <div class="interviews">
@@ -99,7 +97,6 @@ if($resultCheck>0){
 </li>
 
  </div>
-
  <!-- MODAL -->
  <div id="employeeModal" class="modal">
  <div class="modal-content">

@@ -56,7 +56,6 @@ function addEmployee() {
 function showAddEmpModal() {
   addEmployeeModal.style.display = "block";
 }
-
 function addInterview() {
   var departmentInterview = document.querySelector("#int-department").value;
   var positionInterview = document.querySelector("#int-position").value;
