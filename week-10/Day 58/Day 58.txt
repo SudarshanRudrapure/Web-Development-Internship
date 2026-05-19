@@ -1,5 +1,4 @@
 ## PHP Operators
-
 Operators are used to perform operations on variables and values in PHP.
 
 ## Types of Operators
@@ -16,7 +15,6 @@ Used for mathematical calculations
 
 
 ## Example
-
 php id="a1p9xk"
 <?php
 $x = 10;
