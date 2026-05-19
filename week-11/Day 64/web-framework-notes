@@ -3,15 +3,18 @@
 -> Web development frameworks are much like packaged libraries that provide developers with
 management and build capabilities. These frameworks are stand-alone packages with built-in predefined services which can be used to build robust web applications.
 
+
 Advantages of frameworks
 1. Allows for rapid application development.
 2. Existing services can easily be integrated with the build environment.
 3. More lean code base.
 
+
 Disadvantages of frameworks
 1. Build environment is prone to major updates, which forces developers to maintain code base.
 2. Includes a learning curve in instances where new programming languages are required.
 3. Integration is not guaranteed with all platforms. 
+
 
 ### Front-end frameworks
 ## Vue.js
