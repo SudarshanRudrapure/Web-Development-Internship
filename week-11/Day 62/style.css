@@ -2,6 +2,7 @@ body {
  margin:auto;
 }
 
+
 .nav-wrapper {
  background-color: #ffff;
  padding: 5px;
@@ -15,6 +16,7 @@ body {
 #icon{
  max-width: 200px;
 }
+
 
 .nav-list{
  list-style: none;

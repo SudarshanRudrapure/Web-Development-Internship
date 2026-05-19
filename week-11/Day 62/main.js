@@ -6,6 +6,7 @@ var addInterviewModal = document.querySelector("#interviewModal");
 addInterviewModal.style.display="none";
 addEmployeeModal.style.display="none";
 
+
 function addEmployee() {
  var name = document.querySelector("#name").value;
  var surname = document.querySelector("#surname").value;
@@ -40,6 +41,7 @@ function addEmployee() {
  employeeListHolder.insertAdjacentHTML('beforeend', newItem);
  addEmployeeModal.style.display="none";
 }
+
 
 function showAddEmpModal(){
  addEmployeeModal.style.display="block";

@@ -1,5 +1,4 @@
 /*Alter the employees table and add the email column*/
-
 ALTER TABLE `employees`
 ADD `email` varchar(100) NOT NULL;
 
