@@ -4,6 +4,7 @@
 
 DROP TABLE IF EXISTS `employees`;
 
+
 CREATE TABLE `employees` (
  `employeeNumber` int(11) NOT NULL,
  `lastName` varchar(50) NOT NULL,
@@ -30,6 +31,7 @@ CREATE TABLE `departments`(
 /*Delete interviews table if it exists and then recreate it*/
 /*NOTE: The departments table must be created before creating the interviews table*/
 DROP TABLE IF EXISTS `interviews`;
+
 
 CREATE TABLE `interviews` (
  `departmentCode` varchar(10) NOT NULL,
