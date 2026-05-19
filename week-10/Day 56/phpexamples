@@ -1,12 +1,9 @@
 <?php 
-
 $myVar = "I am a string";
 echo $myVar;
-
 ?>
 
 //output : I am a string
-
 
 <?php
 $x = 5; // global scope 
