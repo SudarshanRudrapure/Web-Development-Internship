@@ -1,9 +1,7 @@
 ## PHP Data Types
-
 PHP supports different types of data to store values.
 
 ## Types of Data
-
 String  → Text
 Integer → Numbers without decimal
 Float   → Decimal numbers
@@ -13,7 +11,6 @@ Null    → No value
 Object  → Complex data
 
 ### Example
-
 <?php
 $name = "Sdr";           // String
 $age = 21;               // Integer

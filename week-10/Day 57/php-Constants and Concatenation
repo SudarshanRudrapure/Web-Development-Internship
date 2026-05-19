@@ -1,6 +1,4 @@
-
 ## 🔹 **4. PHP Constants**
-
 Constants are fixed values
 Cannot be changed once created
 Defined using `define()`
@@ -8,7 +6,6 @@ No `$` symbol used
 
 
 ### Example
-
 <?php
 define("SITE_NAME", "My Website");
 
