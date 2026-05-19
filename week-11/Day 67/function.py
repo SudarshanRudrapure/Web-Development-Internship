@@ -2,11 +2,13 @@
 def greeting(name):
  print("Hello " + name + " how are you doing?")
 greeting("Alexis")
+
 # calculating the area of a rectangle function
 def calculate_area_rect(length, width):
  area = length * width
  print(area)
 calculate_area_rect(2, 5)
+
 # withdraw money function
 def withdraw_money(amount):
  balance = 1000
