@@ -1,5 +1,4 @@
 ## Example SQL syntax-Oracle
-
 -- Creates customers table
 CREATE TABLE customers (
     customer_id NUMBER PRIMARY KEY,
@@ -8,7 +7,7 @@ CREATE TABLE customers (
     website VARCHAR2(100),
     created_limit NUMBER(8, 2)
 );
-
+//inserting values
 -- Inserts a record into customers table
 INSERT INTO REGIONS (REGION_ID, REGION_NAME) VALUES (1, 'Europe');
 INSERT INTO REGIONS (REGION_ID, REGION_NAME) VALUES (2, 'Americas');

@@ -1,10 +1,11 @@
 ## Inserting Data
-In SQL (Structured Query Language), an INSERT statement is used to add new rows or records into a table in a relational database. The INSERT statement is one of the most frequently used SQL commands and follows a specific syntax. Below is a general description of an INSERT statement:
 
+In SQL (Structured Query Language), an INSERT statement is used to add new rows or records into a table in a relational database. The INSERT statement is one of the most frequently used SQL commands and follows a specific syntax. Below is a general description of an INSERT statement:
 
 INSERT INTO table_name (column1, column2, column3, ...)
 VALUES (value1, value2, value3, ...);
 
+//insert
 - INSERT INTO: This is the clause that begins the INSERT statement and specifies the table name where the new records will be inserted.
 - table_name: This is the name of the table where the new records will be inserted.
 - (column1, column2, ..., columnN): This is an optional clause that specifies the names of the columns in the table where the new records will be inserted. If this clause is omitted, the INSERT statement will insert

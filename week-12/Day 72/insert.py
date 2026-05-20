@@ -1,6 +1,8 @@
 #Insert data into employees table
 import sqlite3
+
 conn = sqlite3.connect('employee_database.db')
+
 print ("Opened database successfully");
 conn.execute("INSERT INTO employees (EMP_ID,NAME,DEPARTMENT_NAME,REGION,SALARY) \
  VALUES (3, 'Jack', 'Executive', 'UK', 50000.00 )");

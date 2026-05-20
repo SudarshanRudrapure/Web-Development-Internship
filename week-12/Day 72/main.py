@@ -1,6 +1,7 @@
 import sqlite3
 
 #CREATE DATABASE AND CONNECT
+
 conn = sqlite3.connect('employee_database.db')
 print ("Database has been opened");
 
@@ -15,4 +16,5 @@ conn.execute('''CREATE TABLE employees
 print ("Table created successfully");
 
 #CLOSE DATABASE AFTER CREATE OPERATION HAS BEEN EXECUTED
+
 conn.close()
