@@ -1,4 +1,5 @@
 # --- EXAMPLE 1: Appending and Overwriting ---
+
 # 'a' means append (add to the end)
 with open('file_1.txt', 'a') as file:
     file.write("\nThis is some new text which was appended")
@@ -24,7 +25,9 @@ with open('fruits.txt', 'r') as content:
     print(content.read())
 
 # --- EXAMPLE 4: Counting words in a file ---
+
 # We create a dummy file first so the function has something to read
+
 with open("metcalfes_law.txt", "w") as f:
     f.write("Metcalfe's law states the value of a network is proportional to the square of the number of connected users.")
 
