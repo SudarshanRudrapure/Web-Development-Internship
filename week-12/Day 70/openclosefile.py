@@ -1,3 +1,4 @@
+## simple example
 import csv
 file = open("myfile.txt", "r")
 contents = file.read()

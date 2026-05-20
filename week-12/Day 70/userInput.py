@@ -1,5 +1,7 @@
 option_price = 0
+
 delivery_fee = 4
+
 name = input('Enter your name:')
 print('Hi '+name+', how are you doing today?')
 specials = input('Here are the specials for today. Please select one of the following:\n 1. Medium Hamburger and Fries with Soda - $8 \n 2. Large Hamburger andm Fries with Soda - $11 \n 3. Large Pizza and Soda - $15 \n')
