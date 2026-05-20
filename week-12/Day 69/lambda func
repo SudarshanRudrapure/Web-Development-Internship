@@ -1,5 +1,4 @@
 ## python Lambda functions
-
 # what are lambda functions?
 Lambda functions in Python are anonymous functions that can be defined without a name. 
 They are also known as inline functions, or function literals. 
@@ -12,4 +11,5 @@ The syntax is concise and allows for defining small, simple functions in a singl
 - Anonymous: Lambda functions do not have a name, which means they are anonymous. They are typically
 used for small, short-lived operations that do not require a formal function definition.
 - Single Expression: Lambda functions are limited to a single expression that is used as the function's body.
+
 The expression is evaluated when the lambda function is called, and the result is returned as the function's

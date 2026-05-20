@@ -12,7 +12,9 @@ except NameError:
  print("Variable x is not defined")
 except:
  print("Something else went wrong")
+ 
 # The Python ValueError is raised when the wrong value is assigned to an object.
+
 # This can happen if the value is invalid for a given operation, or if the value doesnot exist
 import math
 try:
@@ -32,6 +34,7 @@ except ValueError:
  print('Positive number expected for square root operation')
 except TypeError:
  print("Variable x is not an integer")
+
 # You can use the else keyword to define a block of code to be executed if no errors were raised:
 try:
  print("Hello World")
@@ -39,6 +42,7 @@ except:
  print("Something went wrong")
 else:
  print("Everything went smoothly")
+
 # The finally block, if specified, will be executed regardless if the try block raises an error or not.
 x="5"
 y=5
