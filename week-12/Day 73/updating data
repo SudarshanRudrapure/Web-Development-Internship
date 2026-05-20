@@ -1,6 +1,7 @@
 ## Updating Data
 The UPDATE statement in SQL is used to modify the data in a relational database. It allows you to update existing records in a table by changing the values of one or more columns based on specified conditions.
 
+
 SQL UPDATE Syntax:
 UPDATE: This keyword indicates that we want to update existing in our database.
 table_name: Specifies the name of the table that you want to update.
@@ -11,7 +12,7 @@ omit the WHERE clause, all rows in the table will be updated.
 condition: Specifies the condition that must be met for a row to be updated
 
 Simple Example:
-#Select data from employees table
+## Select data from employees table
 import sqlite3
 conn = sqlite3.connect('employee_database.db')
 print ("Opened database successfully");
@@ -25,6 +26,7 @@ for row in cursor:
  print("SALARY = ", row[4], "\n")
 print ("Operation done successfully");
 conn.close()
+
 # Update employee data
 import sqlite3
 conn = sqlite3.connect('employee_database.db')

@@ -1,7 +1,9 @@
 ## Selecting Data
+
 The SELECT statement in SQL is used to retrieve data from one or more database tables. It is one of the most fundamental and commonly used SQL commands, allowing users to fetch data that matches specific criteria and display it in a result set.
 
 SQL select Syntax:
+
 SELECT column1, column2, column3, ...
 FROM table_name
 WHERE condition

@@ -1,5 +1,4 @@
 import sqlite3
-
 # 1. Establish Connection and Create Table
 def initialize_db():
     try:
@@ -41,6 +40,7 @@ def insert_data():
     finally:
         conn.close()
 
+
 # 3. Retrieve and Display Data
 def display_employees(message="Current Employee Data"):
     conn = sqlite3.connect('employee_database.db')
@@ -53,6 +53,7 @@ def display_employees(message="Current Employee Data"):
     print("-" * 30 + "\n")
     conn.close()
 
+
 # 4. Update Data
 def update_employee_salary(emp_id, new_salary):
     conn = sqlite3.connect('employee_database.db')
@@ -62,6 +63,7 @@ def update_employee_salary(emp_id, new_salary):
     print(f"--- Update Successful: EMP_ID {emp_id} now earns {new_salary} ---")
     print(f"Rows affected: {conn.total_changes}\n")
     conn.close()
+
 
 # --- EXECUTION FLOW ---
 if __name__ == "__main__":
