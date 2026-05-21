@@ -1,5 +1,4 @@
 ## Applications of Numpy
-
 N- umPy has a wide range of applications in scientific computing, data analysis, and machine learning. Here are a few examples
 
 # Numerical and scientific computing:
@@ -17,4 +16,5 @@ NumPy is often used in image and video processing applications to manipulate and
 # Simulation and modeling: 
 NumPy provides a range of tools for simulating and modeling physical and mathematical systems, including differential equations, partial differential equations, and stochastic processes.
 
-Overall, NumPy is a versatile library that can be used in many applications that require numerical computing and analysis.
+
+# Overall, NumPy is a versatile library that can be used in many applications that require numerical computing and analysis.

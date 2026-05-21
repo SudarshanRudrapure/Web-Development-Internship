@@ -4,8 +4,9 @@ pay_load3= np.array([
  [[10, 11, 12], [13, 14, 15], [16, 17, 18]],
  [[19, 20, 21], [22, 23, 24], [25, 26, 27]]
 ])
+
 print(pay_load3.ndim)
-###############
+############
 a = np.arange(6)
 print(a)
 #reshape to 2D array

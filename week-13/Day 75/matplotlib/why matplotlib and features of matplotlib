@@ -22,5 +22,6 @@ ecosystem for data analysis and visualization.
 -> Matplotlib also provides several advanced plotting options such as 3D plots, polar
 plots, heatmaps, contour plots, and image plots.
 
+
 # Saving and Exporting Plots
 -> After creating a plot, it's important to know how to save and export it to various file formats such as PNG, PDF, and SVG. In addition, it's important to know how to display and save multiple plots in the same figure.

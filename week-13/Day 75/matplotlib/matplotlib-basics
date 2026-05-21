@@ -4,6 +4,7 @@
 -> Matplotlib is a popular data visualisation library for the Python programming language. It provides a variety of functions and tools for creating high-quality, customisable plots, charts, and other visualisations of data.
 
 -> Matplotlib can be used to create a wide range of visualisations, including:
+
 - Line plots
 - Scatter plots
 - Bar charts
@@ -12,10 +13,12 @@
 - 3D plots
 - Animations
 
+
 # Matplotlib is widely used in many different fields, including:
 - Scientific research
 - Engineering
 - Finance
 - Data analysis
+
 
 # Its popularity is due in part to its ease of use and flexibility, as well as its integration with other Python libraries and tools such as NumPy, SciPy, and pandas
