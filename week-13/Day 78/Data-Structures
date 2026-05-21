@@ -1,5 +1,4 @@
 ## Structured
-
 --> Organisation: 
 Structured data is organised and formatted according to a pre-defined schema or data model. It is
 typically stored in relational databases or spreadsheets, where data is organised into tables with rows and
@@ -17,7 +16,6 @@ system, sales transactions, inventory records, or financial statements.
 - Tabular data
 
 ## Unstructured
-
 --> Organisation: 
 Unstructured data lacks a pre-defined structure and does not conform to a specific schema or data
 model. It is often characterized by its free-form nature, making it challenging to organise and analyse using

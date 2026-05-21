@@ -5,20 +5,20 @@ traditional databases are based on the SQL (Structured Query Language) model. No
 dealing with large datasets that need to be processed with efficiency and performance in mind. However, they are better equipped for unstructured data and not structured data
 
 # Characteristics of NoSQL databases
-Schema flexibility: 
+- Schema flexibility: 
     -> Unlike relational databases that require a predefined schema, NoSQL databases offer flexible
 schemas. This means that you can store different types of data without a fixed structure, making it easier to
 handle evolving and unstructured data.
 
-Horizontal scalability: 
+- Horizontal scalability: 
     -> NoSQL databases are designed to scale horizontally, meaning that they can handle large
 amounts of data and high traffic loads by adding more commodity servers to a distributed system.
 
-High performance: 
+- High performance: 
     -> NoSQL databases are optimised for handling vast amounts of data and high-speed data
 retrieval. They typically prioritise read and write performance over strict data consistency, making them wellsuited for applications that require real-time data processing and high throughput.
 
-Distributed architecture: 
+- Distributed architecture: 
     -> NoSQL databases are often designed as distributed systems, where data is distributed
 across multiple nodes or servers. This distribution allows for fault tolerance and high availability, as the failure of
 one node does not result in complete system failure.
