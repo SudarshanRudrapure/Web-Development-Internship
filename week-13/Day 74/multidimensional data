@@ -1,11 +1,13 @@
 ## multidimensional data
-Dimensional data, also known as multi-dimensional data, refers to data that can be organised and analysed in multiple dimensions or axes. This type of data is commonly used in business intelligence and data warehousing applications, where data is often stored in a multidimensional database (MDDB) or an online analytical processing (OLAP) cube.
+
+Dimensional data, also known as multi-dimensional data, refers to data that can be organised and analysed in multiple dimensions or axes. This type of data is commonly used in business intelligence and data warehousing applications, where data is often stored in a multidimensional database (MDDB) or an online analytical processing(OLAP) cube.
 
 - multidimensional data refers to data that can be organised and analysed in multiple dimensions or axes.
 
+
 - This type of data is commonly used in business intelligence and data warehousing applications, where data is often stored in a multidimensional database (MDDB) or an online analytical processing (OLAP) cube.
 
-A simple example would be sales data for a company. This data can be organised by product, region, and time period. In this case, the dimensions would be product, region, and time, and the data would be organised in a three-dimensional cube. You could then slice and dice the data along any of these dimensions to analyse it in different ways.
+- A simple example would be sales data for a company. This data can be organised by product, region, and time period. In this case, the dimensions would be product, region, and time, and the data would be organised in a three-dimensional cube. You could then slice and dice the data along any of these dimensions to analyse it in different ways.
 
 - With the example in mind, consider the following cube, dimensional data is typically contrasted with relational data, which is organised in tables with rows and columns.
 
