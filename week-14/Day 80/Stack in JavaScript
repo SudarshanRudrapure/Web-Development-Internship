@@ -1,12 +1,9 @@
 ## Stack in JavaScript
-
 Stack follows:
 LIFO (Last In First Out)
-
 Last inserted item is removed first.
 
 Example:
-
 Stack of plates
 Stack Operations
 push() → Add item

@@ -1,10 +1,9 @@
 Queue in JavaScript
 Queue follows:
 
+
 FIFO (First In First Out)
-
 First inserted item is removed first.
-
 Example:
 People standing in line
 

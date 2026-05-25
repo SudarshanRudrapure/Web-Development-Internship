@@ -1,5 +1,4 @@
 ## Arrays in JavaScript
-
 An array is used to store multiple values in a single variable.
 
 Example
@@ -7,11 +6,8 @@ let fruits = ["Apple", "Banana", "Mango"];
 Accessing Array Elements
 
 Array index starts from 0.
-
 let fruits = ["Apple", "Banana", "Mango"];
-
 console.log(fruits[0]);
-
 Output:
 
 Apple

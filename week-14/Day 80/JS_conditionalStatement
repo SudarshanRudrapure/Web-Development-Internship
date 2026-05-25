@@ -2,14 +2,12 @@
 Conditional statements are used to make decisions.
 
 Types:
-
 if statement
 if...else statement
 else if ladder
 switch statement
 
 1. if Statement
-
 Executes code only if condition is true.
 
 Example
@@ -20,7 +18,6 @@ if(age >= 18){
 }
 
 2. if...else Statement
-
 Executes one block if condition is true and another block if false.
 
 Task Example
@@ -37,7 +34,6 @@ Output
 x is bigger than 5
 
 3. else if Ladder
-
 Used to check multiple conditions.
 
 Example
@@ -54,7 +50,6 @@ else{
 }
 
 4. switch Statement
-
 Used when multiple conditions are based on one value.
 
 Syntax
