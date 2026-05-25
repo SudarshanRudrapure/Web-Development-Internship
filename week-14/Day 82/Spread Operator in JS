@@ -1,6 +1,5 @@
 ## Spread Operator
 Spread operator uses three dots (...).
-
 It expands iterable objects like:
 Arrays
 Strings
@@ -12,7 +11,6 @@ Pass multiple values
 Expand iterable elements
 
 Syntax
-...
 Copying Arrays
 File Name: spreadCopyArray.js
 let numbers = [1, 2, 3];
@@ -22,6 +20,7 @@ let copyNumbers = [...numbers];
 console.log(copyNumbers);
 Output
 [1, 2, 3]
+
 
 Merging Arrays
 
@@ -40,5 +39,6 @@ let fruits = ["Apple", "Banana"];
 let newFruits = [...fruits, "Mango"];
 
 console.log(newFruits);
-Output
+
+Output:
 ["Apple", "Banana", "Mango"]

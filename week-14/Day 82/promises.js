@@ -10,11 +10,8 @@ Resolved
 Rejected
 */
 
-
 let promise = new Promise((resolve, reject) => {
-
     let success = true;
-
     if(success){
         resolve("Operation Successful");
     }
@@ -23,7 +20,6 @@ let promise = new Promise((resolve, reject) => {
     }
 
 });
-
 promise
 .then(result => console.log(result))
 .catch(error => console.log(error));

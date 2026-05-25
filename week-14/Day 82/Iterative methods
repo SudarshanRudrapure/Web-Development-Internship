@@ -8,8 +8,8 @@ map()
 filter()
 find()
 reduce()
-1. forEach()
 
+1. forEach()
 Used to iterate through array elements.
 
 Example
@@ -25,8 +25,8 @@ Output
 1
 2
 3
-2. map()
 
+2. map()
 Creates new array by modifying existing array values.
 
 Example
@@ -38,8 +38,8 @@ let doubled = numbers.map(num => num * 2);
 console.log(doubled);
 Output
 [2, 4, 6]
-3. filter()
 
+3. filter()
 Filters array elements based on condition.
 
 Example
@@ -51,8 +51,8 @@ let result = numbers.filter(num => num > 15);
 console.log(result);
 Output
 [20, 25]
-4. find()
 
+4. find()
 Returns first matching element.
 
 Example
@@ -64,8 +64,8 @@ let result = numbers.find(num => num > 10);
 console.log(result);
 Output
 15
-5. reduce()
 
+5. reduce()
 Reduces array into single value.
 
 Example
