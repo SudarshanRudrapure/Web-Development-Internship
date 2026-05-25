@@ -1,7 +1,6 @@
 let person = {
     name: "Sudarshan"
 };
-
 console.log(Object.getOwnPropertyDescriptor(person, "name"));
 
 /*

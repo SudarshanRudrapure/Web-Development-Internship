@@ -1,7 +1,5 @@
 function greet(city){
-
     console.log(this.name + " from " + city);
-
 }
 
 let person = {

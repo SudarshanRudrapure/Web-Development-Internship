@@ -1,8 +1,6 @@
 ## Classes in JavaScript
 Classes are templates used to create objects.
-
 Classes were introduced in ES6.
-
 They make object creation easier and more organized.
 Class Basics
 

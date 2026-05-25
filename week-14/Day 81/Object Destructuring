@@ -1,9 +1,7 @@
 ## Object Destructuring
-
 Object destructuring allows extracting values from objects into variables.
 
 # Without Destructuring
-
 let student = {
     name: "Sudarshan",
     age: 21

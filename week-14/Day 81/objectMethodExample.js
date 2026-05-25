@@ -2,7 +2,6 @@
             // Objects can also contain functions called methods.
 
 let person = {
-
     name: "Sudarshan",
 
     greet: function(){
@@ -10,7 +9,6 @@ let person = {
     }
 
 };
-
 person.greet();
 
 // Output

@@ -3,7 +3,6 @@ let student = {
     age: 21,
     course: "JavaScript"
 };
-
 console.log(student);
 
 /*

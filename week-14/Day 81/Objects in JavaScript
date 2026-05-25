@@ -8,7 +8,6 @@ An object can contain:
 - Methods
 
 # Why Use Objects?
-
 Objects help organize related data together.
 
 Example:
@@ -18,11 +17,9 @@ A student object can store:
 - Course
 
 instead of creating separate variables.
-
 # Creating an Object
 
 ## Syntax
-
 let objectName = {
     key: value
 };
