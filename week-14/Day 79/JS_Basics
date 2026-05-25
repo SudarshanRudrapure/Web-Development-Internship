@@ -19,11 +19,9 @@ const country = "India";
 Keyword	        Value Change	    Scope
 var	              Yes	        Function Scope
 let	              Yes	        Block Scope
-const	          No	        Block Scope
-
+const	            No	        Block Scope
 
 ## Data Types in JavaScript
-
 JavaScript has primitive data types.
 
 1. Undefined
