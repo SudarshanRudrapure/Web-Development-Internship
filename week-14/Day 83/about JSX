@@ -2,33 +2,26 @@ JSX Example
 File Name: App.js
 
 function App() {
-
     return (
 
         <div>
             <h1>Hello React</h1>
             <p>Welcome to JSX</p>
         </div>
-
     );
-
 }
-
 export default App;
-
 
 ## JSX Rules
 1. Return Single Parent Element
 
 Wrong:
-
 return (
     <h1>Hello</h1>
     <p>React</p>
 )
 
 Correct:
-
 return (
     <div>
         <h1>Hello</h1>

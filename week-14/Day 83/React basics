@@ -2,15 +2,12 @@
 # Introducing React
 
 React is a JavaScript library used to build User Interfaces (UI).
-
 It was created by :contentReference[oaicite:0]{index=0} (Facebook).
 
 React helps developers create:
 - Fast applications
 - Interactive webpages
 - Reusable UI components
-
----
 
 # Understanding React
 
@@ -25,7 +22,6 @@ React solves this by:
 - Updating only changed parts
 - Making code reusable
 
----
 
 # What is React?
 
@@ -34,8 +30,6 @@ React is:
 - Component-based
 - Declarative
 - Fast and efficient
-
----
 
 # React as UI Component Library
 
@@ -48,14 +42,11 @@ Examples:
 - Sidebar
 - Button
 
----
 
 # What is a UI?
 
 UI means:
-
 User Interface
-
 Everything that helps communication between:
 - Humans
 - Computers
