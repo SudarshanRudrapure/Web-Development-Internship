@@ -3,9 +3,7 @@ import { useState } from "react";
 function App(){
 
     const [name, setName] = useState("");
-
     return(
-
         <div>
 
             <input
@@ -17,11 +15,8 @@ function App(){
             <h2>Hello {name}</h2>
 
         </div>
-
     );
-
 }
-
 export default App;
 
 

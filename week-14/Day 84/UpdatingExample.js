@@ -10,7 +10,6 @@ Props change
 Component re-renders automatically.
 */
 
-
 import { useState, useEffect } from "react";
 
 function App(){
@@ -41,10 +40,7 @@ export default App;
 
 /*
 Output
-
 Every time count changes:
-
 Component Updated
-
 appears in console.
 */

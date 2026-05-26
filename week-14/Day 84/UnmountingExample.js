@@ -7,7 +7,6 @@ Component is removed from DOM.
 
 
 import { useEffect } from "react";
-
 function App(){
 
     useEffect(() => {

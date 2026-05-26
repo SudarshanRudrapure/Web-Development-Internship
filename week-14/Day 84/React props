@@ -7,7 +7,6 @@ Props are used to pass data from parent component to child component.
 Important Note
 
 Props are:
-
 Read-only
 Passed by parent component
 Cannot be modified directly

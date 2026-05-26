@@ -7,7 +7,6 @@ They only display data using props.
 */
 
 function Welcome(props){
-
     return(
 
         <h1>Welcome {props.name}</h1>
