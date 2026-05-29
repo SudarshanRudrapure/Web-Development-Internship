@@ -8,9 +8,7 @@ function App() {
     const [category, setCategory] = useState("Personal");
     const [search, setSearch] = useState("");
     const [priority, setPriority] = useState("Medium");
-
     const [notes, setNotes] = useState([]);
-
     const [editIndex, setEditIndex] = useState(null);
 
     function handleSaveNote() {
