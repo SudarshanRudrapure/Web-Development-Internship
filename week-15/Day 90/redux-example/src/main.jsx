@@ -16,4 +16,4 @@ ReactDOM.createRoot(
         <App />
     </Provider>
 
-);
+);  
