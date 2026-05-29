@@ -5,9 +5,7 @@ const initialState = {
 };
 
 function reducer(state, action){
-
     switch(action.type){
-
         case "increment":
             return {
                 count: state.count + 1
@@ -25,18 +23,13 @@ function reducer(state, action){
 }
 
 function UseReducerExample(){
-
     const [state, dispatch] =
         useReducer(reducer, initialState);
 
     return(
-
         <div>
-
             <h1>useReducer Example</h1>
-
             <h2>Count : {state.count}</h2>
-
             <button
                 onClick={() =>
                     dispatch({type:"increment"})
@@ -44,7 +37,6 @@ function UseReducerExample(){
             >
                 Increase
             </button>
-
             <button
                 onClick={() =>
                     dispatch({type:"decrement"})
@@ -52,7 +44,6 @@ function UseReducerExample(){
             >
                 Decrease
             </button>
-
         </div>
 
     );
