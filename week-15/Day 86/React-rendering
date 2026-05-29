@@ -1,5 +1,4 @@
 ## Rendering Children in React
-
 Children are components or elements placed inside another component.
 
 Example
@@ -8,9 +7,7 @@ Example
 </Card>
 
 Here:
-
 <h1>Hello</h1>
-
 is child element.
 
 /*

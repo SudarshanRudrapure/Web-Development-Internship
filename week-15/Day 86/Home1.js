@@ -6,11 +6,8 @@ const EnhancedHome = withMessage(Home);
 function App(){
 
     return(
-
         <EnhancedHome />
-
     );
-
 }
 
 export default App;

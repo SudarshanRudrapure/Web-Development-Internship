@@ -5,7 +5,6 @@ They help ensure correct data types are passed.
 
 Why Use PropTypes?
 PropTypes help:
-
 Detect bugs
 Improve code quality
 Validate props

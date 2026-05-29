@@ -5,7 +5,6 @@ A Higher-Order Component is:
 A function that takes component and returns enhanced component.
 
 Used for:
-
 Code reuse
 Shared functionality
 Reusable logic
@@ -24,13 +23,9 @@ function withMessage(WrappedComponent){
     return function(){
 
         return(
-
             <div>
-
                 <h1>Welcome User</h1>
-
                 <WrappedComponent />
-
             </div>
 
         );

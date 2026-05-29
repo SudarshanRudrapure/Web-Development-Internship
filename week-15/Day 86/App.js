@@ -9,7 +9,6 @@ function App(){
             name="Sudarshan"
             age={21}
         />
-
     );
 
 }
