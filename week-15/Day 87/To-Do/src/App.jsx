@@ -8,11 +8,8 @@ function App(){
     const [editIndex, setEditIndex] = useState(null);
 
     function addTask(){
-
         if(task.trim() === "") return;
-
         if(editIndex !== null){
-
             const updatedTasks = [...tasks];
 
             updatedTasks[editIndex] = task;
@@ -42,9 +39,7 @@ function App(){
     }
 
     function editTask(index){
-
         setTask(tasks[index]);
-
         setEditIndex(index);
 
     }
