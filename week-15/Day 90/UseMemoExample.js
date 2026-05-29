@@ -14,13 +14,9 @@ function UseMemoExample(){
     }, [number]);
 
     return(
-
         <div>
-
             <h1>useMemo Example</h1>
-
             <h2>Square : {squareNumber}</h2>
-
             <button
                 onClick={() => setCount(count + 1)}
             >
