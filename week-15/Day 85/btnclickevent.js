@@ -1,11 +1,8 @@
 function App(){
 
     function showMessage(){
-
         alert("Button Clicked");
-
     }
-
     return(
 
         <button onClick={showMessage}>
