@@ -8,22 +8,16 @@ import {
 } from "./features/counterSlice";
 
 function App(){
-
     const count =
         useSelector((state) => state.counter.value);
 
     const dispatch = useDispatch();
-
     return(
 
         <div className="counter-container">
-
             <h1>Redux Counter App</h1>
-
             <div className="counter-value">
-
                 {count}
-
             </div>
 
             <div className="button-group">
