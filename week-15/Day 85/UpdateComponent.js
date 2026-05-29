@@ -7,11 +7,8 @@ function App(){
     const [message, setMessage] = useState("Hello");
 
     return(
-
         <div>
-
             <h1>{message}</h1>
-
             <button onClick={() => setMessage("Welcome to React")}>
                 Change Text
             </button>

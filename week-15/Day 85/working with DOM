@@ -12,9 +12,7 @@ Event handlers
 Forms in React
 
 Forms are used to collect user input.
-
 Examples:
-
 Login form
 Registration form
 Search form

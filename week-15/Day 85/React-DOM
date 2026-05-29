@@ -1,6 +1,5 @@
 
 # DOM Events in React
-
 DOM Events are actions that occur in the browser.
 
 These actions can be:
@@ -11,8 +10,6 @@ These actions can be:
 
 React handles these events using:
 Event Handlers
-
----
 
 # What is DOM?
 
