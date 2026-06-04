@@ -45,9 +45,6 @@ function UseReducerExample(){
                 Decrease
             </button>
         </div>
-
     );
-
 }
-
 export default UseReducerExample;
