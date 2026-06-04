@@ -5,9 +5,7 @@ function UseStateExample(){
     const [count, setCount] = useState(0);
 
     function increaseCount(){
-
         setCount(count + 1);
-
     }
 
     function decreaseCount(){
@@ -25,9 +23,6 @@ function UseStateExample(){
                 Decrease
             </button>
         </div>
-
     );
-
 }
-
 export default UseStateExample;
