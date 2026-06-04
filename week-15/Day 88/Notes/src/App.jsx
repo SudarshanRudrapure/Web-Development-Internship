@@ -95,7 +95,6 @@ function App() {
                 </div>
 
                 {/* DASHBOARD */}
-
                 <div className="dashboard">
 
                     <div className="dashboard-card">
@@ -124,7 +123,6 @@ function App() {
                         </h2>
                         <p>Work Notes</p>
                     </div>
-
                 </div>
 
                 {/* SEARCH */}
