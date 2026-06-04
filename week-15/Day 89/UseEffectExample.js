@@ -9,7 +9,6 @@ function UseEffectExample(){
     }, [count]);
 
     return(
-
         <div>
             <h1>useEffect Example</h1>
             <h2>Count : {count}</h2>
@@ -17,9 +16,6 @@ function UseEffectExample(){
                 Increase
             </button>
         </div>
-
     );
-
 }
-
 export default UseEffectExample;
