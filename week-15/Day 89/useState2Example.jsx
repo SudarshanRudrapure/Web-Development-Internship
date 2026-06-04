@@ -16,12 +16,8 @@ function passwordExample(){
             <br /><br />
 
             <button onClick={()=>setShowPassword(!showPassword)}>
-
                 {showPassword ? "Hide Password":"Show password"}
-
             </button>
-
-            
         </div>
     )
 }
