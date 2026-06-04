@@ -3,15 +3,11 @@ import { useRef } from "react";
 function UseRefExample(){
 
     const inputRef = useRef();
-
     function focusInput(){
-
         inputRef.current.focus();
-
     }
 
     return(
-
         <div>
             <h1>useRef Example</h1>
             <input
@@ -23,9 +19,6 @@ function UseRefExample(){
                 Focus Input
             </button>
         </div>
-
     );
-
 }
-
 export default UseRefExample;
